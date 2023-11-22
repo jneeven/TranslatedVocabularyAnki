@@ -1,0 +1,422 @@
+#separator:tab
+#html:true
+#tags column:3
+Hueco/a	Hollow	Adjective
+El siglo	The century	Noun
+Caber	To fit	Verb
+Adivinar	To guess	Verb
+Una baraja de cartas	A deck of cards	Noun
+Barajar	To shuffle (cards)	Verb
+El cuadrado	The square (shape)	Noun
+Pesar	To weigh	Verb
+Pesado/a	Heavy	Adjective
+Servir	To serve (a purpose)	Verb
+Guardar	To save / store	Verb
+El disco duro	The hard disk	Noun
+Se trata de ...	It is / it is about	
+Sostenir	To sustain	Verb
+Averiguar	To find out	Verb
+La axila	The armpit	Noun
+Mentir	To (tell a) lie	Verb
+La mentira	The lie / bullshit	Noun
+El mechero	The lighter	Noun
+El sigarillo	The cigarette	Noun
+Calvo/a	Bald	Adjective
+El muro	The wall	Noun
+El pared	The wall	Noun
+Colgar	To hang (e.g. from the ceiling)	Verb
+El logro	The achievement	Noun
+Enhorabuena	Congratulations	
+El paraguas	The umbrella	Noun
+Pegajoso/a	Sticky	Adjective
+Pegar	To stick	Verb
+La arena	The sand	Noun
+El cuchillo	The knife	Noun
+Grosero/a	Rude	Adjective
+Enfadado/a	Angry	Adjective
+El matrimonio	The marriage	Noun
+Golpear	To hit / to beat	Verb
+El cajón	The drawer (of a closet)	Noun
+El espejo	The mirror	Noun
+El cuerpo	The body	Noun
+Entero/a	Whole	Adjective
+Lleno/a	Full	Adjective
+Vacío/a	Empty	Adjective
+El bolígrafo	The pen	Noun
+El lápiz	The pencil	Noun
+La estanteria	The bookshelf	Noun
+Romper	To break	Verb
+Las gafas	The glasses	Noun
+El alambre	The wire	Noun
+Molar	To be cool	Verb
+El molar	The molar tooth (kies)	Noun
+La caja	The cash desk / the box	Noun
+A lo mejor	Maybe	Expression
+Gracioso/a	Funny	Adjective
+El ladrillo	The brick	Noun
+El vidrio	The glass (material)	Noun
+El tonto / la tonta	The fool	Noun
+Crecer	To grow (up)	Verb
+Aunque	Although	Expression
+La nave	The ship	Noun
+La tripulación	The crew	Noun
+Recién	Newly	Adverb
+El miembro	The member	Noun
+Devastador(a)	Devastating	Adjective
+La gravedad	The gravity	Noun
+Proponer	To propose	Verb
+Sugerir	To suggest	Verb
+La habilidad	The skill	Noun
+La destreza	The skill / dexterity	Noun
+Cualquier	Any	Expression
+La cifra	The number (cijfer, 0-9)	Noun
+El número	The number (getal, e.g. 222)	Noun
+Entre	Between	Adverb
+Dentro de	Inside	Adverb
+Encima	On top	Adverb
+La cima	The top/peak/summit	Noun
+Estar a punto de ...	To be just about to ...	Expression
+Lanzar	To launch	Verb
+Ahorrar	To save (besparen)	Verb
+El anuncio	The advert	Noun
+La publicidad	The advertising	Noun
+A principios	At the beginning	Expression
+Quejarse de algo	To complain about something	Noun
+Oler	To smell (something)	Verb
+El olor	The smell	Noun
+A propósito	On purpose	Expression
+... huele a ...	... smells like ...	
+Quemar	To burn	Verb
+La venta	The sale	Noun
+El viento	The wind	Noun
+Agotado/a	Exhausted / sold out	Adjective
+A partir de ahora	From now on	Expression
+La escoba	The broom	Noun
+Actualmente	Recently	Adverb
+Extender	To extend	Verb
+Disfrazarse	To dress up (e.g. for halloween)	Verb
+El murciélago	The bat (animal)	Noun
+El jabón	The soap	Noun
+La cuerda	The rope	Noun
+De todos modos	Anyway	Expression
+Charlar	To chat	Verb
+A través de	Through	Expression
+En cualquier caso	Anyway (in any case)	Expression
+El techo	The roof	Noun
+Buen provecho	Bon appetit	Expression
+Convertirse en ...	To become / turn into ...	Verb
+Odiar	To hate	Verb
+El suceso	The event	Noun
+El hogar	The home	Noun
+Montar	To mount / assemble	Verb
+La calavera	The skull	Noun
+El hueso	The bone	Noun
+El esqueleto	The skeleton	Noun
+Organizar	To organise	Verb
+Vender	To sell	Verb
+El estado	The state	Noun
+Para ser honesto, ...	To be honest, ...	Expression
+Por lo demás	For the rest / otherwise	Expression
+Dañado/a	Damaged	Adjective
+Dañar	To damage	Verb
+Reparar	To repair	Verb
+El propietario	The owner	Noun
+Incluso ... (incluso hay ..., incluso si ...)	Even ... (there is even a ..., even if ...)	Expression
+El dueño	The owner	Noun
+El cubo	The bucket	Noun
+El cubo (geometría)	The cube (geometric)	Noun
+La pintura	The paint	Noun
+Simplemente	Simply	Adverb
+Ligero/a	Light	Adjective
+La mayoría	The majority	Noun
+El actor	The actor	Noun
+La actriz	The actress	Noun
+Arriesgar	To risk	Verb
+Experimentado/a	Experienced	Adjective
+El piloto	The pilot	Noun
+Realizar	To realize	Verb
+El rascacielos	The skyscraper	Noun
+El borde	The edge	Noun
+Estar borde	To be rude	Expression
+La belleza	The beauty	Noun
+Desconocido/a	Unknown	Noun
+El hecho	The fact	Noun
+Elegante	Elegant	Adjective
+El anterior ...	The previous ...	Expression
+La carretera	The road	Noun
+El carril	The lane (of a road)	Noun
+La acera	The sidewalk	Noun
+La almacén	The warehouse	Noun
+El depósito	The warehouse / deposit	Noun
+El banquito	The bench	Noun
+El cable	The cable	Noun
+El emprendedor	The entrepreneur	Noun
+La estufa	The stove	Noun
+Enteramente	Entirely	Adverb
+Excepto	Except	
+El asiento	The seat	Noun
+La silla	The chair	Noun
+Sentarse	To sit	Verb
+El cojín	The cushion	Noun
+Blando/a	Soft	Adjective
+La almohada	The pillow	Noun
+La hierba	The grass	Noun
+El césped	The lawn	Noun
+Los guantes	The gloves	Noun
+El edredón	The duvet (het dekbed)	Noun
+La actividad	The activity	Noun
+La física	Physics	Noun
+Físico	Physical	Adjective
+Autosuficiente	Self-sufficient	Adjective
+Autosostenible	Self-sufficient	Adjective
+La batata	The sweet potato	Noun
+El boniato	The sweet potato	Noun
+Cuidar	To care for	Verb
+La cosecha	The harvest	Noun
+Cosechar	To harvest	Verb
+La cama de matrimonio	The double bed	Noun
+Ofrecer	To offer / provide	Verb
+Aparte lo de antes	Apart from the above	Expression
+Ubicarse	To be located at	Verb
+La ubicación	The location	Noun
+El taller	The workshop	Noun
+El paraje	The place / site	Noun
+Rocoso/a	Rocky	Adjective
+La roca	The rock	Noun
+El excursionista	The hiker	Noun
+Amplio/a	Wide / broad	Adjective
+Entrar	To enter	Verb
+Surgir	To arise / emerge	Verb
+De la misma onda	Of the same wave (of the same kind)	Expression
+Sobrevivir	To survive	Verb
+El tamaño	The size	Noun
+Áspero/a	Rough	Adjective
+El terremoto	The earthquake	Noun
+El oleaje	The waves	Noun
+Aliviar	To relieve / alleviate	Verb
+La subida	The rise / increase	Noun
+La sequia	The drought	Noun
+El presupuesto	The budget	Noun
+El patrimonio	The heritage	Noun
+La huelga	The strike (where people don't work)	Noun
+La temporada	The season	Noun
+La escalera	The ladder (or the stairs)	Noun
+El pepino	The cucumber	Noun
+La palmera	The palm tree	Noun
+Pelear	To fight	Verb
+Poseer	To possess / own	Verb
+Devolver	To return something / to give back	Verb
+El discurso	The speech	Noun
+El cementerio	The cemetery / the graveyard	Noun
+Acercar	To approach	Verb
+El vestibulo	The hallway / lobby	Noun
+La araña	The spider	animal Noun
+La telaraña	The spiderweb	Noun
+La tela	The fabric / cloth	Noun
+El disfraz	The costume / disguise	Noun
+Ganar	To win / earn	Verb
+El ganador / la ganadora	The winner	Noun
+El gusano	The worm	animal Noun
+El maquillaje	The make-up	Noun
+La cárcel	The prison	Noun
+La prisión	The prison	Noun
+La selva	The jungle	Noun
+El rumbo	The route	Noun
+La encuesta	The survey	Noun
+Apoyar	To support	Verb
+Sembrar	To sow (seeds)	Verb
+La calefaccíon	The heating	Noun
+La mochila	The backpack	Noun
+El tomillo	Thyme	Noun
+El arroyo	The stream / the creek	Nature Noun
+La verguënza	The shame / embarrassment	Nature Noun
+El romero	Rosemary	Nature Noun
+Por desgracia	Unfortunately	Adverb
+Desafortunadamente	Unfortunately	Adverb
+Aconsejable	Advisable / recommended	Adjective
+Aconsejar	To advise	Verb
+Impedir	To prevent / to impede	Verb
+El gesto	The gesture	Noun
+El ser humano	The human race	Noun
+El local	"The store (""de zaak"")"	Noun
+Sabroso/a	Tasty	Adjective
+El sabor	The flavour	Noun
+Asombroso	Amazing	Adjective
+El espectáculo	The spectacle	Noun
+La masa	The mass (as in weight / entity)	Noun
+Aplastar	To crush	Verb
+El champiñon	The mushroom (generic)	Verb
+El horno	The oven	Noun
+Meter	To put in	Verb
+Desarollar	To develop	Verb
+Convencir	To convice	Verb
+Madrugar	To get up early	Verb
+El cuero	Leather	Material Noun
+La ventaja	The advantage / benefit	Noun
+El ascenscor	The elevator	Noun
+El aseo	The toilet	Noun
+La lata	The (tin) can	Containers Noun
+La cuchara	The spoon	Noun Tools
+El tenedor	The fork	Noun Tools
+Temporal	Temporary	Adjective
+Temporalmente	Temporarily	Adverb
+Galán / galante	Gallant	Adjective
+El rompecorazones	The heartbreaker	Noun
+Pisar	To step / to tread	Verb
+El satélite	The satellite	Noun
+El retraso	The delay	Noun Time
+El cohete	The rocket	Noun
+Despegar	To take off (as in a rocket) / detach	Verb
+Trás	Behind	Adverb
+Atrás	Back / ago	Adverb
+La cuenta atrás	The countdown	Noun Time
+Tripular	To man (e.g. a ship)	Verb
+La tripulante	The crew member	Noun
+A corto plazo	Short-term	Expression Time
+A medio plazo	Medium-term	Expression Time
+A largo plazo	Long-term	Expression Time
+El objetivo	The objective	Noun
+Establecer	To establish	Verb
+La base	The base (e.g. moon base)	Noun
+Crear	To create	Verb
+Permanente	Permanent	Adjective
+La superficie	The surface	Noun
+Sencillo/a	Simple, easy	Adjective
+Simple 🇪🇸	Simple 🇬🇧	Adjective
+La actitud	The attitude	Noun
+... tiene que ver con ...	... has to do with ...	Expression
+Traicionar	To betray	Verb
+El aliciente	The incentive	Noun
+El incentivo	The incentive	Noun
+Al final	At the end	Expression Time
+Frondoso/a	Leafy / lush	Adverb Nature
+De pronto	Suddenly	Adverb Time
+De repente	Suddenly	Adverb Time
+Enorme	Enormous	Adjective
+Mirar fijamente	To stare	Verb
+Los cuentos de hadas	Fairy tales	Noun
+La hada	Fairy	Noun
+Construir	To construct	Verb
+La rama	The branch	Nature Noun
+El tronco	The trunk	Nature Noun
+Los desechos	The waste	Noun
+Merecer	To deserve	Verb
+La pena	The penalty	Noun
+Merecer la pena	To be worth it	Expression Verb
+El perfil	The profile	Noun
+Coquetear	To flirt	Verb
+Rebanar	To slice	Verb
+Cortar	To cut	Verb
+El sobre	The envelope	Noun
+Hacia	To / towards	
+El empleado / la empleada	The employee	Noun
+La embajada	The embassy	Noun
+El / la embajador(a)	The ambassador	Noun
+El desafío	The challenge	Noun
+Desafiar	To challenge	Verb
+Forzar	To force	Verb
+El dilema	The dilemma	Noun
+Mantener a raya	To keep at bay	Expression
+A sus anchas	At ease	Expression
+A gusto	At ease / comfortable	Expression
+Pastar	To graze	Nature Verb
+La huella	The footprint	Nature Noun
+Imborrable	Ineradicable (i.e. permanent)	Adjective
+Borrar	To delete	Verb
+Quitar	To remove	Verb
+Hacer frente a ...	To face ... / to confront	Verb
+El reto	The challenge	Noun
+El grado (e.g. 14 grados)	The degree (e.g. 14 degrees)	Noun
+La apariencia	Appearance (uiterlijk)	Noun
+El farol	The lantern / the lighthouse	Noun
+Travieso/a	Naughty	Adjective
+Llevar a cabo	To carry out / to perform	Verb
+Destacar	To highlight / to stand out	Verb
+La vuelta	The return	Noun
+Detrás de ...	Behind ...	Adverb
+El vuelo	The flight	Noun
+El volante	The steering wheel	Noun
+Rimar	To rhyme	Verb
+Empujar	To push	Verb
+Tirar	To pull	Verb
+Hornear	To bake	Verb
+Medir	To measure	Verb
+El higo	The fig	Food Nature Noun
+Caducifolio/a	Deciduous (e.g. loofboom)	Adjective Nature
+Jugoso/a	Juicy	Adjective
+Alcanzar	To reach (out to something)	Verb
+Madurar	To ripen	Nature Verb
+Graso/a	Greasy	Adjective Material
+La arcilla	The clay	Material Noun
+El grillo	The cricket	animal Noun
+El golpe de estado	The coup d'etat	Noun
+El hallazgo	The discovery / the finding	Noun
+El descubrimiento	The discovery	Noun
+Descubrir	To discover	Verb
+Cubrir	To cover	Verb
+La cobertura	The coverage (e.g. cellphone)	Noun
+Superar	To exceed / overcome	Verb
+Pertenecer a ...	To belong to ...	Verb
+La muestra	The sample	Noun
+Predecir	To predict	Verb
+El ladrón	The thief	Noun
+Robar	To steal	Verb
+La apuesta	The bet / the gamble	Noun
+El pañal	The diaper	Noun
+Empapado/a	Soaked	Adjective
+Ni siquiera	Not even	Expression
+El pedazo	The piece	Noun
+La levadura	The yeast	Noun
+El hongo	The mushroom (generic)	Noun
+La seta	The mushroom (generic)	Food Nature Noun
+Aportar	To provide / produce / contribute	Verb
+Producir	To produce	Verb
+Reforzar	To reinforce	Verb
+Mojado/a	Wet	Adjective
+Liso/a	Straight	Adjective
+Energía eólica	Wind energy	Noun
+La hoja de ruta	The roadmap	Noun
+El planeta	The planet	Noun
+El trébol	The clover	Nature Noun
+La alfombra	The carpet	Noun
+La paja	The straw (material)	Material Nature Noun
+El vergel	The orchard	Nature Noun
+La herramienta	The tool	Noun Tools
+La inundación	The flooding	Nature Noun
+La astilla	The splinter	Noun
+La lupa	The magnifying glass	Noun Tools
+El paraíso	The paradise	Nature Noun
+Afilado/a	Sharp	Adjective
+Oír	To hear	Verb
+La campana	The bell	Noun
+El timbre	The doorbell	Noun
+A menos que ...	Unless ...	Expression
+El nudo	The knot	Noun Tools
+La jaula	The cage	animal Noun
+Apenas	Barely, only just	Adverb
+... hace falta	... is necessary	Expression
+El traje	The outfit	Clothing Noun
+El conjunto	The outfit / the set	Clothing Noun
+La sombra	The shadow / the shade	Nature Noun
+El sudor	The sweat	Body Noun
+Vencido	Expired	Adjective
+Aumentar	To increase	Verb
+El tornillo	The screw	Noun Tools
+La cinta	The tape	Noun Tools
+La albahaca	The basil	Food Noun
+El barro	The mud	Nature Noun
+El amanecer 	The sunrise	Noun Time
+El atardecer	The sunset	Noun Time
+Estrecho/a	Narrow	Adjective
+Popular 🇪🇸	Popular 🇬🇧	Adjective
+El agujero	The hole 	Noun
+El serrucho	De handzaag	Noun Tools
+El taladro	De boormachine	Noun Tools
+El martillo	De hamer	Noun Tools
+El alicate	De tang	Noun Tools
+La rueda	The wheel	Noun
+Las muletas	The crutches	Noun
+El enchufe	The power plug / wall socket 	Noun
+Aledaños/as	Surrounding	Adjective
+Aproximadamente	Approximately	Adverb
+Cagar	To poop	Verb
