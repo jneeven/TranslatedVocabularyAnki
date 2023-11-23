@@ -1,0 +1,174 @@
+#separator:tab
+#html:true
+#tags column:3
+Milho	Corn	
+Cogumelos	Champignons	
+Molho	Sauce	
+Feijāo	Beans	
+Cenouras	Carrots 	
+Ervilhas	Peas	
+Legumas	Vegetables	
+Grāo	Chickpeas	
+Beterrabas	Beets	
+Bolacha	Biscuit	
+Loiças	Dirty dishes (vaat)	
+Maça	Apple	
+Abacaxi	Pineapple 	
+Limão	Lemon	
+O chão	The floor / ground	
+A borboleta	The butterfly	
+A bétula	The birch tree	
+O pinheiro	The pine tree	
+A folha	The leaf	
+O gafanhoto	The grasshopper	
+O arbusto	The shrub	
+O solo 	The soil 	
+Humidade	Moist 	
+Comum	Common	
+As asas	The wings 	
+A lagarta	The caterpillar	
+O grilo	The cricket	
+O exemplo	The example 	
+A coracão	The heart	
+O abelhão	The bumblebee	
+A sorte	The luck	
+Ótimo	Great	
+Around ... o clock	Por volta de ...	
+Empty	Vazio	
+Red	Vermelho	
+Yellow	Amarelo	
+Blue	Azul	
+Brown	Marrom	
+Purple	Roxo	
+Pink	Cor de rosa	
+Black	Preto	
+White	Branco	
+Dark	Escuro	
+Green	Verde	
+Bright (colored)	Brilhante	
+Orange (both color and fruit)	Laranja	
+Not anymore	Não mais	
+On purpose	De propósito	
+Morar	Live, dwell, inhabit	
+Morador	Inhabitant	
+Early	Cedo	
+Coverage (as in cell phone)	Cobertura	
+The internet	A internet	
+The computer	O computador	
+The television / TV	A televisão / TV	
+The radio station	A estação de rádio	
+The radio	O rádio	
+The youtube channel	O canal do youtube	
+The stress	O estresse	
+The salary	O salário	
+To earn	Ganhar	
+To cost	Custar	
+The cost	O custo	
+To invest	Investir	
+The investor	O investidor	
+The start-up (company)	A startup (empresa pequena)	
+The scientist	O cientista	
+The inventor	O inventor	
+To invent	Inventar	
+To develop	Desenvolver	
+To design	Projetar	
+To program	Programar	
+The programmer	O programador	
+The software	O software	
+Artificial intelligence	A Inteligência Artificial	
+The bird	o pássaro	
+The mammal	o mamífero	
+The lizard	O lagarto	
+The insect	o inseto	
+The worm	o verme	
+The tree	a árvore	
+The forest	a floresta	
+The lake	o lago	
+The mountain	a montanha	
+The road	a estrada	
+The path	O caminho	
+The highway	A autoestrada	
+The insurance	o seguro	
+The eagle	A águia	
+The hawk	A açor	
+The bird of prey	A ave de rapina	
+The view	a vista	
+The landscape	a paisagem	
+The village	A aldeia	
+The oak tree	o carvalho	
+To hike 	caminhar	
+The shoes	os sapatos	
+The jacket	A jaqueta	
+The backpack	A mochila	
+The socks	As meias	
+The gloves	As luvas	
+The hiking pole	O bastão de caminhada	
+The hole (large, e.g. in the ground)	O buraco	
+The hole (small, e.g. in a tire)	O furo	
+The rain	A chuva	
+The rainbow	O arco-íris	
+Wet	molhado	
+Dry	Seco	
+The drought	A seca	
+The flood	A inundação	
+The injury	a lesão	
+The ankle	O tornozelo	
+The foot	A pé	
+The knee	o joelho	
+The hip	o quadril	
+The back (body part)	As costas	
+To hurt	magoar	
+The back	A parte de trás	
+The arm	o braço	
+The leg	a perna	
+The shoulder	o ombro	
+The hand	a mão	
+The finger	o dedo	
+The neck	o pescoço	
+The skull 	O crânio	
+The bone	O osso	
+The glasses	os óculos	
+The glass (material)	O vidro	
+The eyes	os olhos	
+The ears	as orelhas	
+The nose	o nariz	
+To hear / listen	ouvir	
+To walk	andar	
+To run	Correr	
+To climb	escalar	
+To swim	nadar	
+To ascend	Ascender	
+To rise	subir	
+To emerge	emergir	
+To descend	Descer	
+The sunrise	o nascer do sol	
+The sunset	o por do sol	
+To laugh	Rir	
+The tent	A tenda	
+To camp	Acampar	
+The sleeping bag	O saco de dormir	
+The tarp	A lona	
+The drill (tool)	A broca	
+The hammer	o martelo	
+The fingernail	A unha	
+The nails (i.e. metal spikes)	Os pregos	
+The screws	os parafusos	
+The tweezers	A pinça	
+The pliers	O alicate	
+The clothes peg	A cavilha	
+The shop	A loja	
+The chair	a cadeira	
+The seat	o assento	
+The table	a mesa	
+The board game	o jogo de tabuleiro	
+The sky	o céu	
+The stove (for cooking)	o fogão	
+The wood stove	O fogão a lenha	
+The heater	o aquecedor	
+To heat up	Aquecer	
+The hill	o monte / a colina	
+The river	O rio	
+The creek	o riacho	
+The wheel	a roda	
+The window	a janela	
+The door	A porta	

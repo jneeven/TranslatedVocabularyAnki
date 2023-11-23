@@ -1,0 +1,4902 @@
+{
+	"it is / it is about": {
+		"spanish": "Se trata de ...",
+		"tags": [],
+		"full": "It is / it is about"
+	},
+	"congratulations": {
+		"spanish": "Enhorabuena",
+		"tags": [],
+		"full": "Congratulations"
+	},
+	"... smells like ...": {
+		"spanish": "... huele a ...",
+		"tags": [],
+		"full": "... smells like ..."
+	},
+	"except": {
+		"spanish": "Excepto",
+		"tags": [],
+		"full": "Except"
+	},
+	"to / towards": {
+		"spanish": "Hacia",
+		"tags": [],
+		"full": "To / towards"
+	},
+	"corn": {
+		"full": "The corn",
+		"tags": [
+			"Noun",
+			"Food"
+		],
+		"portuguese": "O milho"
+	},
+	"champignons": {
+		"full": "The champignons",
+		"tags": [
+			"Noun",
+			"Food"
+		],
+		"portuguese": "Os cogumelos"
+	},
+	"sauce": {
+		"full": "The sauce",
+		"tags": [
+			"Noun",
+			"Food"
+		],
+		"portuguese": "O molho"
+	},
+	"beans": {
+		"full": "The beans",
+		"tags": [
+			"Noun",
+			"Food"
+		],
+		"portuguese": "O feij\u0101o"
+	},
+	"carrots": {
+		"full": "The carrots",
+		"tags": [
+			"Noun",
+			"Food"
+		],
+		"portuguese": "As cenouras"
+	},
+	"peas": {
+		"full": "The peas",
+		"tags": [
+			"Noun",
+			"Food"
+		],
+		"portuguese": "As ervilhas"
+	},
+	"vegetables": {
+		"full": "The vegetables",
+		"tags": [
+			"Noun",
+			"Food"
+		],
+		"portuguese": "As legumas"
+	},
+	"chickpeas": {
+		"full": "The chickpeas",
+		"tags": [
+			"Noun",
+			"Food"
+		],
+		"portuguese": "O gr\u0101o"
+	},
+	"beets": {
+		"full": "The beets",
+		"tags": [
+			"Noun",
+			"Food"
+		],
+		"portuguese": "As beterrabas"
+	},
+	"biscuit": {
+		"full": "The biscuit",
+		"tags": [
+			"Noun",
+			"Food"
+		],
+		"portuguese": "A bolacha"
+	},
+	"dirty dishes": {
+		"full": "The dirty dishes",
+		"tags": [
+			"Noun",
+			"Food"
+		],
+		"portuguese": "As loi\u00e7as",
+		"spanish": "La vajilla"
+	},
+	"apple": {
+		"full": "The apple",
+		"tags": [
+			"Noun",
+			"Food"
+		],
+		"portuguese": "A ma\u00e7a",
+		"spanish": "La manzana"
+	},
+	"pineapple": {
+		"full": "The pineapple",
+		"tags": [
+			"Noun",
+			"Food"
+		],
+		"portuguese": "O ananás",
+		"spanish": "La piña"
+	},
+	"lemon": {
+		"full": "The lemon",
+		"tags": [
+			"Noun",
+			"Food"
+		],
+		"portuguese": "A lim\u00e3o",
+		"spanish": "El limón"
+	},
+	"floor / ground": {
+		"full": "The floor / ground",
+		"tags": [
+			"Noun"
+		],
+		"portuguese": "O ch\u00e3o",
+		"spanish": "El suelo"
+	},
+	"butterfly": {
+		"full": "The butterfly",
+		"tags": [
+			"Noun",
+			"Nature"
+		],
+		"portuguese": "A borboleta",
+		"spanish": "La mariposa"
+	},
+	"birch tree": {
+		"full": "The birch tree",
+		"tags": [
+			"Noun",
+			"Nature"
+		],
+		"portuguese": "A b\u00e9tula",
+		"spanish": "La betula"
+	},
+	"pine tree": {
+		"full": "The pine tree",
+		"tags": [
+			"Noun",
+			"Nature"
+		],
+		"portuguese": "O pinheiro",
+		"spanish": "El piño"
+	},
+	"leaf": {
+		"full": "The leaf",
+		"tags": [
+			"Noun",
+			"Nature"
+		],
+		"portuguese": "A folha",
+		"spanish": "La hoja"
+	},
+	"grasshopper": {
+		"full": "The grasshopper",
+		"tags": [
+			"Noun",
+			"Nature"
+		],
+		"portuguese": "O gafanhoto",
+		"spanish": "El saltamontes"
+	},
+	"shrub": {
+		"full": "The shrub",
+		"tags": [
+			"Noun",
+			"Nature"
+		],
+		"portuguese": "O arbusto",
+		"spanish": "El arbusto"
+	},
+	"soil": {
+		"full": "The soil",
+		"tags": [
+			"Noun",
+			"Nature"
+		],
+		"portuguese": "O solo",
+		"spanish": "El suelo"
+	},
+	"moist": {
+		"full": "Moist",
+		"tags": [
+			"Adjective"
+		],
+		"portuguese": "Humidade",
+		"spanish": "Humido"
+	},
+	"common": {
+		"full": "Common",
+		"tags": [
+			"Adjective"
+		],
+		"portuguese": "Comum",
+		"spanish": "Común"
+	},
+	"wings": {
+		"full": "The wings",
+		"tags": [
+			"Noun",
+			"Nature"
+		],
+		"portuguese": "As asas"
+	},
+	"caterpillar": {
+		"full": "The caterpillar",
+		"tags": [
+			"Noun",
+			"Nature"
+		],
+		"portuguese": "A lagarta",
+		"spanish": "La oruga"
+	},
+	"example": {
+		"full": "The example",
+		"tags": [
+			"Noun"
+		],
+		"portuguese": "O exemplo",
+		"spanish": "El ejemplo"
+	},
+	"heart": {
+		"full": "The heart",
+		"tags": [
+			"Noun"
+		],
+		"portuguese": "A corac\u00e3o",
+		"spanish": "El corazón"
+	},
+	"bumblebee": {
+		"full": "The bumblebee",
+		"tags": [
+			"Noun",
+			"Nature"
+		],
+		"portuguese": "O abelh\u00e3o",
+		"spanish": "El abejorro"
+	},
+	"luck": {
+		"full": "The luck",
+		"tags": [
+			"Noun"
+		],
+		"portuguese": "A sorte",
+		"spanish": "La suerte"
+	},
+	"great": {
+		"full": "Great",
+		"tags": [
+			"Adjective"
+		],
+		"portuguese": "\u00d3timo",
+		"spanish": "Genial"
+	},
+	"around ... o clock": {
+		"full": "Around ... o clock",
+		"tags": [
+			"Expression"
+		],
+		"portuguese": "Por volta de ...",
+		"spanish": "Alrededor de ..."
+	},
+	"red": {
+		"full": "Red",
+		"tags": [
+			"Adjective",
+			"Color"
+		],
+		"portuguese": "Vermelho",
+		"spanish": "Rojo"
+	},
+	"yellow": {
+		"full": "Yellow",
+		"tags": [
+			"Adjective",
+			"Color"
+		],
+		"portuguese": "Amarelo",
+		"spanish": "Amarillo"
+	},
+	"blue": {
+		"full": "Blue",
+		"tags": [
+			"Adjective",
+			"Color"
+		],
+		"portuguese": "Azul"
+	},
+	"brown": {
+		"full": "Brown",
+		"tags": [
+			"Adjective",
+			"Color"
+		],
+		"portuguese": "Marrom",
+		"spanish": "Marrón"
+	},
+	"purple": {
+		"full": "Purple",
+		"tags": [
+			"Adjective",
+			"Color"
+		],
+		"portuguese": "Roxo",
+		"spanish": "Morado"
+	},
+	"pink": {
+		"full": "Pink",
+		"tags": [
+			"Adjective",
+			"Color"
+		],
+		"portuguese": "Cor de rosa",
+		"spanish": "Rosa"
+	},
+	"black": {
+		"full": "Black",
+		"tags": [
+			"Adjective",
+			"Color"
+		],
+		"portuguese": "Preto",
+		"spanish": "Negro"
+	},
+	"white": {
+		"full": "White",
+		"tags": [
+			"Adjective",
+			"Color"
+		],
+		"portuguese": "Branco",
+		"spanish": "Blanco"
+	},
+	"dark": {
+		"full": "Dark",
+		"tags": [
+			"Adjective"
+		],
+		"portuguese": "Escuro",
+		"spanish": "Oscuro"
+	},
+	"green": {
+		"full": "Green",
+		"tags": [
+			"Adjective",
+			"Color"
+		],
+		"portuguese": "Verde",
+		"spanish": "Verde"
+	},
+	"bright (colored)": {
+		"full": "Bright (colored)",
+		"tags": [
+			"Adjective"
+		],
+		"portuguese": "Brilhante"
+	},
+	"color orange": {
+		"full": "The color orange",
+		"tags": [
+			"Adjective",
+			"Color"
+		],
+		"portuguese": "Laranja",
+		"spanish": "Naranja"
+	},
+	"not anymore": {
+		"full": "Not anymore",
+		"tags": [
+			"Adjective",
+			"Color"
+		],
+		"portuguese": "N\u00e3o mais",
+		"spanish": "Ya no"
+	},
+	"inhabit": {
+		"full": "To inhabit",
+		"tags": [
+			"Verb"
+		],
+		"portuguese": "Morar"
+	},
+	"inhabitant": {
+		"full": "The inhabitant",
+		"tags": [
+			"Noun"
+		],
+		"portuguese": "O morador",
+		"spanish": "El morador"
+	},
+	"early": {
+		"full": "Early",
+		"tags": [
+			"Adjective"
+		],
+		"portuguese": "Cedo",
+		"spanish": "Temprano"
+	},
+	"cell phone coverage": {
+		"full": "Cell phone coverage",
+		"tags": [
+			"Noun"
+		],
+		"portuguese": "A cobertura",
+		"spanish": "La cobertura"
+	},
+	"internet": {
+		"full": "The internet",
+		"tags": [
+			"Noun"
+		],
+		"portuguese": "A internet",
+		"spanish": "La internet"
+	},
+	"computer": {
+		"full": "The computer",
+		"tags": [
+			"Noun"
+		],
+		"portuguese": "O computador",
+		"spanish": "El ordenador"
+	},
+	"television / tv": {
+		"full": "The television / TV",
+		"tags": [
+			"Noun"
+		],
+		"portuguese": "A televis\u00e3o / TV",
+		"spanish": "La televisión / TV"
+	},
+	"radio station": {
+		"full": "The radio station",
+		"tags": [
+			"Noun"
+		],
+		"portuguese": "A esta\u00e7\u00e3o de r\u00e1dio",
+		"spanish": "La estacion de radio"
+	},
+	"radio": {
+		"full": "The radio",
+		"tags": [
+			"Noun"
+		],
+		"portuguese": "O r\u00e1dio",
+		"spanish": "La radio"
+	},
+	"youtube channel": {
+		"full": "The youtube channel",
+		"tags": [
+			"Noun"
+		],
+		"portuguese": "O canal do youtube",
+		"spanish": "El canal de youtube"
+	},
+	"stress": {
+		"full": "The stress",
+		"tags": [
+			"Noun",
+			"Emotion"
+		],
+		"portuguese": "O estresse",
+		"spanish": "El estrés"
+	},
+	"salary": {
+		"full": "The salary",
+		"tags": [
+			"Noun"
+		],
+		"portuguese": "O sal\u00e1rio",
+		"spanish": "El salario"
+	},
+	"to earn": {
+		"full": "To earn",
+		"tags": [
+			"Verb"
+		],
+		"portuguese": "Ganhar",
+		"spanish": "Ganar"
+	},
+	"to cost": {
+		"full": "To cost",
+		"tags": [
+			"Verb"
+		],
+		"portuguese": "Custar",
+		"spanish": "Costar"
+	},
+	"cost": {
+		"full": "The cost",
+		"tags": [
+			"Noun"
+		],
+		"portuguese": "O custo",
+		"spanish": "El coste"
+	},
+	"to invest": {
+		"full": "To invest",
+		"tags": [
+			"Verb"
+		],
+		"portuguese": "Investir",
+		"spanish": "Invertir"
+	},
+	"investor": {
+		"full": "The investor",
+		"tags": [
+			"Noun"
+		],
+		"portuguese": "O investidor",
+		"spanish": "El inversor"
+	},
+	"start-up (company)": {
+		"full": "The start-up company",
+		"tags": [
+			"Noun"
+		],
+		"portuguese": "A startup",
+		"spanish": "La empresa emergente"
+	},
+	"scientist": {
+		"full": "The scientist",
+		"tags": [
+			"Noun",
+			"Occupation"
+		],
+		"portuguese": "O cientista",
+		"spanish": "El científico"
+	},
+	"inventor": {
+		"full": "The inventor",
+		"tags": [
+			"Noun",
+			"Occupation"
+		],
+		"portuguese": "O inventor",
+		"spanish": "El inventor"
+	},
+	"to invent": {
+		"full": "To invent",
+		"tags": [
+			"Verb"
+		],
+		"portuguese": "Inventar",
+		"spanish": "Inventar"
+	},
+	"to design": {
+		"full": "To design",
+		"tags": [
+			"Verb"
+		],
+		"portuguese": "Projetar",
+		"spanish": "Diseñar"
+	},
+	"to program": {
+		"full": "To program",
+		"tags": [
+			"Verb"
+		],
+		"portuguese": "Programar",
+		"spanish": "Programar"
+	},
+	"programmer": {
+		"full": "The programmer",
+		"tags": [
+			"Noun",
+			"Occupation"
+		],
+		"portuguese": "O programador",
+		"spanish": "El programador"
+	},
+	"software": {
+		"full": "The software",
+		"tags": [
+			"Noun"
+		],
+		"portuguese": "O software",
+		"spanish": "El software"
+	},
+	"artificial intelligence": {
+		"full": "Artificial intelligence",
+		"tags": [
+			"Noun"
+		],
+		"portuguese": "A Intelig\u00eancia Artificial",
+		"spanish": "La inteligencia artificial"
+	},
+	"bird": {
+		"full": "The bird",
+		"tags": [
+			"Noun",
+			"Nature"
+		],
+		"portuguese": "O p\u00e1ssaro",
+		"spanish": "El pajaro"
+	},
+	"mammal": {
+		"full": "The mammal",
+		"tags": [
+			"Noun",
+			"Nature"
+		],
+		"portuguese": "O mam\u00edfero",
+		"spanish": "El mam\u00edfero"
+	},
+	"lizard": {
+		"full": "The lizard",
+		"tags": [
+			"Noun",
+			"Nature"
+		],
+		"portuguese": "O lagarto",
+		"spanish": "El lagarto"
+	},
+	"insect": {
+		"full": "The insect",
+		"tags": [
+			"Noun",
+			"Nature"
+		],
+		"portuguese": "O inseto",
+		"spanish": "El insecto"
+	},
+	"tree": {
+		"full": "The tree",
+		"tags": [
+			"Noun",
+			"Nature"
+		],
+		"portuguese": "A \u00e1rvore",
+		"spanish": "El árbol"
+	},
+	"forest": {
+		"full": "The forest",
+		"tags": [
+			"Noun",
+			"Nature"
+		],
+		"portuguese": "A floresta",
+		"spanish": "El bosque"
+	},
+	"lake": {
+		"full": "The lake",
+		"tags": [
+			"Noun",
+			"Nature"
+		],
+		"portuguese": "O lago",
+		"spanish": "El lago"
+	},
+	"mountain": {
+		"full": "The mountain",
+		"tags": [
+			"Noun",
+			"Nature"
+		],
+		"portuguese": "A montanha",
+		"spanish": "La montaña"
+	},
+	"path": {
+		"full": "The path",
+		"tags": [
+			"Noun"
+		],
+		"portuguese": "O caminho",
+		"spanish": "El camino"
+	},
+	"highway": {
+		"full": "The highway",
+		"tags": [
+			"Noun"
+		],
+		"portuguese": "A autoestrada",
+		"spanish": "La autovía"
+	},
+	"insurance": {
+		"full": "The insurance",
+		"tags": [
+			"Noun"
+		],
+		"portuguese": "O seguro",
+		"spanish": "El seguro"
+	},
+	"eagle": {
+		"full": "The eagle",
+		"tags": [
+			"Noun",
+			"Nature"
+		],
+		"portuguese": "A \u00e1guia",
+		"spanish": "La aguila"
+	},
+	"hawk": {
+		"full": "The hawk",
+		"tags": [
+			"Noun",
+			"Nature"
+		],
+		"portuguese": "A a\u00e7or",
+		"spanish": "El halcón"
+	},
+	"bird of prey": {
+		"full": "The bird of prey",
+		"tags": [
+			"Noun",
+			"Nature"
+		],
+		"portuguese": "A ave de rapina",
+		"spanish": "El ave de rapiña"
+	},
+	"view": {
+		"full": "The view",
+		"tags": [
+			"Noun",
+			"Nature"
+		],
+		"portuguese": "La vista",
+		"spanish": "La vista"
+	},
+	"landscape": {
+		"full": "The landscape",
+		"tags": [
+			"Noun",
+			"Nature"
+		],
+		"portuguese": "A paisagem",
+		"spanish": "El paisaje"
+	},
+	"village": {
+		"full": "The village",
+		"tags": [
+			"Noun",
+			"Nature"
+		],
+		"portuguese": "A aldeia",
+		"spanish": "El pueblo"
+	},
+	"oak tree": {
+		"full": "The oak tree",
+		"tags": [
+			"Noun",
+			"Nature"
+		],
+		"portuguese": "O carvalho",
+		"spanish": "El roble"
+	},
+	"to hike": {
+		"full": "To hike",
+		"tags": [
+			"Verb",
+			"Nature"
+		],
+		"portuguese": "Caminhar",
+		"spanish": "Hacer senderismo"
+	},
+	"shoes": {
+		"full": "The shoes",
+		"tags": [
+			"Noun",
+			"Clothing"
+		],
+		"portuguese": "Os sapatos",
+		"spanish": "Los zapatos"
+	},
+	"jacket": {
+		"full": "The jacket",
+		"tags": [
+			"Noun",
+			"Clothing"
+		],
+		"portuguese": "A jaqueta",
+		"spanish": "La chaqueta"
+	},
+	"socks": {
+		"full": "The socks",
+		"tags": [
+			"Noun",
+			"Clothing"
+		],
+		"portuguese": "As meias",
+		"spanish": "Los calcetines"
+	},
+	"hiking pole": {
+		"full": "The hiking pole",
+		"tags": [
+			"Noun"
+		],
+		"portuguese": "O bast\u00e3o de caminhada",
+		"spanish": "El bastón de senderismo"
+	},
+	"hole (large, e.g. in the ground)": {
+		"full": "The hole (large, e.g. in the ground)",
+		"tags": [
+			"Noun"
+		],
+		"portuguese": "O buraco (grande, por exemplo, no chão)",
+		"spanish": "El agujero (grande, por ejemplo, en el suelo)"
+	},
+	"hole (small, e.g. in a tire)": {
+		"full": "The hole (small, e.g. in a tire)",
+		"tags": [
+			"Noun"
+		],
+		"portuguese": "O furo (pequeno, por exemplo, num pneu)",
+		"spanish": "El hueco (pequeño, por ejemplo, en un neumático)"
+	},
+	"rain": {
+		"full": "The rain",
+		"tags": [
+			"Noun",
+			"Nature"
+		],
+		"portuguese": "A chuva",
+		"spanish": "La lluvia"
+	},
+	"rainbow": {
+		"full": "The rainbow",
+		"tags": [
+			"Noun",
+			"Nature"
+		],
+		"portuguese": "O arco-\u00edris",
+		"spanish": "El arcoiris"
+	},
+	"dry": {
+		"full": "Dry",
+		"tags": [
+			"Adjective"
+		],
+		"portuguese": "Seco",
+		"spanish": "Seco"
+	},
+	"flood": {
+		"full": "The flood",
+		"tags": [
+			"Nature",
+			"Noun"
+		],
+		"portuguese": "A inunda\u00e7\u00e3o",
+		"spanish": "La inundación"
+	},
+	"injury": {
+		"full": "The injury",
+		"tags": [
+			"Noun"
+		],
+		"portuguese": "A les\u00e3o",
+		"spanish": "La lesión"
+	},
+	"ankle": {
+		"full": "The ankle",
+		"tags": [
+			"Noun",
+			"Body"
+		],
+		"portuguese": "O tornozelo",
+		"spanish": "El tobillo"
+	},
+	"foot": {
+		"full": "The foot",
+		"tags": [
+			"Noun",
+			"Body"
+		],
+		"portuguese": "A p\u00e9",
+		"spanish": "La pie"
+	},
+	"knee": {
+		"full": "The knee",
+		"tags": [
+			"Noun",
+			"Body"
+		],
+		"portuguese": "O joelho",
+		"spanish": "El rodillo"
+	},
+	"hip": {
+		"full": "The hip",
+		"tags": [
+			"Noun",
+			"Body"
+		],
+		"portuguese": "O quadril",
+		"spanish": "La cadera"
+	},
+	"back (body part)": {
+		"full": "The back (body part)",
+		"tags": [
+			"Noun",
+			"Body"
+		],
+		"portuguese": "As costas (parte do corpo)",
+		"spanish": "La espalda (parte del cuerpo)"
+	},
+	"to hurt": {
+		"full": "To hurt",
+		"tags": [
+			"Verb"
+		],
+		"portuguese": "Magoar",
+		"spanish": "Herir"
+	},
+	"back (part)": {
+		"full": "The back (part)",
+		"tags": [
+			"Noun"
+		],
+		"portuguese": "A parte de tr\u00e1s",
+		"spanish": "La parte de atrás"
+	},
+	"arm": {
+		"full": "The arm",
+		"tags": [
+			"Noun",
+			"Body"
+		],
+		"portuguese": "O bra\u00e7o",
+		"spanish": "El brazo"
+	},
+	"leg": {
+		"full": "The leg",
+		"tags": [
+			"Noun",
+			"Body"
+		],
+		"portuguese": "A perna",
+		"spanish": "La pierna"
+	},
+	"shoulder": {
+		"full": "The shoulder",
+		"tags": [
+			"Noun",
+			"Body"
+		],
+		"portuguese": "o ombro"
+	},
+	"hand": {
+		"full": "The hand",
+		"tags": [
+			"Noun",
+			"Body"
+		],
+		"portuguese": "A m\u00e3o",
+		"spanish": "El mano"
+	},
+	"finger": {
+		"full": "The finger",
+		"tags": [
+			"Noun",
+			"Body"
+		],
+		"portuguese": "O dedo",
+		"spanish": "El dedo"
+	},
+	"neck": {
+		"full": "The neck",
+		"tags": [
+			"Noun",
+			"Body"
+		],
+		"portuguese": "O pesco\u00e7o",
+		"spanish": "La huella"
+	},
+	"skull": {
+		"full": "The skull",
+		"portuguese": "O cr\u00e2nio",
+		"spanish": "La calavera",
+		"tags": [
+			"Noun"
+		]
+	},
+	"eyes": {
+		"full": "The eyes",
+		"tags": [
+			"Noun",
+			"Body"
+		],
+		"portuguese": "Os olhos",
+		"spanish": "Los ojos"
+	},
+	"ears": {
+		"full": "The ears",
+		"tags": [
+			"Noun",
+			"Body"
+		],
+		"portuguese": "As orelhas",
+		"spanish": "Las orellas"
+	},
+	"nose": {
+		"full": "The nose",
+		"tags": [
+			"Noun",
+			"Body"
+		],
+		"portuguese": "O nariz",
+		"spanish": "La nariz"
+	},
+	"to hear / listen": {
+		"full": "To hear",
+		"tags": [
+			"Verb"
+		],
+		"portuguese": "Ouvir",
+		"spanish": "Oir"
+	},
+	"to walk": {
+		"full": "To walk",
+		"tags": [
+			"Verb"
+		],
+		"portuguese": "Andar",
+		"spanish": "Caminar"
+	},
+	"to run": {
+		"full": "To run",
+		"tags": [
+			"Verb"
+		],
+		"portuguese": "Correr",
+		"spanish": "Correr"
+	},
+	"to climb": {
+		"full": "To climb",
+		"tags": [
+			"Verb"
+		],
+		"portuguese": "Escalar"
+	},
+	"to swim": {
+		"full": "To swim",
+		"tags": [
+			"Verb"
+		],
+		"portuguese": "Nadar"
+	},
+	"to ascend": {
+		"full": "To ascend",
+		"tags": [
+			"Verb"
+		],
+		"portuguese": "Ascender"
+	},
+	"to rise": {
+		"full": "To rise",
+		"tags": [
+			"Verb"
+		],
+		"portuguese": "Subir"
+	},
+	"to emerge": {
+		"full": "To emerge",
+		"tags": [
+			"Verb"
+		],
+		"portuguese": "Emergir"
+	},
+	"to descend": {
+		"full": "To descend",
+		"tags": [
+			"Verb"
+		],
+		"portuguese": "Descer"
+	},
+	"to laugh": {
+		"full": "To laugh",
+		"tags": [
+			"Verb"
+		],
+		"portuguese": "Rir",
+		"spanish": "Reir"
+	},
+	"tent": {
+		"full": "The tent",
+		"tags": [
+			"Noun"
+		],
+		"portuguese": "A tenda",
+		"spanish": "La tienda"
+	},
+	"to camp": {
+		"full": "To camp",
+		"tags": [
+			"Verb"
+		],
+		"portuguese": "Acampar",
+		"spanish": "Acampar"
+	},
+	"sleeping bag": {
+		"full": "The sleeping bag",
+		"tags": [
+			"Noun"
+		],
+		"portuguese": "O saco de dormir",
+		"spanish": "El saco de dormir"
+	},
+	"tarp": {
+		"full": "The tarp",
+		"tags": [
+			"Noun",
+			"Tools"
+		],
+		"portuguese": "A lona",
+		"spanish": "La lona"
+	},
+	"drill (tool)": {
+		"full": "The drill (tool)",
+		"tags": [
+			"Noun",
+			"Tools"
+		],
+		"portuguese": "A broca (ferramenta)",
+		"spanish": "El taladro (herramienta)"
+	},
+	"hammer": {
+		"full": "The hammer",
+		"tags": [
+			"Noun",
+			"Tools"
+		],
+		"portuguese": "O martelo",
+		"spanish": "El martillo"
+	},
+	"fingernail": {
+		"full": "The fingernail",
+		"tags": [
+			"Noun",
+			"Body"
+		],
+		"portuguese": "A unha",
+		"spanish": "La uña"
+	},
+	"nails (i.e. metal spikes)": {
+		"full": "The nails (i.e. metal spikes)",
+		"tags": [
+			"Noun",
+			"Tools"
+		],
+		"portuguese": "Os pregos (ou seja, espigões de metal)",
+		"spanish": "Los clavos (es decir, puntas de metal)"
+	},
+	"screws": {
+		"full": "The screws",
+		"tags": [
+			"Noun",
+			"Tools"
+		],
+		"portuguese": "Os parafusos",
+		"spanish": "Las tornillas"
+	},
+	"tweezers": {
+		"full": "The tweezers",
+		"tags": [
+			"Noun",
+			"Tools"
+		],
+		"portuguese": "A pin\u00e7a"
+	},
+	"pliers": {
+		"full": "The pliers",
+		"tags": [
+			"Noun",
+			"Tools"
+		],
+		"portuguese": "O alicate",
+		"spanish": "El alicate"
+	},
+	"clothes peg": {
+		"full": "The clothes peg",
+		"tags": [
+			"Noun",
+			"Tools"
+		],
+		"portuguese": "A cavilha"
+	},
+	"shop": {
+		"full": "The shop",
+		"tags": [
+			"Noun"
+		],
+		"portuguese": "A loja",
+		"spanish": "La tienda"
+	},
+	"table": {
+		"full": "The table",
+		"tags": [
+			"Noun"
+		],
+		"portuguese": "A mesa",
+		"spanish": "La mesa"
+	},
+	"board game": {
+		"full": "The board game",
+		"tags": [
+			"Noun"
+		],
+		"portuguese": "O jogo de tabuleiro",
+		"spanish": "El juego de sobremesa"
+	},
+	"sky": {
+		"full": "The sky",
+		"tags": [
+			"Noun",
+			"Nature"
+		],
+		"portuguese": "o c\u00e9u"
+	},
+	"stove (for cooking)": {
+		"full": "The stove (for cooking)",
+		"tags": [
+			"Noun"
+		],
+		"portuguese": "O fog\u00e3o (para cozinhar)",
+		"spanish": "La estufa (para cocinar)"
+	},
+	"wood stove": {
+		"full": "The wood stove",
+		"tags": [
+			"Noun"
+		],
+		"portuguese": "O fog\u00e3o a lenha",
+		"spanish": "La estufa de leña"
+	},
+	"heater": {
+		"full": "The heater",
+		"tags": [
+			"Noun"
+		],
+		"portuguese": "O aquecedor"
+	},
+	"to heat up": {
+		"full": "To heat up",
+		"tags": [
+			"Verb"
+		],
+		"portuguese": "Aquecer",
+		"spanish": "Calentar"
+	},
+	"hill": {
+		"full": "The hill",
+		"tags": [
+			"Noun",
+			"Nature"
+		],
+		"portuguese": "O monte / a colina",
+		"spanish": "La colina"
+	},
+	"river": {
+		"full": "The river",
+		"tags": [
+			"Noun",
+			"Nature"
+		],
+		"portuguese": "O rio",
+		"spanish": "El río"
+	},
+	"creek": {
+		"full": "The creek",
+		"tags": [
+			"Noun",
+			"Nature"
+		],
+		"portuguese": "O riacho",
+		"spanish": "El arroyo"
+	},
+	"window": {
+		"full": "The window",
+		"tags": [
+			"Noun"
+		],
+		"portuguese": "A janela",
+		"spanish": "La ventana"
+	},
+	"door": {
+		"full": "The door",
+		"tags": [
+			"Noun"
+		],
+		"portuguese": "A porta",
+		"spanish": "La puerta"
+	},
+	"nearby": {
+		"full": "Nearby",
+		"tags": [
+			"Adjective"
+		],
+		"spanish": "Cerca"
+	},
+	"far": {
+		"full": "Far",
+		"tags": [
+			"Adjective"
+		],
+		"spanish": "Lejo"
+	},
+	"barely": {
+		"full": "Barely",
+		"tags": [
+			"Adverb"
+		],
+		"spanish": "Apenas"
+	},
+	"bee": {
+		"full": "The bee",
+		"tags": [
+			"Noun",
+			"Nature"
+		],
+		"spanish": "La abeja"
+	},
+	"sheep": {
+		"full": "The sheep",
+		"tags": [
+			"Noun",
+			"Nature"
+		],
+		"spanish": "La oveja"
+	},
+	"cow": {
+		"full": "The cow",
+		"tags": [
+			"Noun",
+			"Nature"
+		],
+		"spanish": "La vaca"
+	},
+	"donkey": {
+		"full": "The donkey",
+		"tags": [
+			"Noun",
+			"Nature"
+		],
+		"spanish": "El burro"
+	},
+	"pig": {
+		"full": "The pig",
+		"tags": [
+			"Noun",
+			"Nature"
+		],
+		"spanish": "El cerdo"
+	},
+	"dog": {
+		"full": "The dog",
+		"tags": [
+			"Noun",
+			"Nature"
+		],
+		"spanish": "El perro"
+	},
+	"cat": {
+		"full": "The cat",
+		"tags": [
+			"Noun",
+			"Nature"
+		]
+	},
+	"fish": {
+		"full": "The fish",
+		"tags": [
+			"Noun",
+			"Nature"
+		]
+	},
+	"lobster": {
+		"full": "The lobster",
+		"tags": [
+			"Noun",
+			"Nature"
+		]
+	},
+	"crab": {
+		"full": "The crab",
+		"tags": [
+			"Noun",
+			"Nature"
+		]
+	},
+	"chicken": {
+		"full": "The chicken",
+		"tags": [
+			"Noun",
+			"Nature"
+		]
+	},
+	"meat": {
+		"full": "The meat",
+		"tags": []
+	},
+	"snail": {
+		"full": "The snail",
+		"tags": [
+			"Noun",
+			"Nature"
+		]
+	},
+	"slug": {
+		"full": "The slug",
+		"tags": [
+			"Noun",
+			"Nature"
+		]
+	},
+	"shell": {
+		"full": "The shell",
+		"tags": [
+			"Noun",
+			"Nature"
+		]
+	},
+	"to drive": {
+		"full": "To drive",
+		"tags": []
+	},
+	"bicycle": {
+		"full": "The bicycle",
+		"tags": []
+	},
+	"snow": {
+		"full": "The snow",
+		"tags": []
+	},
+	"thunder": {
+		"full": "The thunder",
+		"tags": []
+	},
+	"lightning": {
+		"full": "The lightning",
+		"tags": []
+	},
+	"storm": {
+		"full": "The storm",
+		"tags": []
+	},
+	"house": {
+		"full": "The house",
+		"tags": []
+	},
+	"city": {
+		"full": "The city",
+		"tags": []
+	},
+	"wasp": {
+		"full": "The wasp",
+		"tags": []
+	},
+	"mosquito": {
+		"full": "The mosquito",
+		"tags": []
+	},
+	"fly (insect)": {
+		"full": "The fly (insect)",
+		"tags": []
+	},
+	"to fly": {
+		"full": "To fly",
+		"tags": []
+	},
+	"broken": {
+		"full": "Broken",
+		"tags": []
+	},
+	"airplane": {
+		"full": "The airplane",
+		"tags": []
+	},
+	"windmill": {
+		"full": "The windmill",
+		"tags": []
+	},
+	"electricity": {
+		"full": "The electricity",
+		"tags": []
+	},
+	"power (human)": {
+		"full": "The power (human)",
+		"tags": []
+	},
+	"strong": {
+		"full": "Strong",
+		"tags": []
+	},
+	"weak": {
+		"full": "Weak",
+		"tags": []
+	},
+	"language": {
+		"full": "The language",
+		"tags": []
+	},
+	"netherlands": {
+		"full": "The Netherlands",
+		"tags": []
+	},
+	"greece": {
+		"full": "Greece",
+		"tags": []
+	},
+	"spain": {
+		"full": "Spain",
+		"tags": []
+	},
+	"portugal": {
+		"full": "Portugal",
+		"tags": []
+	},
+	"italy": {
+		"full": "Italy",
+		"tags": []
+	},
+	"to sweat": {
+		"full": "To sweat",
+		"tags": []
+	},
+	"ill / unwell": {
+		"full": "Ill / unwell",
+		"tags": []
+	},
+	"health": {
+		"full": "The health",
+		"tags": []
+	},
+	"healthy": {
+		"full": "Healthy",
+		"tags": []
+	},
+	"dangerous": {
+		"full": "Dangerous",
+		"tags": []
+	},
+	"risk": {
+		"full": "The risk",
+		"tags": []
+	},
+	"risky": {
+		"full": "Risky",
+		"tags": []
+	},
+	"poisonous / toxic": {
+		"full": "Poisonous / Toxic",
+		"tags": []
+	},
+	"europe": {
+		"full": "Europe",
+		"tags": []
+	},
+	"european union": {
+		"full": "The European Union",
+		"tags": []
+	},
+	"continent": {
+		"full": "The continent",
+		"tags": []
+	},
+	"government": {
+		"full": "The government",
+		"tags": []
+	},
+	"smart": {
+		"full": "Smart",
+		"tags": []
+	},
+	"stupid": {
+		"full": "Stupid",
+		"tags": []
+	},
+	"paprika": {
+		"full": "The paprika",
+		"tags": []
+	},
+	"sometimes": {
+		"full": "Sometimes",
+		"tags": []
+	},
+	"some time": {
+		"full": "Some time",
+		"tags": []
+	},
+	"however": {
+		"full": "However",
+		"tags": []
+	},
+	"despite": {
+		"full": "Despite",
+		"tags": []
+	},
+	"due to": {
+		"full": "Due to",
+		"tags": []
+	},
+	"often": {
+		"full": "Often",
+		"tags": []
+	},
+	"initially": {
+		"full": "Initially",
+		"tags": []
+	},
+	"eventually": {
+		"full": "Eventually",
+		"tags": []
+	},
+	"finally": {
+		"full": "Finally",
+		"tags": []
+	},
+	"depends / depending": {
+		"full": "Depends / depending",
+		"tags": []
+	},
+	"economy": {
+		"full": "The economy",
+		"tags": []
+	},
+	"urine": {
+		"full": "The urine",
+		"tags": []
+	},
+	"to pee": {
+		"full": "To pee",
+		"tags": []
+	},
+	"poo": {
+		"full": "The poo",
+		"tags": []
+	},
+	"car": {
+		"full": "The car",
+		"tags": []
+	},
+	"train": {
+		"full": "The train",
+		"tags": []
+	},
+	"bus": {
+		"full": "The bus",
+		"tags": []
+	},
+	"to take": {
+		"full": "To take",
+		"tags": []
+	},
+	"to carry": {
+		"full": "To carry",
+		"tags": []
+	},
+	"to wear": {
+		"full": "To wear",
+		"tags": []
+	},
+	"to bring": {
+		"full": "To bring",
+		"tags": []
+	},
+	"to come": {
+		"full": "To come",
+		"tags": []
+	},
+	"to say": {
+		"full": "To say",
+		"tags": []
+	},
+	"to ask": {
+		"full": "To ask",
+		"tags": []
+	},
+	"to think": {
+		"full": "To think",
+		"tags": []
+	},
+	"to go": {
+		"full": "To go",
+		"tags": []
+	},
+	"to travel": {
+		"full": "To travel",
+		"tags": []
+	},
+	"holidays": {
+		"full": "The holidays",
+		"tags": []
+	},
+	"tourist": {
+		"full": "The tourist",
+		"tags": []
+	},
+	"tourism": {
+		"full": "The tourism",
+		"tags": []
+	},
+	"key": {
+		"full": "The key",
+		"tags": []
+	},
+	"water": {
+		"full": "The water",
+		"tags": []
+	},
+	"sun": {
+		"full": "The sun",
+		"tags": []
+	},
+	"ground": {
+		"full": "The ground",
+		"tags": []
+	},
+	"clouds": {
+		"full": "The clouds",
+		"tags": []
+	},
+	"force": {
+		"full": "The force",
+		"tags": []
+	},
+	"warm": {
+		"full": "Warm",
+		"tags": []
+	},
+	"cold": {
+		"full": "Cold",
+		"tags": []
+	},
+	"country": {
+		"full": "The country",
+		"tags": []
+	},
+	"man": {
+		"full": "The man",
+		"tags": []
+	},
+	"woman": {
+		"full": "The woman",
+		"tags": []
+	},
+	"president": {
+		"full": "The president",
+		"tags": []
+	},
+	"money": {
+		"full": "The money",
+		"tags": []
+	},
+	"police": {
+		"full": "The police",
+		"tags": []
+	},
+	"bank": {
+		"full": "The bank",
+		"tags": []
+	},
+	"atm": {
+		"full": "The ATM",
+		"tags": []
+	},
+	"hotel": {
+		"full": "The hotel",
+		"tags": []
+	},
+	"camping": {
+		"full": "The camping",
+		"tags": []
+	},
+	"bed": {
+		"full": "The bed",
+		"tags": []
+	},
+	"to sleep": {
+		"full": "To sleep",
+		"tags": []
+	},
+	"egg": {
+		"full": "The egg",
+		"tags": []
+	},
+	"food": {
+		"full": "The food",
+		"tags": []
+	},
+	"dish": {
+		"full": "The dish",
+		"tags": []
+	},
+	"meal": {
+		"full": "The meal",
+		"tags": []
+	},
+	"breakfast": {
+		"full": "The breakfast",
+		"tags": []
+	},
+	"lunch": {
+		"full": "The lunch",
+		"tags": []
+	},
+	"dinner": {
+		"full": "The dinner",
+		"tags": []
+	},
+	"rice": {
+		"full": "The rice",
+		"tags": []
+	},
+	"pasta": {
+		"full": "The pasta",
+		"tags": []
+	},
+	"tomato": {
+		"full": "The tomato",
+		"tags": []
+	},
+	"potato": {
+		"full": "The potato",
+		"tags": []
+	},
+	"courgette": {
+		"full": "The courgette",
+		"tags": []
+	},
+	"carrot": {
+		"full": "The carrot",
+		"tags": []
+	},
+	"job": {
+		"full": "The job",
+		"tags": []
+	},
+	"banana": {
+		"full": "The banana",
+		"tags": []
+	},
+	"orange": {
+		"full": "The orange (fruit)",
+		"tags": []
+	},
+	"peach": {
+		"full": "The peach",
+		"tags": []
+	},
+	"mango": {
+		"full": "The mango",
+		"tags": []
+	},
+	"yes": {
+		"full": "Yes",
+		"tags": []
+	},
+	"no": {
+		"full": "No",
+		"tags": []
+	},
+	"never": {
+		"full": "Never",
+		"tags": []
+	},
+	"always": {
+		"full": "Always",
+		"tags": []
+	},
+	"but": {
+		"full": "But",
+		"tags": []
+	},
+	"and": {
+		"full": "And",
+		"tags": []
+	},
+	"more": {
+		"full": "More",
+		"tags": []
+	},
+	"less": {
+		"full": "Less",
+		"tags": []
+	},
+	"a little": {
+		"full": "A little",
+		"tags": []
+	},
+	"much": {
+		"full": "Much",
+		"tags": []
+	},
+	"some / a few": {
+		"full": "Some / a few",
+		"tags": []
+	},
+	"market": {
+		"full": "The market",
+		"tags": []
+	},
+	"price": {
+		"full": "The price",
+		"tags": []
+	},
+	"to buy": {
+		"full": "To buy",
+		"tags": []
+	},
+	"to search": {
+		"full": "To search",
+		"tags": []
+	},
+	"late": {
+		"full": "Late",
+		"tags": []
+	},
+	"mom": {
+		"full": "The mom",
+		"tags": []
+	},
+	"dad": {
+		"full": "The dad",
+		"tags": []
+	},
+	"brother": {
+		"full": "The brother",
+		"tags": []
+	},
+	"sister": {
+		"full": "The sister",
+		"tags": []
+	},
+	"uncle": {
+		"full": "The uncle",
+		"tags": []
+	},
+	"aunt": {
+		"full": "The aunt",
+		"tags": []
+	},
+	"grandpa": {
+		"full": "The grandpa",
+		"tags": []
+	},
+	"grandma": {
+		"full": "The grandma",
+		"tags": []
+	},
+	"son": {
+		"full": "The son",
+		"tags": []
+	},
+	"daughter": {
+		"full": "The daughter",
+		"tags": []
+	},
+	"boy": {
+		"full": "The boy",
+		"tags": []
+	},
+	"girl": {
+		"full": "The girl",
+		"tags": []
+	},
+	"baby": {
+		"full": "The baby",
+		"tags": []
+	},
+	"wife": {
+		"full": "The wife",
+		"tags": []
+	},
+	"husband": {
+		"full": "The husband",
+		"tags": []
+	},
+	"boyfriend": {
+		"full": "The boyfriend",
+		"tags": []
+	},
+	"girlfriend": {
+		"full": "The girlfriend",
+		"tags": []
+	},
+	"stepfather": {
+		"full": "The stepfather",
+		"tags": []
+	},
+	"stepmother": {
+		"full": "The stepmother",
+		"tags": []
+	},
+	"hollow": {
+		"spanish": "Hueco",
+		"tags": [
+			"Adjective"
+		],
+		"full": "Hollow"
+	},
+	"heavy": {
+		"spanish": "Pesado",
+		"tags": [
+			"Adjective"
+		],
+		"full": "Heavy"
+	},
+	"bald": {
+		"spanish": "Calvo",
+		"tags": [
+			"Adjective"
+		],
+		"full": "Bald"
+	},
+	"sticky": {
+		"spanish": "Pegajoso",
+		"tags": [
+			"Adjective"
+		],
+		"full": "Sticky"
+	},
+	"rude": {
+		"spanish": "Grosero",
+		"tags": [
+			"Adjective"
+		],
+		"full": "Rude"
+	},
+	"angry": {
+		"spanish": "Enfadado",
+		"tags": [
+			"Adjective"
+		],
+		"full": "Angry"
+	},
+	"whole": {
+		"spanish": "Entero",
+		"tags": [
+			"Adjective"
+		],
+		"full": "Whole"
+	},
+	"full": {
+		"spanish": "Lleno",
+		"tags": [
+			"Adjective"
+		],
+		"full": "Full"
+	},
+	"empty": {
+		"spanish": "Vac\u00edo",
+		"tags": [
+			"Adjective"
+		],
+		"full": "Empty",
+		"portuguese": "Vazio"
+	},
+	"funny": {
+		"spanish": "Gracioso",
+		"tags": [
+			"Adjective"
+		],
+		"full": "Funny"
+	},
+	"devastating": {
+		"spanish": "Devastador",
+		"tags": [
+			"Adjective"
+		],
+		"full": "Devastating"
+	},
+	"exhausted / sold out": {
+		"spanish": "Agotado",
+		"tags": [
+			"Adjective"
+		],
+		"full": "Exhausted / sold out"
+	},
+	"damaged": {
+		"spanish": "Da\u00f1ado",
+		"tags": [
+			"Adjective"
+		],
+		"full": "Damaged"
+	},
+	"light": {
+		"spanish": "Ligero",
+		"tags": [
+			"Adjective"
+		],
+		"full": "Light"
+	},
+	"experienced": {
+		"spanish": "Experimentado",
+		"tags": [
+			"Adjective"
+		],
+		"full": "Experienced"
+	},
+	"elegant": {
+		"spanish": "Elegante",
+		"tags": [
+			"Adjective"
+		],
+		"full": "Elegant"
+	},
+	"soft": {
+		"spanish": "Blando",
+		"tags": [
+			"Adjective"
+		],
+		"full": "Soft"
+	},
+	"physical": {
+		"spanish": "F\u00edsico",
+		"tags": [
+			"Adjective"
+		],
+		"full": "Physical"
+	},
+	"self-sufficient": {
+		"spanish": "Autosostenible",
+		"tags": [
+			"Adjective"
+		],
+		"full": "Self-sufficient"
+	},
+	"rocky": {
+		"spanish": "Rocoso",
+		"tags": [
+			"Adjective"
+		],
+		"full": "Rocky"
+	},
+	"wide / broad": {
+		"spanish": "Amplio",
+		"tags": [
+			"Adjective"
+		],
+		"full": "Wide / broad"
+	},
+	"rough": {
+		"spanish": "\u00c1spero",
+		"tags": [
+			"Adjective"
+		],
+		"full": "Rough"
+	},
+	"advisable / recommended": {
+		"spanish": "Aconsejable",
+		"tags": [
+			"Adjective"
+		],
+		"full": "Advisable / recommended"
+	},
+	"tasty": {
+		"spanish": "Sabroso",
+		"tags": [
+			"Adjective"
+		],
+		"full": "Tasty"
+	},
+	"amazing": {
+		"spanish": "Asombroso",
+		"tags": [
+			"Adjective"
+		],
+		"full": "Amazing"
+	},
+	"temporary": {
+		"spanish": "Temporal",
+		"tags": [
+			"Adjective"
+		],
+		"full": "Temporary"
+	},
+	"gallant": {
+		"spanish": "Gal\u00e1n / galante",
+		"tags": [
+			"Adjective"
+		],
+		"full": "Gallant"
+	},
+	"permanent": {
+		"spanish": "Permanente",
+		"tags": [
+			"Adjective"
+		],
+		"full": "Permanent"
+	},
+	"simple, easy": {
+		"spanish": "Sencillo",
+		"tags": [
+			"Adjective"
+		],
+		"full": "Simple, easy"
+	},
+	"simple \ud83c\uddec\ud83c\udde7": {
+		"spanish": "Simple \ud83c\uddea\ud83c\uddf8",
+		"tags": [
+			"Adjective"
+		],
+		"full": "Simple \ud83c\uddec\ud83c\udde7"
+	},
+	"enormous": {
+		"spanish": "Enorme",
+		"tags": [
+			"Adjective"
+		],
+		"full": "Enormous"
+	},
+	"ineradicable (i.e. permanent)": {
+		"spanish": "Imborrable",
+		"tags": [
+			"Adjective"
+		],
+		"full": "Ineradicable (i.e. permanent)"
+	},
+	"naughty": {
+		"spanish": "Travieso",
+		"tags": [
+			"Adjective"
+		],
+		"full": "Naughty"
+	},
+	"juicy": {
+		"spanish": "Jugoso",
+		"tags": [
+			"Adjective"
+		],
+		"full": "Juicy"
+	},
+	"soaked": {
+		"spanish": "Empapado",
+		"tags": [
+			"Adjective"
+		],
+		"full": "Soaked"
+	},
+	"wet": {
+		"spanish": "Mojado",
+		"tags": [
+			"Adjective"
+		],
+		"full": "Wet",
+		"portuguese": "molhado"
+	},
+	"straight": {
+		"spanish": "Liso",
+		"tags": [
+			"Adjective"
+		],
+		"full": "Straight"
+	},
+	"sharp": {
+		"spanish": "Afilado",
+		"tags": [
+			"Adjective"
+		],
+		"full": "Sharp"
+	},
+	"expired": {
+		"spanish": "Vencido",
+		"tags": [
+			"Adjective"
+		],
+		"full": "Expired"
+	},
+	"narrow": {
+		"spanish": "Estrecho",
+		"tags": [
+			"Adjective"
+		],
+		"full": "Narrow"
+	},
+	"popular \ud83c\uddec\ud83c\udde7": {
+		"spanish": "Popular \ud83c\uddea\ud83c\uddf8",
+		"tags": [
+			"Adjective"
+		],
+		"full": "Popular \ud83c\uddec\ud83c\udde7"
+	},
+	"surrounding": {
+		"spanish": "Aleda\u00f1os",
+		"tags": [
+			"Adjective"
+		],
+		"full": "Surrounding"
+	},
+	"greasy": {
+		"spanish": "Graso",
+		"tags": [
+			"Adjective",
+			"Material"
+		],
+		"full": "Greasy"
+	},
+	"deciduous (e.g. loofboom)": {
+		"spanish": "Caducifolio",
+		"tags": [
+			"Adjective",
+			"Nature"
+		],
+		"full": "Deciduous (e.g. loofboom)"
+	},
+	"newly": {
+		"spanish": "Reci\u00e9n",
+		"tags": [
+			"Adverb"
+		],
+		"full": "Newly"
+	},
+	"between": {
+		"spanish": "Entre",
+		"tags": [
+			"Adverb"
+		],
+		"full": "Between"
+	},
+	"inside": {
+		"spanish": "Dentro de",
+		"tags": [
+			"Adverb"
+		],
+		"full": "Inside"
+	},
+	"on top": {
+		"spanish": "Encima",
+		"tags": [
+			"Adverb"
+		],
+		"full": "On top"
+	},
+	"recently": {
+		"spanish": "Actualmente",
+		"tags": [
+			"Adverb"
+		],
+		"full": "Recently"
+	},
+	"simply": {
+		"spanish": "Simplemente",
+		"tags": [
+			"Adverb"
+		],
+		"full": "Simply"
+	},
+	"entirely": {
+		"spanish": "Enteramente",
+		"tags": [
+			"Adverb"
+		],
+		"full": "Entirely"
+	},
+	"unfortunately": {
+		"spanish": "Desafortunadamente",
+		"tags": [
+			"Adverb"
+		],
+		"full": "Unfortunately"
+	},
+	"temporarily": {
+		"spanish": "Temporalmente",
+		"tags": [
+			"Adverb"
+		],
+		"full": "Temporarily"
+	},
+	"behind": {
+		"spanish": "Tr\u00e1s",
+		"tags": [
+			"Adverb"
+		],
+		"full": "Behind"
+	},
+	"back / ago": {
+		"spanish": "Atr\u00e1s",
+		"tags": [
+			"Adverb"
+		],
+		"full": "Back / ago"
+	},
+	"behind ...": {
+		"spanish": "Detr\u00e1s de ...",
+		"tags": [
+			"Adverb"
+		],
+		"full": "Behind ..."
+	},
+	"barely, only just": {
+		"spanish": "Apenas",
+		"tags": [
+			"Adverb"
+		],
+		"full": "Barely, only just"
+	},
+	"approximately": {
+		"spanish": "Aproximadamente",
+		"tags": [
+			"Adverb"
+		],
+		"full": "Approximately"
+	},
+	"leafy / lush": {
+		"spanish": "Frondoso",
+		"tags": [
+			"Adverb",
+			"Nature"
+		],
+		"full": "Leafy / lush"
+	},
+	"suddenly": {
+		"spanish": "De repente",
+		"tags": [
+			"Adverb",
+			"Time"
+		],
+		"full": "Suddenly"
+	},
+	"sweat": {
+		"spanish": "El sudor",
+		"tags": [
+			"Body",
+			"Noun"
+		],
+		"full": "The sweat"
+	},
+	"outfit": {
+		"spanish": "El traje",
+		"tags": [
+			"Clothing",
+			"Noun"
+		],
+		"full": "The outfit"
+	},
+	"outfit / the set": {
+		"spanish": "El conjunto",
+		"tags": [
+			"Clothing",
+			"Noun"
+		],
+		"full": "The outfit / the set"
+	},
+	"(tin) can": {
+		"spanish": "La lata",
+		"tags": [
+			"Containers",
+			"Noun"
+		],
+		"full": "The (tin) can"
+	},
+	"maybe": {
+		"spanish": "A lo mejor",
+		"tags": [
+			"Expression"
+		],
+		"full": "Maybe"
+	},
+	"although": {
+		"spanish": "Aunque",
+		"tags": [
+			"Expression"
+		],
+		"full": "Although"
+	},
+	"any": {
+		"spanish": "Cualquier",
+		"tags": [
+			"Expression"
+		],
+		"full": "Any"
+	},
+	"to be just about to ...": {
+		"spanish": "Estar a punto de ...",
+		"tags": [
+			"Expression"
+		],
+		"full": "To be just about to ..."
+	},
+	"at the beginning": {
+		"spanish": "A principios",
+		"tags": [
+			"Expression"
+		],
+		"full": "At the beginning"
+	},
+	"on purpose": {
+		"spanish": "A prop\u00f3sito",
+		"tags": [
+			"Expression"
+		],
+		"full": "On purpose",
+		"portuguese": "De prop\u00f3sito"
+	},
+	"from now on": {
+		"spanish": "A partir de ahora",
+		"tags": [
+			"Expression"
+		],
+		"full": "From now on"
+	},
+	"anyway": {
+		"spanish": "De todos modos",
+		"tags": [
+			"Expression"
+		],
+		"full": "Anyway"
+	},
+	"through": {
+		"spanish": "A trav\u00e9s de",
+		"tags": [
+			"Expression"
+		],
+		"full": "Through"
+	},
+	"anyway (in any case)": {
+		"spanish": "En cualquier caso",
+		"tags": [
+			"Expression"
+		],
+		"full": "Anyway (in any case)"
+	},
+	"bon appetit": {
+		"spanish": "Buen provecho",
+		"tags": [
+			"Expression"
+		],
+		"full": "Bon appetit"
+	},
+	"to be honest, ...": {
+		"spanish": "Para ser honesto, ...",
+		"tags": [
+			"Expression"
+		],
+		"full": "To be honest, ..."
+	},
+	"for the rest / otherwise": {
+		"spanish": "Por lo dem\u00e1s",
+		"tags": [
+			"Expression"
+		],
+		"full": "For the rest / otherwise"
+	},
+	"even ... (there is even a ..., even if ...)": {
+		"spanish": "Incluso ... (incluso hay ..., incluso si ...)",
+		"tags": [
+			"Expression"
+		],
+		"full": "Even ... (there is even a ..., even if ...)"
+	},
+	"to be rude": {
+		"spanish": "Estar borde",
+		"tags": [
+			"Expression"
+		],
+		"full": "To be rude"
+	},
+	"previous ...": {
+		"spanish": "El anterior ...",
+		"tags": [
+			"Expression"
+		],
+		"full": "The previous ..."
+	},
+	"apart from the above": {
+		"spanish": "Aparte lo de antes",
+		"tags": [
+			"Expression"
+		],
+		"full": "Apart from the above"
+	},
+	"of the same wave (of the same kind)": {
+		"spanish": "De la misma onda",
+		"tags": [
+			"Expression"
+		],
+		"full": "Of the same wave (of the same kind)"
+	},
+	"... has to do with ...": {
+		"spanish": "... tiene que ver con ...",
+		"tags": [
+			"Expression"
+		],
+		"full": "... has to do with ..."
+	},
+	"to keep at bay": {
+		"spanish": "Mantener a raya",
+		"tags": [
+			"Expression"
+		],
+		"full": "To keep at bay"
+	},
+	"at ease": {
+		"spanish": "A sus anchas",
+		"tags": [
+			"Expression"
+		],
+		"full": "At ease"
+	},
+	"at ease / comfortable": {
+		"spanish": "A gusto",
+		"tags": [
+			"Expression"
+		],
+		"full": "At ease / comfortable"
+	},
+	"not even": {
+		"spanish": "Ni siquiera",
+		"tags": [
+			"Expression"
+		],
+		"full": "Not even"
+	},
+	"unless ...": {
+		"spanish": "A menos que ...",
+		"tags": [
+			"Expression"
+		],
+		"full": "Unless ..."
+	},
+	"... is necessary": {
+		"spanish": "... hace falta",
+		"tags": [
+			"Expression"
+		],
+		"full": "... is necessary"
+	},
+	"short-term": {
+		"spanish": "A corto plazo",
+		"tags": [
+			"Expression",
+			"Time"
+		],
+		"full": "Short-term"
+	},
+	"medium-term": {
+		"spanish": "A medio plazo",
+		"tags": [
+			"Expression",
+			"Time"
+		],
+		"full": "Medium-term"
+	},
+	"long-term": {
+		"spanish": "A largo plazo",
+		"tags": [
+			"Expression",
+			"Time"
+		],
+		"full": "Long-term"
+	},
+	"at the end": {
+		"spanish": "Al final",
+		"tags": [
+			"Expression",
+			"Time"
+		],
+		"full": "At the end"
+	},
+	"to be worth it": {
+		"spanish": "Merecer la pena",
+		"tags": [
+			"Expression",
+			"Verb"
+		],
+		"full": "To be worth it"
+	},
+	"mushroom (generic)": {
+		"spanish": "La seta",
+		"tags": [
+			"Food",
+			"Nature",
+			"Noun"
+		],
+		"full": "The mushroom (generic)"
+	},
+	"fig": {
+		"spanish": "El higo",
+		"tags": [
+			"Food",
+			"Nature",
+			"Noun"
+		],
+		"full": "The fig"
+	},
+	"basil": {
+		"spanish": "La albahaca",
+		"tags": [
+			"Food",
+			"Noun"
+		],
+		"full": "The basil"
+	},
+	"straw (material)": {
+		"spanish": "La paja",
+		"tags": [
+			"Material",
+			"Nature",
+			"Noun"
+		],
+		"full": "The straw (material)"
+	},
+	"leather": {
+		"spanish": "El cuero",
+		"tags": [
+			"Material",
+			"Noun"
+		],
+		"full": "Leather"
+	},
+	"clay": {
+		"spanish": "La arcilla",
+		"tags": [
+			"Material",
+			"Noun"
+		],
+		"full": "The clay"
+	},
+	"stream / the creek": {
+		"spanish": "El arroyo",
+		"tags": [
+			"Nature",
+			"Noun"
+		],
+		"full": "The stream / the creek"
+	},
+	"shame / embarrassment": {
+		"spanish": "La vergu\u00ebnza",
+		"tags": [
+			"Nature",
+			"Noun"
+		],
+		"full": "The shame / embarrassment"
+	},
+	"rosemary": {
+		"spanish": "El romero",
+		"tags": [
+			"Nature",
+			"Noun"
+		],
+		"full": "Rosemary"
+	},
+	"branch": {
+		"spanish": "La rama",
+		"tags": [
+			"Nature",
+			"Noun"
+		],
+		"full": "The branch"
+	},
+	"trunk": {
+		"spanish": "El tronco",
+		"tags": [
+			"Nature",
+			"Noun"
+		],
+		"full": "The trunk"
+	},
+	"footprint": {
+		"spanish": "La huella",
+		"tags": [
+			"Nature",
+			"Noun"
+		],
+		"full": "The footprint"
+	},
+	"clover": {
+		"spanish": "El tr\u00e9bol",
+		"tags": [
+			"Nature",
+			"Noun"
+		],
+		"full": "The clover"
+	},
+	"orchard": {
+		"spanish": "El vergel",
+		"tags": [
+			"Nature",
+			"Noun"
+		],
+		"full": "The orchard"
+	},
+	"flooding": {
+		"spanish": "La inundaci\u00f3n",
+		"tags": [
+			"Nature",
+			"Noun"
+		],
+		"full": "The flooding"
+	},
+	"paradise": {
+		"spanish": "El para\u00edso",
+		"tags": [
+			"Nature",
+			"Noun"
+		],
+		"full": "The paradise"
+	},
+	"shadow / the shade": {
+		"spanish": "La sombra",
+		"tags": [
+			"Nature",
+			"Noun"
+		],
+		"full": "The shadow / the shade"
+	},
+	"mud": {
+		"spanish": "El barro",
+		"tags": [
+			"Nature",
+			"Noun"
+		],
+		"full": "The mud"
+	},
+	"to graze": {
+		"spanish": "Pastar",
+		"tags": [
+			"Nature",
+			"Verb"
+		],
+		"full": "To graze"
+	},
+	"to ripen": {
+		"spanish": "Madurar",
+		"tags": [
+			"Nature",
+			"Verb"
+		],
+		"full": "To ripen"
+	},
+	"century": {
+		"spanish": "El siglo",
+		"tags": [
+			"Noun"
+		],
+		"full": "The century"
+	},
+	"a deck of cards": {
+		"spanish": "Una baraja de cartas",
+		"tags": [
+			"Noun"
+		],
+		"full": "A deck of cards"
+	},
+	"square (shape)": {
+		"spanish": "El cuadrado",
+		"tags": [
+			"Noun"
+		],
+		"full": "The square (shape)"
+	},
+	"hard disk": {
+		"spanish": "El disco duro",
+		"tags": [
+			"Noun"
+		],
+		"full": "The hard disk"
+	},
+	"armpit": {
+		"spanish": "La axila",
+		"tags": [
+			"Noun"
+		],
+		"full": "The armpit"
+	},
+	"lie / bullshit": {
+		"spanish": "La mentira",
+		"tags": [
+			"Noun"
+		],
+		"full": "The lie / bullshit"
+	},
+	"lighter": {
+		"spanish": "El mechero",
+		"tags": [
+			"Noun"
+		],
+		"full": "The lighter"
+	},
+	"cigarette": {
+		"spanish": "El sigarillo",
+		"tags": [
+			"Noun"
+		],
+		"full": "The cigarette"
+	},
+	"wall": {
+		"spanish": "El pared",
+		"tags": [
+			"Noun"
+		],
+		"full": "The wall"
+	},
+	"achievement": {
+		"spanish": "El logro",
+		"tags": [
+			"Noun"
+		],
+		"full": "The achievement"
+	},
+	"umbrella": {
+		"spanish": "El paraguas",
+		"tags": [
+			"Noun"
+		],
+		"full": "The umbrella"
+	},
+	"sand": {
+		"spanish": "La arena",
+		"tags": [
+			"Noun"
+		],
+		"full": "The sand"
+	},
+	"knife": {
+		"spanish": "El cuchillo",
+		"tags": [
+			"Noun"
+		],
+		"full": "The knife"
+	},
+	"marriage": {
+		"spanish": "El matrimonio",
+		"tags": [
+			"Noun"
+		],
+		"full": "The marriage"
+	},
+	"drawer (of a closet)": {
+		"spanish": "El caj\u00f3n",
+		"tags": [
+			"Noun"
+		],
+		"full": "The drawer (of a closet)"
+	},
+	"mirror": {
+		"spanish": "El espejo",
+		"tags": [
+			"Noun"
+		],
+		"full": "The mirror"
+	},
+	"body": {
+		"spanish": "El cuerpo",
+		"tags": [
+			"Noun"
+		],
+		"full": "The body"
+	},
+	"pen": {
+		"spanish": "El bol\u00edgrafo",
+		"tags": [
+			"Noun"
+		],
+		"full": "The pen"
+	},
+	"pencil": {
+		"spanish": "El l\u00e1piz",
+		"tags": [
+			"Noun"
+		],
+		"full": "The pencil"
+	},
+	"bookshelf": {
+		"spanish": "La estanteria",
+		"tags": [
+			"Noun"
+		],
+		"full": "The bookshelf"
+	},
+	"glasses": {
+		"spanish": "Las gafas",
+		"tags": [
+			"Noun"
+		],
+		"full": "The glasses",
+		"portuguese": "os \u00f3culos"
+	},
+	"wire": {
+		"spanish": "El alambre",
+		"tags": [
+			"Noun"
+		],
+		"full": "The wire"
+	},
+	"molar tooth (kies)": {
+		"spanish": "El molar",
+		"tags": [
+			"Noun"
+		],
+		"full": "The molar tooth (kies)"
+	},
+	"cash desk / the box": {
+		"spanish": "La caja",
+		"tags": [
+			"Noun"
+		],
+		"full": "The cash desk / the box"
+	},
+	"brick": {
+		"spanish": "El ladrillo",
+		"tags": [
+			"Noun"
+		],
+		"full": "The brick"
+	},
+	"glass (material)": {
+		"spanish": "El vidrio",
+		"tags": [
+			"Noun"
+		],
+		"full": "The glass (material)",
+		"portuguese": "O vidro"
+	},
+	"fool": {
+		"spanish": "El tonto / la tonta",
+		"tags": [
+			"Noun"
+		],
+		"full": "The fool"
+	},
+	"ship": {
+		"spanish": "La nave",
+		"tags": [
+			"Noun"
+		],
+		"full": "The ship"
+	},
+	"crew": {
+		"spanish": "La tripulaci\u00f3n",
+		"tags": [
+			"Noun"
+		],
+		"full": "The crew"
+	},
+	"member": {
+		"spanish": "El miembro",
+		"tags": [
+			"Noun"
+		],
+		"full": "The member"
+	},
+	"gravity": {
+		"spanish": "La gravedad",
+		"tags": [
+			"Noun"
+		],
+		"full": "The gravity"
+	},
+	"skill": {
+		"spanish": "La habilidad",
+		"tags": [
+			"Noun"
+		],
+		"full": "The skill"
+	},
+	"skill / dexterity": {
+		"spanish": "La destreza",
+		"tags": [
+			"Noun"
+		],
+		"full": "The skill / dexterity"
+	},
+	"number (cijfer, 0-9)": {
+		"spanish": "La cifra",
+		"tags": [
+			"Noun"
+		],
+		"full": "The number (cijfer, 0-9)"
+	},
+	"number (getal, e.g. 222)": {
+		"spanish": "El n\u00famero",
+		"tags": [
+			"Noun"
+		],
+		"full": "The number (getal, e.g. 222)"
+	},
+	"top/peak/summit": {
+		"spanish": "La cima",
+		"tags": [
+			"Noun"
+		],
+		"full": "The top/peak/summit"
+	},
+	"advert": {
+		"spanish": "El anuncio",
+		"tags": [
+			"Noun"
+		],
+		"full": "The advert"
+	},
+	"advertising": {
+		"spanish": "La publicidad",
+		"tags": [
+			"Noun"
+		],
+		"full": "The advertising"
+	},
+	"to complain about something": {
+		"spanish": "Quejarse de algo",
+		"tags": [
+			"Noun"
+		],
+		"full": "To complain about something"
+	},
+	"smell": {
+		"spanish": "El olor",
+		"tags": [
+			"Noun"
+		],
+		"full": "The smell"
+	},
+	"sale": {
+		"spanish": "La venta",
+		"tags": [
+			"Noun"
+		],
+		"full": "The sale"
+	},
+	"wind": {
+		"spanish": "El viento",
+		"tags": [
+			"Noun"
+		],
+		"full": "The wind"
+	},
+	"broom": {
+		"spanish": "La escoba",
+		"tags": [
+			"Noun"
+		],
+		"full": "The broom"
+	},
+	"bat (animal)": {
+		"spanish": "El murci\u00e9lago",
+		"tags": [
+			"Noun"
+		],
+		"full": "The bat (animal)"
+	},
+	"soap": {
+		"spanish": "El jab\u00f3n",
+		"tags": [
+			"Noun"
+		],
+		"full": "The soap"
+	},
+	"rope": {
+		"spanish": "La cuerda",
+		"tags": [
+			"Noun"
+		],
+		"full": "The rope"
+	},
+	"roof": {
+		"spanish": "El techo",
+		"tags": [
+			"Noun"
+		],
+		"full": "The roof"
+	},
+	"event": {
+		"spanish": "El suceso",
+		"tags": [
+			"Noun"
+		],
+		"full": "The event"
+	},
+	"home": {
+		"spanish": "El hogar",
+		"tags": [
+			"Noun"
+		],
+		"full": "The home"
+	},
+	"bone": {
+		"spanish": "El hueso",
+		"tags": [
+			"Noun"
+		],
+		"full": "The bone",
+		"portuguese": "O osso"
+	},
+	"skeleton": {
+		"spanish": "El esqueleto",
+		"tags": [
+			"Noun"
+		],
+		"full": "The skeleton"
+	},
+	"state": {
+		"spanish": "El estado",
+		"tags": [
+			"Noun"
+		],
+		"full": "The state"
+	},
+	"owner": {
+		"spanish": "El due\u00f1o",
+		"tags": [
+			"Noun"
+		],
+		"full": "The owner"
+	},
+	"bucket": {
+		"spanish": "El cubo",
+		"tags": [
+			"Noun"
+		],
+		"full": "The bucket"
+	},
+	"cube (geometric)": {
+		"spanish": "El cubo (geometr\u00eda)",
+		"tags": [
+			"Noun"
+		],
+		"full": "The cube (geometric)"
+	},
+	"paint": {
+		"spanish": "La pintura",
+		"tags": [
+			"Noun"
+		],
+		"full": "The paint"
+	},
+	"majority": {
+		"spanish": "La mayor\u00eda",
+		"tags": [
+			"Noun"
+		],
+		"full": "The majority"
+	},
+	"actor": {
+		"spanish": "El actor",
+		"tags": [
+			"Noun"
+		],
+		"full": "The actor"
+	},
+	"actress": {
+		"spanish": "La actriz",
+		"tags": [
+			"Noun"
+		],
+		"full": "The actress"
+	},
+	"pilot": {
+		"spanish": "El piloto",
+		"tags": [
+			"Noun"
+		],
+		"full": "The pilot"
+	},
+	"skyscraper": {
+		"spanish": "El rascacielos",
+		"tags": [
+			"Noun"
+		],
+		"full": "The skyscraper"
+	},
+	"edge": {
+		"spanish": "El borde",
+		"tags": [
+			"Noun"
+		],
+		"full": "The edge"
+	},
+	"beauty": {
+		"spanish": "La belleza",
+		"tags": [
+			"Noun"
+		],
+		"full": "The beauty"
+	},
+	"unknown": {
+		"spanish": "Desconocido",
+		"tags": [
+			"Noun"
+		],
+		"full": "Unknown"
+	},
+	"fact": {
+		"spanish": "El hecho",
+		"tags": [
+			"Noun"
+		],
+		"full": "The fact"
+	},
+	"road": {
+		"spanish": "La carretera",
+		"tags": [
+			"Noun"
+		],
+		"full": "The road",
+		"portuguese": "a estrada"
+	},
+	"lane (of a road)": {
+		"spanish": "El carril",
+		"tags": [
+			"Noun"
+		],
+		"full": "The lane (of a road)"
+	},
+	"sidewalk": {
+		"spanish": "La acera",
+		"tags": [
+			"Noun"
+		],
+		"full": "The sidewalk"
+	},
+	"warehouse": {
+		"spanish": "La almac\u00e9n",
+		"tags": [
+			"Noun"
+		],
+		"full": "The warehouse"
+	},
+	"warehouse / deposit": {
+		"spanish": "El dep\u00f3sito",
+		"tags": [
+			"Noun"
+		],
+		"full": "The warehouse / deposit"
+	},
+	"bench": {
+		"spanish": "El banquito",
+		"tags": [
+			"Noun"
+		],
+		"full": "The bench"
+	},
+	"cable": {
+		"spanish": "El cable",
+		"tags": [
+			"Noun"
+		],
+		"full": "The cable"
+	},
+	"entrepreneur": {
+		"spanish": "El emprendedor",
+		"tags": [
+			"Noun"
+		],
+		"full": "The entrepreneur"
+	},
+	"stove": {
+		"spanish": "La estufa",
+		"tags": [
+			"Noun"
+		],
+		"full": "The stove"
+	},
+	"seat": {
+		"spanish": "El asiento",
+		"tags": [
+			"Noun"
+		],
+		"full": "The seat",
+		"portuguese": "o assento"
+	},
+	"chair": {
+		"spanish": "La silla",
+		"tags": [
+			"Noun"
+		],
+		"full": "The chair",
+		"portuguese": "a cadeira"
+	},
+	"cushion": {
+		"spanish": "El coj\u00edn",
+		"tags": [
+			"Noun"
+		],
+		"full": "The cushion"
+	},
+	"pillow": {
+		"spanish": "La almohada",
+		"tags": [
+			"Noun"
+		],
+		"full": "The pillow"
+	},
+	"grass": {
+		"spanish": "La hierba",
+		"tags": [
+			"Noun"
+		],
+		"full": "The grass"
+	},
+	"lawn": {
+		"spanish": "El c\u00e9sped",
+		"tags": [
+			"Noun"
+		],
+		"full": "The lawn"
+	},
+	"gloves": {
+		"spanish": "Los guantes",
+		"tags": [
+			"Noun"
+		],
+		"full": "The gloves",
+		"portuguese": "As luvas"
+	},
+	"duvet (het dekbed)": {
+		"spanish": "El edred\u00f3n",
+		"tags": [
+			"Noun"
+		],
+		"full": "The duvet (het dekbed)"
+	},
+	"activity": {
+		"spanish": "La actividad",
+		"tags": [
+			"Noun"
+		],
+		"full": "The activity"
+	},
+	"physics": {
+		"spanish": "La f\u00edsica",
+		"tags": [
+			"Noun"
+		],
+		"full": "Physics"
+	},
+	"sweet potato": {
+		"spanish": "El boniato",
+		"tags": [
+			"Noun"
+		],
+		"full": "The sweet potato"
+	},
+	"harvest": {
+		"spanish": "La cosecha",
+		"tags": [
+			"Noun"
+		],
+		"full": "The harvest"
+	},
+	"double bed": {
+		"spanish": "La cama de matrimonio",
+		"tags": [
+			"Noun"
+		],
+		"full": "The double bed"
+	},
+	"location": {
+		"spanish": "La ubicaci\u00f3n",
+		"tags": [
+			"Noun"
+		],
+		"full": "The location"
+	},
+	"workshop": {
+		"spanish": "El taller",
+		"tags": [
+			"Noun"
+		],
+		"full": "The workshop"
+	},
+	"place / site": {
+		"spanish": "El paraje",
+		"tags": [
+			"Noun"
+		],
+		"full": "The place / site"
+	},
+	"rock": {
+		"spanish": "La roca",
+		"tags": [
+			"Noun"
+		],
+		"full": "The rock"
+	},
+	"hiker": {
+		"spanish": "El excursionista",
+		"tags": [
+			"Noun"
+		],
+		"full": "The hiker"
+	},
+	"size": {
+		"spanish": "El tama\u00f1o",
+		"tags": [
+			"Noun"
+		],
+		"full": "The size"
+	},
+	"earthquake": {
+		"spanish": "El terremoto",
+		"tags": [
+			"Noun"
+		],
+		"full": "The earthquake"
+	},
+	"waves": {
+		"spanish": "El oleaje",
+		"tags": [
+			"Noun"
+		],
+		"full": "The waves"
+	},
+	"rise / increase": {
+		"spanish": "La subida",
+		"tags": [
+			"Noun"
+		],
+		"full": "The rise / increase"
+	},
+	"drought": {
+		"spanish": "La sequia",
+		"tags": [
+			"Noun"
+		],
+		"full": "The drought",
+		"portuguese": "A seca"
+	},
+	"budget": {
+		"spanish": "El presupuesto",
+		"tags": [
+			"Noun"
+		],
+		"full": "The budget"
+	},
+	"heritage": {
+		"spanish": "El patrimonio",
+		"tags": [
+			"Noun"
+		],
+		"full": "The heritage"
+	},
+	"strike (where people don't work)": {
+		"spanish": "La huelga",
+		"tags": [
+			"Noun"
+		],
+		"full": "The strike (where people don't work)"
+	},
+	"season": {
+		"spanish": "La temporada",
+		"tags": [
+			"Noun"
+		],
+		"full": "The season"
+	},
+	"ladder (or the stairs)": {
+		"spanish": "La escalera",
+		"tags": [
+			"Noun"
+		],
+		"full": "The ladder (or the stairs)"
+	},
+	"cucumber": {
+		"spanish": "El pepino",
+		"tags": [
+			"Noun"
+		],
+		"full": "The cucumber"
+	},
+	"palm tree": {
+		"spanish": "La palmera",
+		"tags": [
+			"Noun"
+		],
+		"full": "The palm tree"
+	},
+	"speech": {
+		"spanish": "El discurso",
+		"tags": [
+			"Noun"
+		],
+		"full": "The speech"
+	},
+	"cemetery / the graveyard": {
+		"spanish": "El cementerio",
+		"tags": [
+			"Noun"
+		],
+		"full": "The cemetery / the graveyard"
+	},
+	"hallway / lobby": {
+		"spanish": "El vestibulo",
+		"tags": [
+			"Noun"
+		],
+		"full": "The hallway / lobby"
+	},
+	"spiderweb": {
+		"spanish": "La telara\u00f1a",
+		"tags": [
+			"Noun"
+		],
+		"full": "The spiderweb"
+	},
+	"fabric / cloth": {
+		"spanish": "La tela",
+		"tags": [
+			"Noun"
+		],
+		"full": "The fabric / cloth"
+	},
+	"costume / disguise": {
+		"spanish": "El disfraz",
+		"tags": [
+			"Noun"
+		],
+		"full": "The costume / disguise"
+	},
+	"winner": {
+		"spanish": "El ganador / la ganadora",
+		"tags": [
+			"Noun"
+		],
+		"full": "The winner"
+	},
+	"make-up": {
+		"spanish": "El maquillaje",
+		"tags": [
+			"Noun"
+		],
+		"full": "The make-up"
+	},
+	"prison": {
+		"spanish": "La prisi\u00f3n",
+		"tags": [
+			"Noun"
+		],
+		"full": "The prison"
+	},
+	"jungle": {
+		"spanish": "La selva",
+		"tags": [
+			"Noun"
+		],
+		"full": "The jungle"
+	},
+	"route": {
+		"spanish": "El rumbo",
+		"tags": [
+			"Noun"
+		],
+		"full": "The route"
+	},
+	"survey": {
+		"spanish": "La encuesta",
+		"tags": [
+			"Noun"
+		],
+		"full": "The survey"
+	},
+	"heating": {
+		"spanish": "La calefacc\u00edon",
+		"tags": [
+			"Noun"
+		],
+		"full": "The heating"
+	},
+	"backpack": {
+		"spanish": "La mochila",
+		"tags": [
+			"Noun"
+		],
+		"full": "The backpack",
+		"portuguese": "A mochila"
+	},
+	"thyme": {
+		"spanish": "El tomillo",
+		"tags": [
+			"Noun"
+		],
+		"full": "Thyme"
+	},
+	"gesture": {
+		"spanish": "El gesto",
+		"tags": [
+			"Noun"
+		],
+		"full": "The gesture"
+	},
+	"human race": {
+		"spanish": "El ser humano",
+		"tags": [
+			"Noun"
+		],
+		"full": "The human race"
+	},
+	"\"the store (\"\"de zaak\"\")\"": {
+		"spanish": "El local",
+		"tags": [
+			"Noun"
+		],
+		"full": "\"The store (\"\"de zaak\"\")\""
+	},
+	"flavour": {
+		"spanish": "El sabor",
+		"tags": [
+			"Noun"
+		],
+		"full": "The flavour"
+	},
+	"spectacle": {
+		"spanish": "El espect\u00e1culo",
+		"tags": [
+			"Noun"
+		],
+		"full": "The spectacle"
+	},
+	"mass (as in weight / entity)": {
+		"spanish": "La masa",
+		"tags": [
+			"Noun"
+		],
+		"full": "The mass (as in weight / entity)"
+	},
+	"oven": {
+		"spanish": "El horno",
+		"tags": [
+			"Noun"
+		],
+		"full": "The oven"
+	},
+	"advantage / benefit": {
+		"spanish": "La ventaja",
+		"tags": [
+			"Noun"
+		],
+		"full": "The advantage / benefit"
+	},
+	"elevator": {
+		"spanish": "El ascenscor",
+		"tags": [
+			"Noun"
+		],
+		"full": "The elevator"
+	},
+	"toilet": {
+		"spanish": "El aseo",
+		"tags": [
+			"Noun"
+		],
+		"full": "The toilet"
+	},
+	"heartbreaker": {
+		"spanish": "El rompecorazones",
+		"tags": [
+			"Noun"
+		],
+		"full": "The heartbreaker"
+	},
+	"satellite": {
+		"spanish": "El sat\u00e9lite",
+		"tags": [
+			"Noun"
+		],
+		"full": "The satellite"
+	},
+	"rocket": {
+		"spanish": "El cohete",
+		"tags": [
+			"Noun"
+		],
+		"full": "The rocket"
+	},
+	"crew member": {
+		"spanish": "La tripulante",
+		"tags": [
+			"Noun"
+		],
+		"full": "The crew member"
+	},
+	"objective": {
+		"spanish": "El objetivo",
+		"tags": [
+			"Noun"
+		],
+		"full": "The objective"
+	},
+	"base (e.g. moon base)": {
+		"spanish": "La base",
+		"tags": [
+			"Noun"
+		],
+		"full": "The base (e.g. moon base)"
+	},
+	"surface": {
+		"spanish": "La superficie",
+		"tags": [
+			"Noun"
+		],
+		"full": "The surface"
+	},
+	"attitude": {
+		"spanish": "La actitud",
+		"tags": [
+			"Noun"
+		],
+		"full": "The attitude"
+	},
+	"incentive": {
+		"spanish": "El incentivo",
+		"tags": [
+			"Noun"
+		],
+		"full": "The incentive"
+	},
+	"fairy tales": {
+		"spanish": "Los cuentos de hadas",
+		"tags": [
+			"Noun"
+		],
+		"full": "Fairy tales"
+	},
+	"fairy": {
+		"spanish": "La hada",
+		"tags": [
+			"Noun"
+		],
+		"full": "Fairy"
+	},
+	"waste": {
+		"spanish": "Los desechos",
+		"tags": [
+			"Noun"
+		],
+		"full": "The waste"
+	},
+	"penalty": {
+		"spanish": "La pena",
+		"tags": [
+			"Noun"
+		],
+		"full": "The penalty"
+	},
+	"profile": {
+		"spanish": "El perfil",
+		"tags": [
+			"Noun"
+		],
+		"full": "The profile"
+	},
+	"envelope": {
+		"spanish": "El sobre",
+		"tags": [
+			"Noun"
+		],
+		"full": "The envelope"
+	},
+	"employee": {
+		"spanish": "El empleado / la empleada",
+		"tags": [
+			"Noun"
+		],
+		"full": "The employee"
+	},
+	"embassy": {
+		"spanish": "La embajada",
+		"tags": [
+			"Noun"
+		],
+		"full": "The embassy"
+	},
+	"ambassador": {
+		"spanish": "El / la embajador(a)",
+		"tags": [
+			"Noun"
+		],
+		"full": "The ambassador"
+	},
+	"challenge": {
+		"spanish": "El reto",
+		"tags": [
+			"Noun"
+		],
+		"full": "The challenge"
+	},
+	"dilemma": {
+		"spanish": "El dilema",
+		"tags": [
+			"Noun"
+		],
+		"full": "The dilemma"
+	},
+	"degree (e.g. 14 degrees)": {
+		"spanish": "El grado (e.g. 14 grados)",
+		"tags": [
+			"Noun"
+		],
+		"full": "The degree (e.g. 14 degrees)"
+	},
+	"appearance (uiterlijk)": {
+		"spanish": "La apariencia",
+		"tags": [
+			"Noun"
+		],
+		"full": "Appearance (uiterlijk)"
+	},
+	"lantern / the lighthouse": {
+		"spanish": "El farol",
+		"tags": [
+			"Noun"
+		],
+		"full": "The lantern / the lighthouse"
+	},
+	"return": {
+		"spanish": "La vuelta",
+		"tags": [
+			"Noun"
+		],
+		"full": "The return"
+	},
+	"flight": {
+		"spanish": "El vuelo",
+		"tags": [
+			"Noun"
+		],
+		"full": "The flight"
+	},
+	"steering wheel": {
+		"spanish": "El volante",
+		"tags": [
+			"Noun"
+		],
+		"full": "The steering wheel"
+	},
+	"coup d'etat": {
+		"spanish": "El golpe de estado",
+		"tags": [
+			"Noun"
+		],
+		"full": "The coup d'etat"
+	},
+	"discovery / the finding": {
+		"spanish": "El hallazgo",
+		"tags": [
+			"Noun"
+		],
+		"full": "The discovery / the finding"
+	},
+	"discovery": {
+		"spanish": "El descubrimiento",
+		"tags": [
+			"Noun"
+		],
+		"full": "The discovery"
+	},
+	"coverage (e.g. cellphone)": {
+		"spanish": "La cobertura",
+		"tags": [
+			"Noun"
+		],
+		"full": "The coverage (e.g. cellphone)"
+	},
+	"sample": {
+		"spanish": "La muestra",
+		"tags": [
+			"Noun"
+		],
+		"full": "The sample"
+	},
+	"thief": {
+		"spanish": "El ladr\u00f3n",
+		"tags": [
+			"Noun"
+		],
+		"full": "The thief"
+	},
+	"bet / the gamble": {
+		"spanish": "La apuesta",
+		"tags": [
+			"Noun"
+		],
+		"full": "The bet / the gamble"
+	},
+	"diaper": {
+		"spanish": "El pa\u00f1al",
+		"tags": [
+			"Noun"
+		],
+		"full": "The diaper"
+	},
+	"piece": {
+		"spanish": "El pedazo",
+		"tags": [
+			"Noun"
+		],
+		"full": "The piece"
+	},
+	"yeast": {
+		"spanish": "La levadura",
+		"tags": [
+			"Noun"
+		],
+		"full": "The yeast"
+	},
+	"wind energy": {
+		"spanish": "Energ\u00eda e\u00f3lica",
+		"tags": [
+			"Noun"
+		],
+		"full": "Wind energy"
+	},
+	"roadmap": {
+		"spanish": "La hoja de ruta",
+		"tags": [
+			"Noun"
+		],
+		"full": "The roadmap"
+	},
+	"planet": {
+		"spanish": "El planeta",
+		"tags": [
+			"Noun"
+		],
+		"full": "The planet"
+	},
+	"carpet": {
+		"spanish": "La alfombra",
+		"tags": [
+			"Noun"
+		],
+		"full": "The carpet"
+	},
+	"splinter": {
+		"spanish": "La astilla",
+		"tags": [
+			"Noun"
+		],
+		"full": "The splinter"
+	},
+	"bell": {
+		"spanish": "La campana",
+		"tags": [
+			"Noun"
+		],
+		"full": "The bell"
+	},
+	"doorbell": {
+		"spanish": "El timbre",
+		"tags": [
+			"Noun"
+		],
+		"full": "The doorbell"
+	},
+	"hole": {
+		"spanish": "El agujero",
+		"tags": [
+			"Noun"
+		],
+		"full": "The hole"
+	},
+	"wheel": {
+		"spanish": "La rueda",
+		"tags": [
+			"Noun"
+		],
+		"full": "The wheel",
+		"portuguese": "a roda"
+	},
+	"crutches": {
+		"spanish": "Las muletas",
+		"tags": [
+			"Noun"
+		],
+		"full": "The crutches"
+	},
+	"power plug / wall socket": {
+		"spanish": "El enchufe",
+		"tags": [
+			"Noun"
+		],
+		"full": "The power plug / wall socket"
+	},
+	"delay": {
+		"spanish": "El retraso",
+		"tags": [
+			"Noun",
+			"Time"
+		],
+		"full": "The delay"
+	},
+	"countdown": {
+		"spanish": "La cuenta atr\u00e1s",
+		"tags": [
+			"Noun",
+			"Time"
+		],
+		"full": "The countdown"
+	},
+	"sunrise": {
+		"spanish": "El amanecer",
+		"tags": [
+			"Noun",
+			"Time"
+		],
+		"full": "The sunrise",
+		"portuguese": "o nascer do sol"
+	},
+	"sunset": {
+		"spanish": "El atardecer",
+		"tags": [
+			"Noun",
+			"Time"
+		],
+		"full": "The sunset",
+		"portuguese": "o por do sol"
+	},
+	"spoon": {
+		"spanish": "La cuchara",
+		"tags": [
+			"Noun",
+			"Tools"
+		],
+		"full": "The spoon"
+	},
+	"fork": {
+		"spanish": "El tenedor",
+		"tags": [
+			"Noun",
+			"Tools"
+		],
+		"full": "The fork"
+	},
+	"tool": {
+		"spanish": "La herramienta",
+		"tags": [
+			"Noun",
+			"Tools"
+		],
+		"full": "The tool"
+	},
+	"magnifying glass": {
+		"spanish": "La lupa",
+		"tags": [
+			"Noun",
+			"Tools"
+		],
+		"full": "The magnifying glass"
+	},
+	"knot": {
+		"spanish": "El nudo",
+		"tags": [
+			"Noun",
+			"Tools"
+		],
+		"full": "The knot"
+	},
+	"screw": {
+		"spanish": "El tornillo",
+		"tags": [
+			"Noun",
+			"Tools"
+		],
+		"full": "The screw"
+	},
+	"tape": {
+		"spanish": "La cinta",
+		"tags": [
+			"Noun",
+			"Tools"
+		],
+		"full": "The tape"
+	},
+	"de handzaag": {
+		"spanish": "El serrucho",
+		"tags": [
+			"Noun",
+			"Tools"
+		],
+		"full": "De handzaag"
+	},
+	"de boormachine": {
+		"spanish": "El taladro",
+		"tags": [
+			"Noun",
+			"Tools"
+		],
+		"full": "De boormachine"
+	},
+	"de hamer": {
+		"spanish": "El martillo",
+		"tags": [
+			"Noun",
+			"Tools"
+		],
+		"full": "De hamer"
+	},
+	"de tang": {
+		"spanish": "El alicate",
+		"tags": [
+			"Noun",
+			"Tools"
+		],
+		"full": "De tang"
+	},
+	"to fit": {
+		"spanish": "Caber",
+		"tags": [
+			"Verb"
+		],
+		"full": "To fit"
+	},
+	"to guess": {
+		"spanish": "Adivinar",
+		"tags": [
+			"Verb"
+		],
+		"full": "To guess"
+	},
+	"to shuffle (cards)": {
+		"spanish": "Barajar",
+		"tags": [
+			"Verb"
+		],
+		"full": "To shuffle (cards)"
+	},
+	"to weigh": {
+		"spanish": "Pesar",
+		"tags": [
+			"Verb"
+		],
+		"full": "To weigh"
+	},
+	"to serve (a purpose)": {
+		"spanish": "Servir",
+		"tags": [
+			"Verb"
+		],
+		"full": "To serve (a purpose)"
+	},
+	"to save / store": {
+		"spanish": "Guardar",
+		"tags": [
+			"Verb"
+		],
+		"full": "To save / store"
+	},
+	"to sustain": {
+		"spanish": "Sostenir",
+		"tags": [
+			"Verb"
+		],
+		"full": "To sustain"
+	},
+	"to find out": {
+		"spanish": "Averiguar",
+		"tags": [
+			"Verb"
+		],
+		"full": "To find out"
+	},
+	"to (tell a) lie": {
+		"spanish": "Mentir",
+		"tags": [
+			"Verb"
+		],
+		"full": "To (tell a) lie"
+	},
+	"to hang (e.g. from the ceiling)": {
+		"spanish": "Colgar",
+		"tags": [
+			"Verb"
+		],
+		"full": "To hang (e.g. from the ceiling)"
+	},
+	"to stick": {
+		"spanish": "Pegar",
+		"tags": [
+			"Verb"
+		],
+		"full": "To stick"
+	},
+	"to hit / to beat": {
+		"spanish": "Golpear",
+		"tags": [
+			"Verb"
+		],
+		"full": "To hit / to beat"
+	},
+	"to break": {
+		"spanish": "Romper",
+		"tags": [
+			"Verb"
+		],
+		"full": "To break"
+	},
+	"to be cool": {
+		"spanish": "Molar",
+		"tags": [
+			"Verb"
+		],
+		"full": "To be cool"
+	},
+	"to grow (up)": {
+		"spanish": "Crecer",
+		"tags": [
+			"Verb"
+		],
+		"full": "To grow (up)"
+	},
+	"to propose": {
+		"spanish": "Proponer",
+		"tags": [
+			"Verb"
+		],
+		"full": "To propose"
+	},
+	"to suggest": {
+		"spanish": "Sugerir",
+		"tags": [
+			"Verb"
+		],
+		"full": "To suggest"
+	},
+	"to launch": {
+		"spanish": "Lanzar",
+		"tags": [
+			"Verb"
+		],
+		"full": "To launch"
+	},
+	"to save (besparen)": {
+		"spanish": "Ahorrar",
+		"tags": [
+			"Verb"
+		],
+		"full": "To save (besparen)"
+	},
+	"to smell (something)": {
+		"spanish": "Oler",
+		"tags": [
+			"Verb"
+		],
+		"full": "To smell (something)"
+	},
+	"to burn": {
+		"spanish": "Quemar",
+		"tags": [
+			"Verb"
+		],
+		"full": "To burn"
+	},
+	"to extend": {
+		"spanish": "Extender",
+		"tags": [
+			"Verb"
+		],
+		"full": "To extend"
+	},
+	"to dress up (e.g. for halloween)": {
+		"spanish": "Disfrazarse",
+		"tags": [
+			"Verb"
+		],
+		"full": "To dress up (e.g. for halloween)"
+	},
+	"to chat": {
+		"spanish": "Charlar",
+		"tags": [
+			"Verb"
+		],
+		"full": "To chat"
+	},
+	"to become / turn into ...": {
+		"spanish": "Convertirse en ...",
+		"tags": [
+			"Verb"
+		],
+		"full": "To become / turn into ..."
+	},
+	"to hate": {
+		"spanish": "Odiar",
+		"tags": [
+			"Verb"
+		],
+		"full": "To hate"
+	},
+	"to mount / assemble": {
+		"spanish": "Montar",
+		"tags": [
+			"Verb"
+		],
+		"full": "To mount / assemble"
+	},
+	"to organise": {
+		"spanish": "Organizar",
+		"tags": [
+			"Verb"
+		],
+		"full": "To organise"
+	},
+	"to sell": {
+		"spanish": "Vender",
+		"tags": [
+			"Verb"
+		],
+		"full": "To sell"
+	},
+	"to damage": {
+		"spanish": "Da\u00f1ar",
+		"tags": [
+			"Verb"
+		],
+		"full": "To damage"
+	},
+	"to repair": {
+		"spanish": "Reparar",
+		"tags": [
+			"Verb"
+		],
+		"full": "To repair"
+	},
+	"to risk": {
+		"spanish": "Arriesgar",
+		"tags": [
+			"Verb"
+		],
+		"full": "To risk"
+	},
+	"to realize": {
+		"spanish": "Realizar",
+		"tags": [
+			"Verb"
+		],
+		"full": "To realize"
+	},
+	"to sit": {
+		"spanish": "Sentarse",
+		"tags": [
+			"Verb"
+		],
+		"full": "To sit"
+	},
+	"to care for": {
+		"spanish": "Cuidar",
+		"tags": [
+			"Verb"
+		],
+		"full": "To care for"
+	},
+	"to harvest": {
+		"spanish": "Cosechar",
+		"tags": [
+			"Verb"
+		],
+		"full": "To harvest"
+	},
+	"to offer / provide": {
+		"spanish": "Ofrecer",
+		"tags": [
+			"Verb"
+		],
+		"full": "To offer / provide"
+	},
+	"to be located at": {
+		"spanish": "Ubicarse",
+		"tags": [
+			"Verb"
+		],
+		"full": "To be located at"
+	},
+	"to enter": {
+		"spanish": "Entrar",
+		"tags": [
+			"Verb"
+		],
+		"full": "To enter"
+	},
+	"to arise / emerge": {
+		"spanish": "Surgir",
+		"tags": [
+			"Verb"
+		],
+		"full": "To arise / emerge"
+	},
+	"to survive": {
+		"spanish": "Sobrevivir",
+		"tags": [
+			"Verb"
+		],
+		"full": "To survive"
+	},
+	"to relieve / alleviate": {
+		"spanish": "Aliviar",
+		"tags": [
+			"Verb"
+		],
+		"full": "To relieve / alleviate"
+	},
+	"to fight": {
+		"spanish": "Pelear",
+		"tags": [
+			"Verb"
+		],
+		"full": "To fight"
+	},
+	"to possess / own": {
+		"spanish": "Poseer",
+		"tags": [
+			"Verb"
+		],
+		"full": "To possess / own"
+	},
+	"to return something / to give back": {
+		"spanish": "Devolver",
+		"tags": [
+			"Verb"
+		],
+		"full": "To return something / to give back"
+	},
+	"to approach": {
+		"spanish": "Acercar",
+		"tags": [
+			"Verb"
+		],
+		"full": "To approach"
+	},
+	"to win / earn": {
+		"spanish": "Ganar",
+		"tags": [
+			"Verb"
+		],
+		"full": "To win / earn"
+	},
+	"to support": {
+		"spanish": "Apoyar",
+		"tags": [
+			"Verb"
+		],
+		"full": "To support"
+	},
+	"to sow (seeds)": {
+		"spanish": "Sembrar",
+		"tags": [
+			"Verb"
+		],
+		"full": "To sow (seeds)"
+	},
+	"to advise": {
+		"spanish": "Aconsejar",
+		"tags": [
+			"Verb"
+		],
+		"full": "To advise"
+	},
+	"to prevent / to impede": {
+		"spanish": "Impedir",
+		"tags": [
+			"Verb"
+		],
+		"full": "To prevent / to impede"
+	},
+	"to crush": {
+		"spanish": "Aplastar",
+		"tags": [
+			"Verb"
+		],
+		"full": "To crush"
+	},
+	"to put in": {
+		"spanish": "Meter",
+		"tags": [
+			"Verb"
+		],
+		"full": "To put in"
+	},
+	"to develop": {
+		"spanish": "Desarollar",
+		"tags": [
+			"Verb"
+		],
+		"full": "To develop",
+		"portuguese": "Desenvolver"
+	},
+	"to convice": {
+		"spanish": "Convencir",
+		"tags": [
+			"Verb"
+		],
+		"full": "To convice"
+	},
+	"to get up early": {
+		"spanish": "Madrugar",
+		"tags": [
+			"Verb"
+		],
+		"full": "To get up early"
+	},
+	"to step / to tread": {
+		"spanish": "Pisar",
+		"tags": [
+			"Verb"
+		],
+		"full": "To step / to tread"
+	},
+	"to take off (as in a rocket) / detach": {
+		"spanish": "Despegar",
+		"tags": [
+			"Verb"
+		],
+		"full": "To take off (as in a rocket) / detach"
+	},
+	"to man (e.g. a ship)": {
+		"spanish": "Tripular",
+		"tags": [
+			"Verb"
+		],
+		"full": "To man (e.g. a ship)"
+	},
+	"to establish": {
+		"spanish": "Establecer",
+		"tags": [
+			"Verb"
+		],
+		"full": "To establish"
+	},
+	"to create": {
+		"spanish": "Crear",
+		"tags": [
+			"Verb"
+		],
+		"full": "To create"
+	},
+	"to betray": {
+		"spanish": "Traicionar",
+		"tags": [
+			"Verb"
+		],
+		"full": "To betray"
+	},
+	"to stare": {
+		"spanish": "Mirar fijamente",
+		"tags": [
+			"Verb"
+		],
+		"full": "To stare"
+	},
+	"to construct": {
+		"spanish": "Construir",
+		"tags": [
+			"Verb"
+		],
+		"full": "To construct"
+	},
+	"to deserve": {
+		"spanish": "Merecer",
+		"tags": [
+			"Verb"
+		],
+		"full": "To deserve"
+	},
+	"to flirt": {
+		"spanish": "Coquetear",
+		"tags": [
+			"Verb"
+		],
+		"full": "To flirt"
+	},
+	"to slice": {
+		"spanish": "Rebanar",
+		"tags": [
+			"Verb"
+		],
+		"full": "To slice"
+	},
+	"to cut": {
+		"spanish": "Cortar",
+		"tags": [
+			"Verb"
+		],
+		"full": "To cut"
+	},
+	"to challenge": {
+		"spanish": "Desafiar",
+		"tags": [
+			"Verb"
+		],
+		"full": "To challenge"
+	},
+	"to force": {
+		"spanish": "Forzar",
+		"tags": [
+			"Verb"
+		],
+		"full": "To force"
+	},
+	"to delete": {
+		"spanish": "Borrar",
+		"tags": [
+			"Verb"
+		],
+		"full": "To delete"
+	},
+	"to remove": {
+		"spanish": "Quitar",
+		"tags": [
+			"Verb"
+		],
+		"full": "To remove"
+	},
+	"to face ... / to confront": {
+		"spanish": "Hacer frente a ...",
+		"tags": [
+			"Verb"
+		],
+		"full": "To face ... / to confront"
+	},
+	"to carry out / to perform": {
+		"spanish": "Llevar a cabo",
+		"tags": [
+			"Verb"
+		],
+		"full": "To carry out / to perform"
+	},
+	"to highlight / to stand out": {
+		"spanish": "Destacar",
+		"tags": [
+			"Verb"
+		],
+		"full": "To highlight / to stand out"
+	},
+	"to rhyme": {
+		"spanish": "Rimar",
+		"tags": [
+			"Verb"
+		],
+		"full": "To rhyme"
+	},
+	"to push": {
+		"spanish": "Empujar",
+		"tags": [
+			"Verb"
+		],
+		"full": "To push"
+	},
+	"to pull": {
+		"spanish": "Tirar",
+		"tags": [
+			"Verb"
+		],
+		"full": "To pull"
+	},
+	"to bake": {
+		"spanish": "Hornear",
+		"tags": [
+			"Verb"
+		],
+		"full": "To bake"
+	},
+	"to measure": {
+		"spanish": "Medir",
+		"tags": [
+			"Verb"
+		],
+		"full": "To measure"
+	},
+	"to reach (out to something)": {
+		"spanish": "Alcanzar",
+		"tags": [
+			"Verb"
+		],
+		"full": "To reach (out to something)"
+	},
+	"to discover": {
+		"spanish": "Descubrir",
+		"tags": [
+			"Verb"
+		],
+		"full": "To discover"
+	},
+	"to cover": {
+		"spanish": "Cubrir",
+		"tags": [
+			"Verb"
+		],
+		"full": "To cover"
+	},
+	"to exceed / overcome": {
+		"spanish": "Superar",
+		"tags": [
+			"Verb"
+		],
+		"full": "To exceed / overcome"
+	},
+	"to belong to ...": {
+		"spanish": "Pertenecer a ...",
+		"tags": [
+			"Verb"
+		],
+		"full": "To belong to ..."
+	},
+	"to predict": {
+		"spanish": "Predecir",
+		"tags": [
+			"Verb"
+		],
+		"full": "To predict"
+	},
+	"to steal": {
+		"spanish": "Robar",
+		"tags": [
+			"Verb"
+		],
+		"full": "To steal"
+	},
+	"to provide / produce / contribute": {
+		"spanish": "Aportar",
+		"tags": [
+			"Verb"
+		],
+		"full": "To provide / produce / contribute"
+	},
+	"to produce": {
+		"spanish": "Producir",
+		"tags": [
+			"Verb"
+		],
+		"full": "To produce"
+	},
+	"to reinforce": {
+		"spanish": "Reforzar",
+		"tags": [
+			"Verb"
+		],
+		"full": "To reinforce"
+	},
+	"to hear": {
+		"spanish": "O\u00edr",
+		"tags": [
+			"Verb"
+		],
+		"full": "To hear"
+	},
+	"to increase": {
+		"spanish": "Aumentar",
+		"tags": [
+			"Verb"
+		],
+		"full": "To increase"
+	},
+	"to poop": {
+		"spanish": "Cagar",
+		"tags": [
+			"Verb"
+		],
+		"full": "To poop"
+	},
+	"spider": {
+		"spanish": "La ara\u00f1a",
+		"tags": [
+			"animal",
+			"Noun"
+		],
+		"full": "The spider"
+	},
+	"worm": {
+		"spanish": "El gusano",
+		"tags": [
+			"animal",
+			"Noun"
+		],
+		"full": "The worm",
+		"portuguese": "o verme"
+	},
+	"cricket": {
+		"spanish": "El grillo",
+		"tags": [
+			"animal",
+			"Noun"
+		],
+		"full": "The cricket",
+		"portuguese": "O grilo"
+	},
+	"cage": {
+		"spanish": "La jaula",
+		"tags": [
+			"animal",
+			"Noun"
+		],
+		"full": "The cage"
+	}
+}

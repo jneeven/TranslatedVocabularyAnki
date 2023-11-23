@@ -1,0 +1,686 @@
+{
+    "Corn": {
+        "portuguese": "Milho",
+        "tags": []
+    },
+    "Champignons": {
+        "portuguese": "Cogumelos",
+        "tags": []
+    },
+    "Sauce": {
+        "portuguese": "Molho",
+        "tags": []
+    },
+    "Beans": {
+        "portuguese": "Feij\u0101o",
+        "tags": []
+    },
+    "Carrots ": {
+        "portuguese": "Cenouras",
+        "tags": []
+    },
+    "Peas": {
+        "portuguese": "Ervilhas",
+        "tags": []
+    },
+    "Vegetables": {
+        "portuguese": "Legumas",
+        "tags": []
+    },
+    "Chickpeas": {
+        "portuguese": "Gr\u0101o",
+        "tags": []
+    },
+    "Beets": {
+        "portuguese": "Beterrabas",
+        "tags": []
+    },
+    "Biscuit": {
+        "portuguese": "Bolacha",
+        "tags": []
+    },
+    "Dirty dishes (vaat)": {
+        "portuguese": "Loi\u00e7as",
+        "tags": []
+    },
+    "Apple": {
+        "portuguese": "Ma\u00e7a",
+        "tags": []
+    },
+    "Pineapple ": {
+        "portuguese": "Abacaxi",
+        "tags": []
+    },
+    "Lemon": {
+        "portuguese": "Lim\u00e3o",
+        "tags": []
+    },
+    "The floor / ground": {
+        "portuguese": "O ch\u00e3o",
+        "tags": []
+    },
+    "The butterfly": {
+        "portuguese": "A borboleta",
+        "tags": []
+    },
+    "The birch tree": {
+        "portuguese": "A b\u00e9tula",
+        "tags": []
+    },
+    "The pine tree": {
+        "portuguese": "O pinheiro",
+        "tags": []
+    },
+    "The leaf": {
+        "portuguese": "A folha",
+        "tags": []
+    },
+    "The grasshopper": {
+        "portuguese": "O gafanhoto",
+        "tags": []
+    },
+    "The shrub": {
+        "portuguese": "O arbusto",
+        "tags": []
+    },
+    "The soil ": {
+        "portuguese": "O solo ",
+        "tags": []
+    },
+    "Moist ": {
+        "portuguese": "Humidade",
+        "tags": []
+    },
+    "Common": {
+        "portuguese": "Comum",
+        "tags": []
+    },
+    "The wings ": {
+        "portuguese": "As asas",
+        "tags": []
+    },
+    "The caterpillar": {
+        "portuguese": "A lagarta",
+        "tags": []
+    },
+    "The cricket": {
+        "portuguese": "O grilo",
+        "tags": []
+    },
+    "The example ": {
+        "portuguese": "O exemplo",
+        "tags": []
+    },
+    "The heart": {
+        "portuguese": "A corac\u00e3o",
+        "tags": []
+    },
+    "The bumblebee": {
+        "portuguese": "O abelh\u00e3o",
+        "tags": []
+    },
+    "The luck": {
+        "portuguese": "A sorte",
+        "tags": []
+    },
+    "Great": {
+        "portuguese": "\u00d3timo",
+        "tags": []
+    },
+    "Around ... o clock": {
+        "portuguese": "Por volta de ...",
+        "tags": []
+    },
+    "Empty": {
+        "portuguese": "Vazio",
+        "tags": []
+    },
+    "Red": {
+        "portuguese": "Vermelho",
+        "tags": []
+    },
+    "Yellow": {
+        "portuguese": "Amarelo",
+        "tags": []
+    },
+    "Blue": {
+        "portuguese": "Azul",
+        "tags": []
+    },
+    "Brown": {
+        "portuguese": "Marrom",
+        "tags": []
+    },
+    "Purple": {
+        "portuguese": "Roxo",
+        "tags": []
+    },
+    "Pink": {
+        "portuguese": "Cor de rosa",
+        "tags": []
+    },
+    "Black": {
+        "portuguese": "Preto",
+        "tags": []
+    },
+    "White": {
+        "portuguese": "Branco",
+        "tags": []
+    },
+    "Dark": {
+        "portuguese": "Escuro",
+        "tags": []
+    },
+    "Green": {
+        "portuguese": "Verde",
+        "tags": []
+    },
+    "Bright (colored)": {
+        "portuguese": "Brilhante",
+        "tags": []
+    },
+    "Orange (both color and fruit)": {
+        "portuguese": "Laranja",
+        "tags": []
+    },
+    "Not anymore": {
+        "portuguese": "N\u00e3o mais",
+        "tags": []
+    },
+    "On purpose": {
+        "portuguese": "De prop\u00f3sito",
+        "tags": []
+    },
+    "Morar": {
+        "portuguese": "Live, dwell, inhabit",
+        "tags": []
+    },
+    "Morador": {
+        "portuguese": "Inhabitant",
+        "tags": []
+    },
+    "Early": {
+        "portuguese": "Cedo",
+        "tags": []
+    },
+    "Coverage (as in cell phone)": {
+        "portuguese": "Cobertura",
+        "tags": []
+    },
+    "The internet": {
+        "portuguese": "A internet",
+        "tags": []
+    },
+    "The computer": {
+        "portuguese": "O computador",
+        "tags": []
+    },
+    "The television / TV": {
+        "portuguese": "A televis\u00e3o / TV",
+        "tags": []
+    },
+    "The radio station": {
+        "portuguese": "A esta\u00e7\u00e3o de r\u00e1dio",
+        "tags": []
+    },
+    "The radio": {
+        "portuguese": "O r\u00e1dio",
+        "tags": []
+    },
+    "The youtube channel": {
+        "portuguese": "O canal do youtube",
+        "tags": []
+    },
+    "The stress": {
+        "portuguese": "O estresse",
+        "tags": []
+    },
+    "The salary": {
+        "portuguese": "O sal\u00e1rio",
+        "tags": []
+    },
+    "To earn": {
+        "portuguese": "Ganhar",
+        "tags": []
+    },
+    "To cost": {
+        "portuguese": "Custar",
+        "tags": []
+    },
+    "The cost": {
+        "portuguese": "O custo",
+        "tags": []
+    },
+    "To invest": {
+        "portuguese": "Investir",
+        "tags": []
+    },
+    "The investor": {
+        "portuguese": "O investidor",
+        "tags": []
+    },
+    "The start-up (company)": {
+        "portuguese": "A startup (empresa pequena)",
+        "tags": []
+    },
+    "The scientist": {
+        "portuguese": "O cientista",
+        "tags": []
+    },
+    "The inventor": {
+        "portuguese": "O inventor",
+        "tags": []
+    },
+    "To invent": {
+        "portuguese": "Inventar",
+        "tags": []
+    },
+    "To develop": {
+        "portuguese": "Desenvolver",
+        "tags": []
+    },
+    "To design": {
+        "portuguese": "Projetar",
+        "tags": []
+    },
+    "To program": {
+        "portuguese": "Programar",
+        "tags": []
+    },
+    "The programmer": {
+        "portuguese": "O programador",
+        "tags": []
+    },
+    "The software": {
+        "portuguese": "O software",
+        "tags": []
+    },
+    "Artificial intelligence": {
+        "portuguese": "A Intelig\u00eancia Artificial",
+        "tags": []
+    },
+    "The bird": {
+        "portuguese": "o p\u00e1ssaro",
+        "tags": []
+    },
+    "The mammal": {
+        "portuguese": "o mam\u00edfero",
+        "tags": []
+    },
+    "The lizard": {
+        "portuguese": "O lagarto",
+        "tags": []
+    },
+    "The insect": {
+        "portuguese": "o inseto",
+        "tags": []
+    },
+    "The worm": {
+        "portuguese": "o verme",
+        "tags": []
+    },
+    "The tree": {
+        "portuguese": "a \u00e1rvore",
+        "tags": []
+    },
+    "The forest": {
+        "portuguese": "a floresta",
+        "tags": []
+    },
+    "The lake": {
+        "portuguese": "o lago",
+        "tags": []
+    },
+    "The mountain": {
+        "portuguese": "a montanha",
+        "tags": []
+    },
+    "The road": {
+        "portuguese": "a estrada",
+        "tags": []
+    },
+    "The path": {
+        "portuguese": "O caminho",
+        "tags": []
+    },
+    "The highway": {
+        "portuguese": "A autoestrada",
+        "tags": []
+    },
+    "The insurance": {
+        "portuguese": "o seguro",
+        "tags": []
+    },
+    "The eagle": {
+        "portuguese": "A \u00e1guia",
+        "tags": []
+    },
+    "The hawk": {
+        "portuguese": "A a\u00e7or",
+        "tags": []
+    },
+    "The bird of prey": {
+        "portuguese": "A ave de rapina",
+        "tags": []
+    },
+    "The view": {
+        "portuguese": "a vista",
+        "tags": []
+    },
+    "The landscape": {
+        "portuguese": "a paisagem",
+        "tags": []
+    },
+    "The village": {
+        "portuguese": "A aldeia",
+        "tags": []
+    },
+    "The oak tree": {
+        "portuguese": "o carvalho",
+        "tags": []
+    },
+    "To hike ": {
+        "portuguese": "caminhar",
+        "tags": []
+    },
+    "The shoes": {
+        "portuguese": "os sapatos",
+        "tags": []
+    },
+    "The jacket": {
+        "portuguese": "A jaqueta",
+        "tags": []
+    },
+    "The backpack": {
+        "portuguese": "A mochila",
+        "tags": []
+    },
+    "The socks": {
+        "portuguese": "As meias",
+        "tags": []
+    },
+    "The gloves": {
+        "portuguese": "As luvas",
+        "tags": []
+    },
+    "The hiking pole": {
+        "portuguese": "O bast\u00e3o de caminhada",
+        "tags": []
+    },
+    "The hole (large, e.g. in the ground)": {
+        "portuguese": "O buraco",
+        "tags": []
+    },
+    "The hole (small, e.g. in a tire)": {
+        "portuguese": "O furo",
+        "tags": []
+    },
+    "The rain": {
+        "portuguese": "A chuva",
+        "tags": []
+    },
+    "The rainbow": {
+        "portuguese": "O arco-\u00edris",
+        "tags": []
+    },
+    "Wet": {
+        "portuguese": "molhado",
+        "tags": []
+    },
+    "Dry": {
+        "portuguese": "Seco",
+        "tags": []
+    },
+    "The drought": {
+        "portuguese": "A seca",
+        "tags": []
+    },
+    "The flood": {
+        "portuguese": "A inunda\u00e7\u00e3o",
+        "tags": []
+    },
+    "The injury": {
+        "portuguese": "a les\u00e3o",
+        "tags": []
+    },
+    "The ankle": {
+        "portuguese": "O tornozelo",
+        "tags": []
+    },
+    "The foot": {
+        "portuguese": "A p\u00e9",
+        "tags": []
+    },
+    "The knee": {
+        "portuguese": "o joelho",
+        "tags": []
+    },
+    "The hip": {
+        "portuguese": "o quadril",
+        "tags": []
+    },
+    "The back (body part)": {
+        "portuguese": "As costas",
+        "tags": []
+    },
+    "To hurt": {
+        "portuguese": "magoar",
+        "tags": []
+    },
+    "The back": {
+        "portuguese": "A parte de tr\u00e1s",
+        "tags": []
+    },
+    "The arm": {
+        "portuguese": "o bra\u00e7o",
+        "tags": []
+    },
+    "The leg": {
+        "portuguese": "a perna",
+        "tags": []
+    },
+    "The shoulder": {
+        "portuguese": "o ombro",
+        "tags": []
+    },
+    "The hand": {
+        "portuguese": "a m\u00e3o",
+        "tags": []
+    },
+    "The finger": {
+        "portuguese": "o dedo",
+        "tags": []
+    },
+    "The neck": {
+        "portuguese": "o pesco\u00e7o",
+        "tags": []
+    },
+    "The skull ": {
+        "portuguese": "O cr\u00e2nio",
+        "tags": []
+    },
+    "The bone": {
+        "portuguese": "O osso",
+        "tags": []
+    },
+    "The glasses": {
+        "portuguese": "os \u00f3culos",
+        "tags": []
+    },
+    "The glass (material)": {
+        "portuguese": "O vidro",
+        "tags": []
+    },
+    "The eyes": {
+        "portuguese": "os olhos",
+        "tags": []
+    },
+    "The ears": {
+        "portuguese": "as orelhas",
+        "tags": []
+    },
+    "The nose": {
+        "portuguese": "o nariz",
+        "tags": []
+    },
+    "To hear / listen": {
+        "portuguese": "ouvir",
+        "tags": []
+    },
+    "To walk": {
+        "portuguese": "andar",
+        "tags": []
+    },
+    "To run": {
+        "portuguese": "Correr",
+        "tags": []
+    },
+    "To climb": {
+        "portuguese": "escalar",
+        "tags": []
+    },
+    "To swim": {
+        "portuguese": "nadar",
+        "tags": []
+    },
+    "To ascend": {
+        "portuguese": "Ascender",
+        "tags": []
+    },
+    "To rise": {
+        "portuguese": "subir",
+        "tags": []
+    },
+    "To emerge": {
+        "portuguese": "emergir",
+        "tags": []
+    },
+    "To descend": {
+        "portuguese": "Descer",
+        "tags": []
+    },
+    "The sunrise": {
+        "portuguese": "o nascer do sol",
+        "tags": []
+    },
+    "The sunset": {
+        "portuguese": "o por do sol",
+        "tags": []
+    },
+    "To laugh": {
+        "portuguese": "Rir",
+        "tags": []
+    },
+    "The tent": {
+        "portuguese": "A tenda",
+        "tags": []
+    },
+    "To camp": {
+        "portuguese": "Acampar",
+        "tags": []
+    },
+    "The sleeping bag": {
+        "portuguese": "O saco de dormir",
+        "tags": []
+    },
+    "The tarp": {
+        "portuguese": "A lona",
+        "tags": []
+    },
+    "The drill (tool)": {
+        "portuguese": "A broca",
+        "tags": []
+    },
+    "The hammer": {
+        "portuguese": "o martelo",
+        "tags": []
+    },
+    "The fingernail": {
+        "portuguese": "A unha",
+        "tags": []
+    },
+    "The nails (i.e. metal spikes)": {
+        "portuguese": "Os pregos",
+        "tags": []
+    },
+    "The screws": {
+        "portuguese": "os parafusos",
+        "tags": []
+    },
+    "The tweezers": {
+        "portuguese": "A pin\u00e7a",
+        "tags": []
+    },
+    "The pliers": {
+        "portuguese": "O alicate",
+        "tags": []
+    },
+    "The clothes peg": {
+        "portuguese": "A cavilha",
+        "tags": []
+    },
+    "The shop": {
+        "portuguese": "A loja",
+        "tags": []
+    },
+    "The chair": {
+        "portuguese": "a cadeira",
+        "tags": []
+    },
+    "The seat": {
+        "portuguese": "o assento",
+        "tags": []
+    },
+    "The table": {
+        "portuguese": "a mesa",
+        "tags": []
+    },
+    "The board game": {
+        "portuguese": "o jogo de tabuleiro",
+        "tags": []
+    },
+    "The sky": {
+        "portuguese": "o c\u00e9u",
+        "tags": []
+    },
+    "The stove (for cooking)": {
+        "portuguese": "o fog\u00e3o",
+        "tags": []
+    },
+    "The wood stove": {
+        "portuguese": "O fog\u00e3o a lenha",
+        "tags": []
+    },
+    "The heater": {
+        "portuguese": "o aquecedor",
+        "tags": []
+    },
+    "To heat up": {
+        "portuguese": "Aquecer",
+        "tags": []
+    },
+    "The hill": {
+        "portuguese": "o monte / a colina",
+        "tags": []
+    },
+    "The river": {
+        "portuguese": "O rio",
+        "tags": []
+    },
+    "The creek": {
+        "portuguese": "o riacho",
+        "tags": []
+    },
+    "The wheel": {
+        "portuguese": "a roda",
+        "tags": []
+    },
+    "The window": {
+        "portuguese": "a janela",
+        "tags": []
+    },
+    "The door": {
+        "portuguese": "A porta",
+        "tags": []
+    }
+}
