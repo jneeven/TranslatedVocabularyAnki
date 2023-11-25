@@ -128,8 +128,8 @@
 			"Noun",
 			"Food"
 		],
-		"portuguese": "O ananás",
-		"spanish": "La piña"
+		"portuguese": "O anan\u00e1s",
+		"spanish": "La pi\u00f1a"
 	},
 	"lemon": {
 		"full": "The lemon",
@@ -138,7 +138,7 @@
 			"Food"
 		],
 		"portuguese": "A lim\u00e3o",
-		"spanish": "El limón"
+		"spanish": "El lim\u00f3n"
 	},
 	"floor / ground": {
 		"full": "The floor / ground",
@@ -164,7 +164,7 @@
 			"Nature"
 		],
 		"portuguese": "A b\u00e9tula",
-		"spanish": "La betula"
+		"spanish": "La b\u00e9tula"
 	},
 	"pine tree": {
 		"full": "The pine tree",
@@ -173,7 +173,7 @@
 			"Nature"
 		],
 		"portuguese": "O pinheiro",
-		"spanish": "El piño"
+		"spanish": "El pi\u00f1o"
 	},
 	"leaf": {
 		"full": "The leaf",
@@ -225,7 +225,7 @@
 			"Adjective"
 		],
 		"portuguese": "Comum",
-		"spanish": "Común"
+		"spanish": "Com\u00fan"
 	},
 	"wings": {
 		"full": "The wings",
@@ -258,7 +258,7 @@
 			"Noun"
 		],
 		"portuguese": "A corac\u00e3o",
-		"spanish": "El corazón"
+		"spanish": "El coraz\u00f3n"
 	},
 	"bumblebee": {
 		"full": "The bumblebee",
@@ -326,7 +326,7 @@
 			"Color"
 		],
 		"portuguese": "Marrom",
-		"spanish": "Marrón"
+		"spanish": "Marr\u00f3n"
 	},
 	"purple": {
 		"full": "Purple",
@@ -459,7 +459,7 @@
 			"Noun"
 		],
 		"portuguese": "A televis\u00e3o / TV",
-		"spanish": "La televisión / TV"
+		"spanish": "La televisi\u00f3n / TV"
 	},
 	"radio station": {
 		"full": "The radio station",
@@ -492,7 +492,7 @@
 			"Emotion"
 		],
 		"portuguese": "O estresse",
-		"spanish": "El estrés"
+		"spanish": "El estr\u00e9s"
 	},
 	"salary": {
 		"full": "The salary",
@@ -557,7 +557,7 @@
 			"Occupation"
 		],
 		"portuguese": "O cientista",
-		"spanish": "El científico"
+		"spanish": "El cient\u00edfico"
 	},
 	"inventor": {
 		"full": "The inventor",
@@ -582,7 +582,7 @@
 			"Verb"
 		],
 		"portuguese": "Projetar",
-		"spanish": "Diseñar"
+		"spanish": "Dise\u00f1ar"
 	},
 	"to program": {
 		"full": "To program",
@@ -660,7 +660,7 @@
 			"Nature"
 		],
 		"portuguese": "A \u00e1rvore",
-		"spanish": "El árbol"
+		"spanish": "El \u00e1rbol"
 	},
 	"forest": {
 		"full": "The forest",
@@ -687,7 +687,7 @@
 			"Nature"
 		],
 		"portuguese": "A montanha",
-		"spanish": "La montaña"
+		"spanish": "La monta\u00f1a"
 	},
 	"path": {
 		"full": "The path",
@@ -703,7 +703,7 @@
 			"Noun"
 		],
 		"portuguese": "A autoestrada",
-		"spanish": "La autovía"
+		"spanish": "La autov\u00eda"
 	},
 	"insurance": {
 		"full": "The insurance",
@@ -729,7 +729,7 @@
 			"Nature"
 		],
 		"portuguese": "A a\u00e7or",
-		"spanish": "El halcón"
+		"spanish": "El halc\u00f3n"
 	},
 	"bird of prey": {
 		"full": "The bird of prey",
@@ -738,7 +738,7 @@
 			"Nature"
 		],
 		"portuguese": "A ave de rapina",
-		"spanish": "El ave de rapiña"
+		"spanish": "El ave de rapi\u00f1a"
 	},
 	"view": {
 		"full": "The view",
@@ -818,14 +818,14 @@
 			"Noun"
 		],
 		"portuguese": "O bast\u00e3o de caminhada",
-		"spanish": "El bastón de senderismo"
+		"spanish": "El bast\u00f3n de senderismo"
 	},
 	"hole (large, e.g. in the ground)": {
 		"full": "The hole (large, e.g. in the ground)",
 		"tags": [
 			"Noun"
 		],
-		"portuguese": "O buraco (grande, por exemplo, no chão)",
+		"portuguese": "O buraco (grande, por exemplo, no ch\u00c3o)",
 		"spanish": "El agujero (grande, por ejemplo, en el suelo)"
 	},
 	"hole (small, e.g. in a tire)": {
@@ -834,7 +834,7 @@
 			"Noun"
 		],
 		"portuguese": "O furo (pequeno, por exemplo, num pneu)",
-		"spanish": "El hueco (pequeño, por ejemplo, en un neumático)"
+		"spanish": "El hueco (peque\u00f1o, por ejemplo, en un neum\u00e1tico)"
 	},
 	"rain": {
 		"full": "The rain",
@@ -869,7 +869,7 @@
 			"Noun"
 		],
 		"portuguese": "A inunda\u00e7\u00e3o",
-		"spanish": "La inundación"
+		"spanish": "La inundaci\u00f3n"
 	},
 	"injury": {
 		"full": "The injury",
@@ -877,7 +877,7 @@
 			"Noun"
 		],
 		"portuguese": "A les\u00e3o",
-		"spanish": "La lesión"
+		"spanish": "La lesi\u00f3n"
 	},
 	"ankle": {
 		"full": "The ankle",
@@ -938,7 +938,7 @@
 			"Noun"
 		],
 		"portuguese": "A parte de tr\u00e1s",
-		"spanish": "La parte de atrás"
+		"spanish": "La parte de atr\u00e1s"
 	},
 	"arm": {
 		"full": "The arm",
@@ -991,7 +991,7 @@
 			"Body"
 		],
 		"portuguese": "O pesco\u00e7o",
-		"spanish": "La huella"
+		"spanish": "La cuella"
 	},
 	"skull": {
 		"full": "The skull",
@@ -1160,7 +1160,7 @@
 			"Body"
 		],
 		"portuguese": "A unha",
-		"spanish": "La uña"
+		"spanish": "La u\u00f1a"
 	},
 	"nails (i.e. metal spikes)": {
 		"full": "The nails (i.e. metal spikes)",
@@ -1168,7 +1168,7 @@
 			"Noun",
 			"Tools"
 		],
-		"portuguese": "Os pregos (ou seja, espigões de metal)",
+		"portuguese": "Os pregos (ou seja, espig\u00f5es de metal)",
 		"spanish": "Los clavos (es decir, puntas de metal)"
 	},
 	"screws": {
@@ -1251,7 +1251,7 @@
 			"Noun"
 		],
 		"portuguese": "O fog\u00e3o a lenha",
-		"spanish": "La estufa de leña"
+		"spanish": "La estufa de le\u00f1a"
 	},
 	"heater": {
 		"full": "The heater",
@@ -1284,7 +1284,7 @@
 			"Nature"
 		],
 		"portuguese": "O rio",
-		"spanish": "El río"
+		"spanish": "El r\u00edo"
 	},
 	"creek": {
 		"full": "The creek",
@@ -2216,13 +2216,6 @@
 		],
 		"full": "Simple, easy"
 	},
-	"simple \ud83c\uddec\ud83c\udde7": {
-		"spanish": "Simple \ud83c\uddea\ud83c\uddf8",
-		"tags": [
-			"Adjective"
-		],
-		"full": "Simple \ud83c\uddec\ud83c\udde7"
-	},
 	"enormous": {
 		"spanish": "Enorme",
 		"tags": [
@@ -2737,14 +2730,6 @@
 		],
 		"full": "The clay"
 	},
-	"stream / the creek": {
-		"spanish": "El arroyo",
-		"tags": [
-			"Nature",
-			"Noun"
-		],
-		"full": "The stream / the creek"
-	},
 	"shame / embarrassment": {
 		"spanish": "La vergu\u00ebnza",
 		"tags": [
@@ -2759,7 +2744,7 @@
 			"Nature",
 			"Noun"
 		],
-		"full": "Rosemary"
+		"full": "The rosemary"
 	},
 	"branch": {
 		"spanish": "La rama",
@@ -3004,19 +2989,26 @@
 		],
 		"full": "The wire"
 	},
-	"molar tooth (kies)": {
+	"molar tooth": {
 		"spanish": "El molar",
 		"tags": [
 			"Noun"
 		],
-		"full": "The molar tooth (kies)"
+		"full": "The molar tooth"
 	},
-	"cash desk / the box": {
+	"cash desk": {
 		"spanish": "La caja",
 		"tags": [
 			"Noun"
 		],
-		"full": "The cash desk / the box"
+		"full": "The cash desk"
+	},
+	"box": {
+		"spanish": "La caja",
+		"tags": [
+			"Noun"
+		],
+		"full": "The box"
 	},
 	"brick": {
 		"spanish": "El ladrillo",
@@ -3034,7 +3026,7 @@
 		"portuguese": "O vidro"
 	},
 	"fool": {
-		"spanish": "El tonto / la tonta",
+		"spanish": "El tonto",
 		"tags": [
 			"Noun"
 		],
@@ -3120,7 +3112,7 @@
 	"to complain about something": {
 		"spanish": "Quejarse de algo",
 		"tags": [
-			"Noun"
+			"Verb"
 		],
 		"full": "To complain about something"
 	},
@@ -3336,13 +3328,6 @@
 		],
 		"full": "The warehouse"
 	},
-	"warehouse / deposit": {
-		"spanish": "El dep\u00f3sito",
-		"tags": [
-			"Noun"
-		],
-		"full": "The warehouse / deposit"
-	},
 	"bench": {
 		"spanish": "El banquito",
 		"tags": [
@@ -3377,7 +3362,7 @@
 			"Noun"
 		],
 		"full": "The seat",
-		"portuguese": "o assento"
+		"portuguese": "O assento"
 	},
 	"chair": {
 		"spanish": "La silla",
@@ -3385,7 +3370,7 @@
 			"Noun"
 		],
 		"full": "The chair",
-		"portuguese": "a cadeira"
+		"portuguese": "A cadeira"
 	},
 	"cushion": {
 		"spanish": "El coj\u00edn",
@@ -3479,12 +3464,12 @@
 		],
 		"full": "The workshop"
 	},
-	"place / site": {
+	"place": {
 		"spanish": "El paraje",
 		"tags": [
 			"Noun"
 		],
-		"full": "The place / site"
+		"full": "The place"
 	},
 	"rock": {
 		"spanish": "La roca",
@@ -3592,19 +3577,33 @@
 		],
 		"full": "The speech"
 	},
-	"cemetery / the graveyard": {
+	"cemetery": {
 		"spanish": "El cementerio",
 		"tags": [
 			"Noun"
 		],
-		"full": "The cemetery / the graveyard"
+		"full": "The cemetery"
 	},
-	"hallway / lobby": {
+	"graveyard": {
+		"spanish": "El cementerio",
+		"tags": [
+			"Noun"
+		],
+		"full": "The graveyard"
+	},
+	"hallway": {
 		"spanish": "El vestibulo",
 		"tags": [
 			"Noun"
 		],
-		"full": "The hallway / lobby"
+		"full": "The hallway"
+	},
+	"lobby": {
+		"spanish": "El vestibulo",
+		"tags": [
+			"Noun"
+		],
+		"full": "The lobby"
 	},
 	"spiderweb": {
 		"spanish": "La telara\u00f1a",
@@ -3613,12 +3612,12 @@
 		],
 		"full": "The spiderweb"
 	},
-	"fabric / cloth": {
+	"cloth": {
 		"spanish": "La tela",
 		"tags": [
 			"Noun"
 		],
-		"full": "The fabric / cloth"
+		"full": "The cloth"
 	},
 	"costume / disguise": {
 		"spanish": "El disfraz",
@@ -4898,5 +4897,320 @@
 			"Noun"
 		],
 		"full": "The cage"
+	},
+	"monday": {
+		"tags": [
+			"Noun",
+			"Weekday"
+		],
+		"full": "Monday"
+	},
+	"tuesday": {
+		"tags": [
+			"Noun",
+			"Weekday"
+		],
+		"full": "Tuesday"
+	},
+	"wednesday": {
+		"tags": [
+			"Noun",
+			"Weekday"
+		],
+		"full": "Wednesday"
+	},
+	"thursday": {
+		"tags": [
+			"Noun",
+			"Weekday"
+		],
+		"full": "Thursday"
+	},
+	"friday": {
+		"tags": [
+			"Noun",
+			"Weekday"
+		],
+		"full": "Friday"
+	},
+	"saturday": {
+		"tags": [
+			"Noun",
+			"Weekday"
+		],
+		"full": "Saturday"
+	},
+	"sunday": {
+		"tags": [
+			"Noun",
+			"Weekday"
+		],
+		"full": "Sunday"
+	},
+	"one": {
+		"tags": [
+			"Number"
+		],
+		"full": "One"
+	},
+	"two": {
+		"tags": [
+			"Number"
+		],
+		"full": "Two"
+	},
+	"three": {
+		"tags": [
+			"Number"
+		],
+		"full": "Three"
+	},
+	"four": {
+		"tags": [
+			"Number"
+		],
+		"full": "Four"
+	},
+	"five": {
+		"tags": [
+			"Number"
+		],
+		"full": "Five"
+	},
+	"six": {
+		"tags": [
+			"Number"
+		],
+		"full": "Six"
+	},
+	"seven": {
+		"tags": [
+			"Number"
+		],
+		"full": "Seven"
+	},
+	"eight": {
+		"tags": [
+			"Number"
+		],
+		"full": "Eight"
+	},
+	"nine": {
+		"tags": [
+			"Number"
+		],
+		"full": "Nine"
+	},
+	"ten": {
+		"tags": [
+			"Number"
+		],
+		"full": "Ten"
+	},
+	"eleven": {
+		"tags": [
+			"Number"
+		],
+		"full": "Eleven"
+	},
+	"twelve": {
+		"tags": [
+			"Number"
+		]
+	},
+	"thirteen": {
+		"tags": [
+			"Number"
+		]
+	},
+	"fourteen": {
+		"tags": [
+			"Number"
+		]
+	},
+	"fifteen": {
+		"tags": [
+			"Number"
+		]
+	},
+	"sixteen": {
+		"tags": [
+			"Number"
+		]
+	},
+	"seventeen": {
+		"tags": [
+			"Number"
+		]
+	},
+	"eighteen": {
+		"tags": [
+			"Number"
+		]
+	},
+	"nineteen": {
+		"tags": [
+			"Number"
+		]
+	},
+	"twenty": {
+		"tags": [
+			"Number"
+		]
+	},
+	"twentyone": {
+		"tags": [
+			"Number"
+		]
+	},
+	"twentytwo": {
+		"tags": [
+			"Number"
+		]
+	},
+	"thirty": {
+		"tags": [
+			"Number"
+		]
+	},
+	"fourty": {
+		"tags": [
+			"Number"
+		]
+	},
+	"fifty": {
+		"tags": [
+			"Number"
+		]
+	},
+	"sixty": {
+		"tags": [
+			"Number"
+		]
+	},
+	"seventy": {
+		"tags": [
+			"Number"
+		]
+	},
+	"eighty": {
+		"tags": [
+			"Number"
+		]
+	},
+	"ninety": {
+		"tags": [
+			"Number"
+		]
+	},
+	"hundred": {
+		"tags": [
+			"Number"
+		]
+	},
+	"hundredtwo": {
+		"tags": [
+			"Number"
+		]
+	},
+	"hundredthirty": {
+		"tags": [
+			"Number"
+		]
+	},
+	"twohundred": {
+		"tags": [
+			"Number"
+		]
+	},
+	"in january": {
+		"tags": [
+			"Month"
+		]
+	},
+	"in february": {
+		"tags": [
+			"Month"
+		]
+	},
+	"in march": {
+		"tags": [
+			"Month"
+		]
+	},
+	"in april": {
+		"tags": [
+			"Month"
+		]
+	},
+	"in may": {
+		"tags": [
+			"Month"
+		]
+	},
+	"in june": {
+		"tags": [
+			"Month"
+		]
+	},
+	"in july": {
+		"tags": [
+			"Month"
+		]
+	},
+	"in august": {
+		"tags": [
+			"Month"
+		]
+	},
+	"in september": {
+		"tags": [
+			"Month"
+		]
+	},
+	"in october": {
+		"tags": [
+			"Month"
+		]
+	},
+	"in november": {
+		"tags": [
+			"Month"
+		]
+	},
+	"in december": {
+		"tags": [
+			"Month"
+		]
+	},
+	"20 december": {
+		"tags": [
+			"Month"
+		]
+	},
+	"january 1st": {
+		"tags": [
+			"Month"
+		]
+	},
+	"february 2nd": {
+		"tags": [
+			"Month"
+		]
+	},
+	"february 3rd": {
+		"tags": [
+			"Month"
+		]
+	},
+	"february 4th": {
+		"tags": [
+			"Month"
+		]
+	},
+	"february 5th": {
+		"tags": [
+			"Month"
+		]
 	}
 }

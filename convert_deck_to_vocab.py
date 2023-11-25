@@ -18,5 +18,7 @@ for i, line in enumerate(text.splitlines()[3:]):
     vocab_dict[english] = {"portuguese": portuguese, "tags": tags}
 
 # Sort by tags and save as JSON
-sorted_dict = dict(sorted(vocab_dict.items(), key=lambda item: item[1]["tags"]))
+sorted_dict = dict(
+    sorted(vocab_dict.items(), key=lambda item: item[1]["tags"])
+)
 Path("portuguese_vocab.json").write_text(json.dumps(sorted_dict, indent=4))
