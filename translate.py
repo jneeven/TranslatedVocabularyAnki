@@ -1,7 +1,9 @@
 import json
+import string
 from pathlib import Path
 
 import deepl
+import genanki
 import googletrans
 from gtts import gTTS
 from tqdm import tqdm
@@ -34,6 +36,7 @@ def load_vocab(filepath: Path) -> tuple[dict[int, str], dict[int, list[str]]]:
 def translate_deepl(
     input_vocab: dict[int, str],
     target_language: str,
+    source_language: str = "EN",
     verification_language: str = "EN",
 ) -> dict[int, tuple[str, str]]:
     """Translates the input vocabulary to the target language and verification
@@ -48,7 +51,7 @@ def translate_deepl(
     for id, phrase in tqdm(input_vocab.items(), desc="Obtaining Deepl translations..."):
         deepl_result = deepl_translator.translate_text(
             phrase,
-            source_lang="EN",
+            source_lang=source_language,
             target_lang=target_language,
             split_sentences=0,
             # formality="prefer_more", # or "prefer_less"
@@ -67,7 +70,7 @@ def translate_deepl(
 
 
 def translate_google(
-    input_vocab: dict[int, str], target_language: str
+    input_vocab: dict[int, str], target_language: str, source_language: str = "EN"
 ) -> dict[int, str]:
     """Batch-translates the entire input vocabulary to the target language using
     Google Translate. Probably risky for large vocabularies, as you might get
@@ -75,7 +78,9 @@ def translate_google(
     google_translator = googletrans.Translator()
     print("Obtaining Google translations...")
     translations = google_translator.translate(
-        list(input_vocab.values()), source="en", dest=target_language.lower()
+        list(input_vocab.values()),
+        source=source_language.lower(),
+        dest=target_language.lower(),
     )
 
     return {
@@ -130,65 +135,131 @@ def main():
     # Change these according to your needs
     target_language = "EL"
     verification_language = "NL"
+    source_language = "EN"
     input_vocab, tags = load_vocab(Path("Vocabs", "english.csv"))
 
-    # Do the translation work
-    deepl_output = translate_deepl(
-        input_vocab,
+    output_dir = Path("Output")
+    output_dir.mkdir(exist_ok=True)
+
+    # # Do the translation work
+    # deepl_output = translate_deepl(
+    #     input_vocab,
+    #     target_language=target_language,
+    #     source_language=source_language,
+    #     verification_language=verification_language,
+    # )
+    # google_output = translate_google(
+    #     input_vocab, target_language=target_language, source_language=source_language
+    # )
+
+    # # Postprocess results
+    # results = {}
+    # assert len(deepl_output) == len(google_output)
+    # for id, (deepl_translation, deepl_verification) in deepl_output.items():
+    #     translation, verification = process_translations(
+    #         deepl_translation, google_output[id], deepl_verification
+    #     )
+
+    #     results[id] = {
+    #         source_language: input_vocab[id],
+    #         target_language: translation,
+    #         verification_language: verification,
+    #         "tags": tags[id],
+    #     }
+
+    # # Save JSON output before moving on to pronunciations, since the translations are the bottleneck.
+    # output_dir.joinpath("output.json").write_text(json.dumps(results, indent="\t"))
+    # print(f"Intermediate outputs saved in {(str(output_dir))}.")
+
+    # # Obtain pronunciation sound files and add them to results dict.
+    # pronunciations = get_pronunciations(
+    #     {k: v[target_language] for k, v in results.items()}, language=target_language
+    # )
+    # for id, p_file in pronunciations.items():
+    #     results[id]["pronunciation_file"] = p_file
+
+    # # Update JSON with the newly added pronunciation files before moving on to Anki deck creation.
+    # # The JSON is easier to inspect and could be useful for non-Anki users as well.
+    # output_dir.joinpath("output.json").write_text(json.dumps(results, indent="\t"))
+
+    results = json.loads(output_dir.joinpath("output.json").read_text())
+
+    # Finally, create the actual Anki deck and save it to the output folder as well.
+    create_anki_deck(
+        results,
         target_language=target_language,
+        source_language=source_language,
         verification_language=verification_language,
+        output_dir=output_dir,
     )
-    google_output = translate_google(input_vocab, target_language=target_language)
 
-    results = {}
-    assert len(deepl_output) == len(google_output)
-    for id, (deepl_translation, deepl_verification) in deepl_output.items():
-        google_translation = google_output[id]
+    print(f"Done! JSON and Anki deck saved to {str(output_dir)}.")
 
-        translation, verification = process_translations(
-            deepl_translation, google_translation, deepl_verification
+
+def create_anki_deck(
+    translated_vocab: dict[int, dict],
+    target_language: str,
+    source_language: str = "EN",
+    verification_language: str = "EN",
+    output_dir: Path = Path("Output"),
+):
+    language_name = LANGUAGE_NAMES[target_language]
+    source_language_name = LANGUAGE_NAMES[source_language]
+    verification_language_name = LANGUAGE_NAMES[verification_language]
+
+    # TODO: Make font bigger and center text on the card!! Check existing decks for specs.
+    model = genanki.Model(
+        model_id=1607392319,
+        name="Translated Vocab Flashcards",
+        fields=[
+            {"name": source_language_name},
+            {"name": language_name},
+            {"name": verification_language_name},
+            {"name": "SoundFile"},
+        ],
+        templates=[
+            {
+                "name": "Card 1",
+                "qfmt": string.Template(
+                    "{{$source}}<br/>({{$verification}})"
+                ).substitute(
+                    source=source_language_name,
+                    verification=verification_language_name,
+                ),
+                "afmt": string.Template(
+                    '{{FrontSide}}<hr id="answer">{{$language_name}}<br/>{{SoundFile}}'
+                ).substitute(language_name=language_name),
+            },
+        ],
+    )
+
+    deck = genanki.Deck(
+        deck_id=180347320,
+        name=f"{language_name} vocabulary",
+        description=(
+            f"Automatically translated English <-> {language_name} vocabulary "
+            "using Deepl and Google Translate."
+        ),
+    )
+
+    for id, entry in translated_vocab.items():
+        note = genanki.Note(
+            model=model,
+            fields=[
+                entry[source_language],
+                entry[target_language],
+                entry[verification_language],
+                f'[sound:{Path(entry["pronunciation_file"]).name}]',
+            ],
+            tags=entry["tags"],
+            guid=id,
         )
+        deck.add_note(note)
 
-        results[id] = {
-            target_language: translation,
-            verification_language: verification,
-        }
-
-    pronunciations = get_pronunciations(
-        {k: v[target_language] for k, v in results.items()}, language=target_language
-    )
-
-    for id, p_file in pronunciations.items():
-        results[id]["pronunciation_file"] = p_file
-
-    print(results)
+    package = genanki.Package(deck)
+    package.media_files = [v["pronunciation_file"] for v in translated_vocab.values()]
+    package.write_to_file(output_dir.joinpath("output.apkg"))
 
 
 if __name__ == "__main__":
-    # main()
-
-    results = {
-        0: {
-            "EL": "Είναι / πρόκειται για",
-            "NL": "Het is / gaat over",
-            "pronunciation_file": "Sounds\\Greek\\0.mp3",
-        },
-        1: {
-            "EL": "Συγχαρητήρια",
-            "NL": "Gefeliciteerd",
-            "pronunciation_file": "Sounds\\Greek\\1.mp3",
-        },
-        2: {
-            "EL": "... μυρίζει σαν ...",
-            "NL": "ruikt naar...",
-            "pronunciation_file": "Sounds\\Greek\\2.mp3",
-        },
-        3: {
-            "EL": "Εκτός από το / Εκτός",
-            "NL": "Afgezien van de",
-            "pronunciation_file": "Sounds\\Greek\\3.mp3",
-        },
-        4: {"EL": "Προς", "NL": "Naar", "pronunciation_file": "Sounds\\Greek\\4.mp3"},
-    }
-
-    # TODO: Generate Anki Deck!
+    main()

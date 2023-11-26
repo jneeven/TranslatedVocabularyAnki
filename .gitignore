@@ -161,3 +161,4 @@ cython_debug/
 
 .deepl_auth
 Sounds/
+Output/
