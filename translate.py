@@ -73,8 +73,7 @@ def translate_google(
     input_vocab: dict[int, str], target_language: str, source_language: str = "EN"
 ) -> dict[int, str]:
     """Batch-translates the entire input vocabulary to the target language using
-    Google Translate. Probably risky for large vocabularies, as you might get
-    throttled or IP-banned."""
+    Google Translate. NOTE: I do not know if there is any practical limit on batch size."""
     google_translator = googletrans.Translator()
     print("Obtaining Google translations...")
     translations = google_translator.translate(
@@ -141,48 +140,46 @@ def main():
     output_dir = Path("Output")
     output_dir.mkdir(exist_ok=True)
 
-    # # Do the translation work
-    # deepl_output = translate_deepl(
-    #     input_vocab,
-    #     target_language=target_language,
-    #     source_language=source_language,
-    #     verification_language=verification_language,
-    # )
-    # google_output = translate_google(
-    #     input_vocab, target_language=target_language, source_language=source_language
-    # )
+    # Do the translation work
+    deepl_output = translate_deepl(
+        input_vocab,
+        target_language=target_language,
+        source_language=source_language,
+        verification_language=verification_language,
+    )
+    google_output = translate_google(
+        input_vocab, target_language=target_language, source_language=source_language
+    )
 
-    # # Postprocess results
-    # results = {}
-    # assert len(deepl_output) == len(google_output)
-    # for id, (deepl_translation, deepl_verification) in deepl_output.items():
-    #     translation, verification = process_translations(
-    #         deepl_translation, google_output[id], deepl_verification
-    #     )
+    # Postprocess results
+    results = {}
+    assert len(deepl_output) == len(google_output)
+    for id, (deepl_translation, deepl_verification) in deepl_output.items():
+        translation, verification = process_translations(
+            deepl_translation, google_output[id], deepl_verification
+        )
 
-    #     results[id] = {
-    #         source_language: input_vocab[id],
-    #         target_language: translation,
-    #         verification_language: verification,
-    #         "tags": tags[id],
-    #     }
+        results[id] = {
+            source_language: input_vocab[id],
+            target_language: translation,
+            verification_language: verification,
+            "tags": tags[id],
+        }
 
-    # # Save JSON output before moving on to pronunciations, since the translations are the bottleneck.
-    # output_dir.joinpath("output.json").write_text(json.dumps(results, indent="\t"))
-    # print(f"Intermediate outputs saved in {(str(output_dir))}.")
+    # Save JSON output before moving on to pronunciations, since the translations are the bottleneck.
+    output_dir.joinpath("output.json").write_text(json.dumps(results, indent="\t"))
+    print(f"Intermediate outputs saved in {(str(output_dir))}.")
 
-    # # Obtain pronunciation sound files and add them to results dict.
-    # pronunciations = get_pronunciations(
-    #     {k: v[target_language] for k, v in results.items()}, language=target_language
-    # )
-    # for id, p_file in pronunciations.items():
-    #     results[id]["pronunciation_file"] = p_file
+    # Obtain pronunciation sound files and add them to results dict.
+    pronunciations = get_pronunciations(
+        {k: v[target_language] for k, v in results.items()}, language=target_language
+    )
+    for id, p_file in pronunciations.items():
+        results[id]["pronunciation_file"] = p_file
 
-    # # Update JSON with the newly added pronunciation files before moving on to Anki deck creation.
-    # # The JSON is easier to inspect and could be useful for non-Anki users as well.
-    # output_dir.joinpath("output.json").write_text(json.dumps(results, indent="\t"))
-
-    results = json.loads(output_dir.joinpath("output.json").read_text())
+    # Update JSON with the newly added pronunciation files before moving on to Anki deck creation.
+    # The JSON is easier to inspect and could be useful for non-Anki users as well.
+    output_dir.joinpath("output.json").write_text(json.dumps(results, indent="\t"))
 
     # Finally, create the actual Anki deck and save it to the output folder as well.
     create_anki_deck(
@@ -190,6 +187,7 @@ def main():
         target_language=target_language,
         source_language=source_language,
         verification_language=verification_language,
+        add_reverse_cards=True,
         output_dir=output_dir,
     )
 
@@ -201,13 +199,13 @@ def create_anki_deck(
     target_language: str,
     source_language: str = "EN",
     verification_language: str = "EN",
+    add_reverse_cards: bool = True,
     output_dir: Path = Path("Output"),
 ):
     language_name = LANGUAGE_NAMES[target_language]
     source_language_name = LANGUAGE_NAMES[source_language]
     verification_language_name = LANGUAGE_NAMES[verification_language]
 
-    # TODO: Make font bigger and center text on the card!! Check existing decks for specs.
     model = genanki.Model(
         model_id=1607392319,
         name="Translated Vocab Flashcards",
@@ -218,8 +216,9 @@ def create_anki_deck(
             {"name": "SoundFile"},
         ],
         templates=[
+            # One card from source language to target language
             {
-                "name": "Card 1",
+                "name": f"{source_language_name} -> {language_name}",
                 "qfmt": string.Template(
                     "{{$source}}<br/>({{$verification}})"
                 ).substitute(
@@ -229,13 +228,31 @@ def create_anki_deck(
                 "afmt": string.Template(
                     '{{FrontSide}}<hr id="answer">{{$language_name}}<br/>{{SoundFile}}'
                 ).substitute(language_name=language_name),
-            },
+            }
         ],
+        css=".card { font-family: arial; font-size: 24px; text-align: center; color: black; background-color: white;}"
     )
+
+    # And another card from target language to source language
+    if add_reverse_cards:
+        model.templates.append(
+            {
+                "name": f"{language_name} -> {source_language_name}",
+                "qfmt": string.Template(
+                    '{{$language_name}}<br/>{{SoundFile}}'
+                ).substitute(language_name=language_name),
+                "afmt": string.Template(
+                    '{{FrontSide}}<hr id="answer">{{$source}}<br/>({{$verification}})'
+                ).substitute(
+                    source=source_language_name,
+                    verification=verification_language_name,
+                ),
+            }
+        )
 
     deck = genanki.Deck(
         deck_id=180347320,
-        name=f"{language_name} vocabulary",
+        name=f"Translated {language_name} vocabulary",
         description=(
             f"Automatically translated English <-> {language_name} vocabulary "
             "using Deepl and Google Translate."
