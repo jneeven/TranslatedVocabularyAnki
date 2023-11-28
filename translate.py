@@ -1,14 +1,16 @@
+import datetime
 import json
+import math
+import shutil
 import string
+from concurrent.futures import ThreadPoolExecutor
 from pathlib import Path
 
 import deepl
 import genanki
 import googletrans
-from concurrent.futures import ThreadPoolExecutor
 from gtts import gTTS
 from tqdm import tqdm
-import math
 
 # These are the only ones I'm interested for now, but both Deepl and
 # Google Translate offer many options.
@@ -77,7 +79,7 @@ def translate_deepl(
         for _ in tqdm(
             executor.map(translate_phrase, input_vocab.items()),
             desc="Obtaining Deepl translations...",
-            total=len(input_vocab)
+            total=len(input_vocab),
         ):
             # We only loop to get a nice progress bar
             pass
@@ -100,10 +102,10 @@ def translate_google(
     for start_idx in tqdm(
         range(0, len(values), batch_size),
         desc="Obtaining batch Google translations...",
-        total=math.ceil(len(values) / batch_size)
+        total=math.ceil(len(values) / batch_size),
     ):
         batch_translations = google_translator.translate(
-            values[start_idx:start_idx + batch_size],
+            values[start_idx : start_idx + batch_size],
             source=source_language.lower(),
             dest=target_language.lower(),
         )
@@ -139,23 +141,22 @@ def process_translations(deepl: str, google: str, verification: str) -> tuple[st
 
 
 def get_pronunciations(
-    vocab: dict[int, str], language: str, output_dir: Path = Path("Sounds")
-) -> dict[int, str]:
+    vocab: dict[int, str], language: str, output_dir: Path
+) -> dict[int, dict]:
     """Use gTTS to obtain TTS samples for the entire vocabulary. Downloads MP3 files to
-    the specified folder and returns references to those files."""
-    output_dir = output_dir.joinpath(LANGUAGE_NAMES[language])
-    output_dir.mkdir(exist_ok=True, parents=True)
+    the specified folder and returns the vocab with references to those files."""
     lang = language.lower()
 
-    mp3_paths = {}
-    # TODO: add timeout to prevent rate-limit and IP block?
-    for id, phrase in tqdm(vocab.items(), desc="Obtaining pronunciations...", total=len(vocab)):
-        speak = gTTS(text=phrase, lang=lang, slow=False)
+    vocab_with_prounciations = vocab.copy()
+    for id, value in tqdm(
+        vocab.items(), desc="Obtaining pronunciations...", total=len(vocab)
+    ):
+        speak = gTTS(text=value[language], lang=lang, slow=False)
         path = str(output_dir.joinpath(f"{id}.mp3"))
         speak.save(path)
-        mp3_paths[id] = path
+        vocab_with_prounciations[id]["pronunciation_file"] = path
 
-    return mp3_paths
+    return vocab_with_prounciations
 
 
 def create_anki_deck(
@@ -164,7 +165,8 @@ def create_anki_deck(
     source_language: str = "EN",
     verification_language: str = "EN",
     add_reverse_cards: bool = True,
-    output_dir: Path = Path("Output"),
+    output_file: Path = Path("Output", "output.apkg"),
+    deck_id: int = 180347320,
 ):
     language_name = LANGUAGE_NAMES[target_language]
     source_language_name = LANGUAGE_NAMES[source_language]
@@ -194,7 +196,7 @@ def create_anki_deck(
                 ).substitute(language_name=language_name),
             }
         ],
-        css=".card { font-family: arial; font-size: 24px; text-align: center; color: black; background-color: white;}"
+        css=".card { font-family: arial; font-size: 24px; text-align: center; color: black; background-color: white;}",
     )
 
     # And another card from target language to source language
@@ -203,7 +205,7 @@ def create_anki_deck(
             {
                 "name": f"{language_name} -> {source_language_name}",
                 "qfmt": string.Template(
-                    '{{$language_name}}<br/>{{SoundFile}}'
+                    "{{$language_name}}<br/>{{SoundFile}}"
                 ).substitute(language_name=language_name),
                 "afmt": string.Template(
                     '{{FrontSide}}<hr id="answer">{{$source}}<br/>({{$verification}})'
@@ -215,7 +217,7 @@ def create_anki_deck(
         )
 
     deck = genanki.Deck(
-        deck_id=180347320,
+        deck_id=deck_id,
         name=f"Translated {language_name} vocabulary",
         description=(
             f"Automatically translated English <-> {language_name} vocabulary "
@@ -239,7 +241,9 @@ def create_anki_deck(
 
     package = genanki.Package(deck)
     package.media_files = [v["pronunciation_file"] for v in translated_vocab.values()]
-    package.write_to_file(output_dir.joinpath("output.apkg"))
+    package.write_to_file(output_file)
+
+    return deck_id
 
 
 def main():
@@ -247,10 +251,17 @@ def main():
     target_language = "EL"
     verification_language = "NL"
     source_language = "EN"
-    input_vocab, tags = load_vocab(Path("Vocabs", "english.csv"))
+    vocab_file = Path("Examples", "vocab.csv")
 
+    output_name = (
+        f"{source_language}_{target_language}"
+        + f"_{datetime.datetime.now().strftime('%y_%m_%d_%H_%M_%S')}"
+    )
     output_dir = Path("Output")
-    output_dir.mkdir(exist_ok=True)
+    temp_dir = output_dir.joinpath(output_name)
+    temp_dir.mkdir(exist_ok=True, parents=True)
+
+    input_vocab, tags = load_vocab(vocab_file)
 
     # Do the translation work
     google_output = translate_google(
@@ -279,31 +290,39 @@ def main():
         }
 
     # Save JSON output before moving on to pronunciations, since the translations are the bottleneck.
-    output_dir.joinpath("output.json").write_text(json.dumps(results, indent="\t"))
-    print(f"Intermediate outputs saved in {(str(output_dir))}.")
+    # If something goes wrong, at least the translations will be saved.
+    temp_dir.joinpath("info.json").write_text(json.dumps(results, indent="\t"))
+    print(f"Intermediate outputs saved in {(str(temp_dir))}.")
 
     # Obtain pronunciation sound files and add them to results dict.
-    pronunciations = get_pronunciations(
-        {k: v[target_language] for k, v in results.items()}, language=target_language
-    )
-    for id, p_file in pronunciations.items():
-        results[id]["pronunciation_file"] = p_file
+    results = get_pronunciations(results, language=target_language, output_dir=temp_dir)
 
     # Update JSON with the newly added pronunciation files before moving on to Anki deck creation.
     # The JSON is easier to inspect and could be useful for non-Anki users as well.
-    output_dir.joinpath("output.json").write_text(json.dumps(results, indent="\t"))
+    temp_dir.joinpath("info.json").write_text(json.dumps(results, indent="\t"))
 
-    # Finally, create the actual Anki deck and save it to the output folder as well.
-    create_anki_deck(
+    # Finally, create the actual Anki deck and save it to the output folder.
+    deck_id = create_anki_deck(
         results,
         target_language=target_language,
         source_language=source_language,
         verification_language=verification_language,
         add_reverse_cards=True,
-        output_dir=output_dir,
+        output_file=output_dir.joinpath(f"{output_name}.apkg"),
     )
 
-    print(f"Done! JSON and Anki deck saved to {str(output_dir)}.")
+    # To clean things up, zip the JSON and all the sounds files together, and delete the temporary
+    # directory.
+    shutil.copy(vocab_file, temp_dir.joinpath("vocab.csv"))
+    with open(temp_dir.joinpath("deck_id"), "w") as deck_id_file:
+        deck_id_file.write(str(deck_id))
+    shutil.make_archive(
+        str(output_dir.joinpath(output_name)),
+        format="zip",
+        root_dir=temp_dir,
+    )
+    shutil.rmtree(temp_dir)
+    print(f"Done! Anki deck saved to {str(output_dir)}.")
 
 
 if __name__ == "__main__":
