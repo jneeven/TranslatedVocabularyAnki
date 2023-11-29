@@ -63,9 +63,9 @@ To find out which languages are available, simply re-run the command above and p
 Creating a new vocabulary file is easy: just follow the example I've given in [`Examples/vocab.csv`](Examples/vocab.csv) and add each phrase on a new line. The tags can be handy if you like working with those in Anki, but if not, just leave those out.
 For example, a very simple vocabulary might look like this:
 ```csv
-1 My first phrase!
-2 And another one!
-3 What a time to be alive.
+1  My first phrase!
+2  And another one!
+3  What a time to be alive.
 ```
 
 Don't forget to start each line with a unique number, otherwise Anki won't understand to which card each phrase belongs.
