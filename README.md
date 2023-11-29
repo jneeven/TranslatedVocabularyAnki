@@ -16,5 +16,7 @@ Happy learning!
 
 
 # Future improvements
-It would be amazing to add support for verb conjugations, but manually adding those is an absolute pain.
+- At some point I'll need to update my deck as I add more words to my vocabulary. This would currently require re-translating the entire existing vocabulary, which is a waste of time and compute. I want to add an update function that only obtains translations for newly added vocabulary entries.
+- Google Translate supports many more languages than Deepl does, so depending on the language you're trying to learn the current code may not work for you. It'd be nice to make Deepl translation optional, so that more people can benefit from just the Google Translate functionality.
+- It would be amazing to add support for verb conjugations, but manually adding those is an absolute pain.
 Depending on the language of interest, it may be possible to use some conjugation website to automatically get all conjugations for a given verb.
