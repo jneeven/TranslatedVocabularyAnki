@@ -108,8 +108,15 @@ def load_vocab(filepath: Path) -> tuple[dict[int, str], dict[int, list[str]]]:
         if line.startswith("#"):
             continue
         index, phrase, *tags = line.strip().split("\t")
-        vocab_dict[int(index)] = phrase
-        tag_dict[int(index)] = tags
+        index = int(index)
+        if index in vocab_dict:
+            raise ValueError(
+                f"ID {index} of '{line}' is used twice! "
+                f"First occurrence:\n'{index}\t{vocab_dict[index]}'"
+            )
+
+        vocab_dict[index] = phrase
+        tag_dict[index] = tags
 
     return vocab_dict, tag_dict
 
@@ -353,6 +360,12 @@ def translate_and_generate(
     deck_name: Optional[str] = typer.Option(
         None, help="Name of the created deck as will be shown in Anki."
     ),
+    add_reverse_cards: bool = typer.Option(
+        True,
+        help="Whether to add a duplicate of each card, but in the other direction. For example, if"
+        "my source language is English and my target is Greek, this option will not only add "
+        "English->Greek cards, but also Greek->English. Enabled by default.",
+    ),
     output_dir: Path = typer.Option(Path("Output")),
 ):
     """Translates the vocabulary provided at `--vocab-path` to the target language, obtains TTS
@@ -399,7 +412,6 @@ def translate_and_generate(
     # Save JSON output before moving on to pronunciations, since the translations are the bottleneck.
     # If something goes wrong, at least the translations will be saved.
     temp_dir.joinpath("data.json").write_text(json.dumps(results, indent="\t"))
-    print(f"Intermediate outputs saved in {(str(temp_dir))}.")
 
     # Obtain pronunciation sound files and add them to results dict.
     results = get_pronunciations(results, language=target_language, output_dir=temp_dir)
@@ -414,7 +426,7 @@ def translate_and_generate(
         target_language=target_language,
         source_language=source_language,
         verification_language=verification_language,
-        add_reverse_cards=True,
+        add_reverse_cards=add_reverse_cards,
         output_file=output_dir.joinpath(f"{output_name}.apkg"),
         deck_id=deck_id,
         deck_name=deck_name,
