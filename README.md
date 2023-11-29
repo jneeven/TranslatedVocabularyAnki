@@ -43,7 +43,9 @@ This will:
 - Set the verification language to `en-gb`: English (UK)
 - Provide a unique identifier (`12345`) for this deck, so that Anki understands that this is a newly generated deck.
 
-If everything goes well, you should see some progress bars and after a few seconds the results should be saved to a newly created `Output` folder! Import the generated `.apkg` Anki deck file into Anki (or transfer it to your phone and import it into the Anki app there):
+If everything goes well, you should see some progress bars and after a few seconds the results should be saved to a newly created `Output` folder!
+
+Import the generated `.apkg` Anki deck file into Anki (or transfer it to your phone and import it into the Anki app there):
 ![](Examples/anki_import.png)
 
 You should now see a newly added deck called "Translated Greek vocabulary":
