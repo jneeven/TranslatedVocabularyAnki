@@ -1,0 +1,782 @@
+# ID	Phrase		Tag1	Tag2	Etc
+1	Congratulations
+2	... smells like ...
+3	Except
+4	To / towards
+5	The meat	L1
+6	To drive	L1
+7	The bicycle	L1
+8	The snow	L1
+9	The thunder	L1
+10	The lightning	L1
+11	The storm	L1
+12	The house	L1
+13	The city	L1
+14	The wasp	L1
+15	The mosquito	L1
+16	The fly (insect)	L1
+17	To fly	L1
+18	Broken	L1
+19	The airplane	L1
+20	The windmill	L1
+21	The electricity	L1
+22	The power (human)
+23	Strong	L1
+24	Weak	L1
+25	The language	L1
+26	The Netherlands	L1
+27	Greece	L1
+28	Spain	L1
+29	Portugal	L1
+30	Italy	L1
+31	To sweat	L1
+32	Ill / unwell	L1
+33	The health	L1
+34	Healthy	L1
+35	Dangerous	L1
+36	The risk
+37	Risky
+38	Poisonous / Toxic
+39	Europe	L1
+40	The European Union	L2
+41	The continent
+42	The government	L2
+43	Smart	L1
+44	Stupid	L1
+45	The paprika	L1
+46	Sometimes	L1
+47	Some time	L2
+48	However	L2
+49	Despite	L2
+50	Due to	L2
+51	Often	L1
+52	Initially	L2
+53	Eventually	L2
+54	Finally	L2
+55	Depends / depending	L2
+56	The economy	L2
+57	The urine	L2
+58	To pee	L1
+59	The poo	L1
+60	The car	L1
+61	The train	L1
+62	The bus	L1
+63	To take	L1
+64	To carry	L1
+65	To wear	L1
+66	To bring	L1
+67	To come	L1
+68	To say	L1
+69	To ask	L1
+70	To think	L1
+71	To go	L1
+72	To travel	L1
+73	The holidays	L1
+74	The tourist	L1
+75	The tourism	L1
+76	The key	L1
+77	The water	L1
+78	The sun	L1
+79	The ground	L1
+80	The clouds	L1
+81	The force	L2
+82	Warm	L1
+83	Cold	L1
+84	The country	L1
+85	The man	L1
+86	The woman	L1
+87	The president	L2
+88	The money	L1
+89	The police	L1
+90	The bank	L1
+91	The ATM	L1
+92	The hotel	L1
+93	The camping	L1
+94	The bed	L1
+95	To sleep	L1
+96	The egg	L1
+97	The food	L1
+98	The dish	L1
+99	The meal	L1
+100	The breakfast	L1
+101	The lunch	L1
+102	The dinner	L1
+103	The rice	L1
+104	The pasta	L1
+105	The tomato	L1
+106	The potato	L1
+107	The courgette	L1
+108	The carrot	L1
+109	The job	L1
+110	The banana	L1
+111	The orange (fruit)	L1
+112	The peach	L1
+113	The mango	L1
+114	Yes	L1
+115	No	L1
+116	Never	L1
+117	Always	L1
+118	But	L1
+119	And	L1
+120	More	L1
+121	Less	L1
+122	A little	L1
+123	Much	L1
+124	Some / a few	L1
+125	The market	L1
+126	The price	L1
+127	To buy	L1
+128	To search	L1
+129	Late	L1
+130	The mom	L1	Family
+131	The dad	L1	Family
+132	The brother	L1	Family
+133	The sister	L1	Family
+134	The uncle	L1	Family
+135	The aunt	L1	Family
+136	The grandpa	L1	Family
+137	The grandma	L1	Family
+138	The son	L1	Family
+139	The daughter	L1	Family
+140	The boy	L1	Family
+141	The girl	L1	Family
+142	The baby	L1		Family
+143	The wife	L1		Family
+144	The husband	L1	Family
+145	The boyfriend	L1	Family
+146	The girlfriend	L1	Family
+147	The stepfather	L1	Family
+148	The stepmother	L2	Family
+149	Moist	Adjective
+150	Common	Adjective	L1
+151	Great	Adjective	L1
+152	Dark	Adjective	L1
+153	Bright (colored)	Adjective
+154	Early	Adjective	L1	Time
+155	Dry	Adjective	L1
+156	Nearby	Adjective	L1
+157	Far	Adjective	L1
+158	Hollow	Adjective
+159	Heavy	Adjective	L1
+160	Bald	Adjective
+161	Sticky	Adjective
+162	Rude	Adjective	L1
+163	Angry	Adjective	L1
+164	Whole	Adjective	L1
+165	Full	Adjective	L1
+166	Empty	Adjective	L1
+167	Funny	Adjective	L1
+168	Devastating	Adjective
+169	Exhausted	Adjective
+170	Damaged	Adjective	L1
+171	Light(weight)	Adjective	L1
+172	Experienced	Adjective
+173	Elegant	Adjective
+174	Soft	Adjective	L1
+175	Physical	Adjective	L1
+176	Self-sufficient	Adjective	L1
+177	Rocky	Adjective	L1
+178	Wide / broad	Adjective	L1
+179	Rough	Adjective	L1
+180	Advisable / recommended	Adjective
+181	Tasty	Adjective	L1
+182	Amazing	Adjective	L1
+183	Temporary	Adjective	Time
+184	Gallant	Adjective
+185	Permanent	Adjective	L1	Time
+186	Simple, easy	Adjective	L1
+187	Enormous	Adjective
+189	Naughty	Adjective
+190	Juicy	Adjective
+191	Soaked	Adjective
+192	Wet	Adjective	L1
+193	Straight	Adjective	L1
+194	Sharp	Adjective	L1
+195	Expired	Adjective
+196	Narrow	Adjective	L1
+197	Popular	Adjective
+198	Surrounding	Adjective
+199	Red	Adjective	Color	L1
+200	Yellow	Adjective	Color	L1
+201	Blue	Adjective	Color	L1
+202	Brown	Adjective	Color	L1
+203	Purple	Adjective	Color	L1
+204	Pink	Adjective	Color	L1
+205	Black	Adjective	Color	L1
+206	White	Adjective	Color	L1
+207	Green	Adjective	Color	L1
+779	The color	Noun	Color	L1
+208	The color orange	Adjective	Color	L1
+209	Not anymore	Adjective	Color	L1
+210	Greasy	Adjective	Material
+211	Deciduous (e.g. loofboom)	Adjective	Nature
+212	Barely	Adverb
+213	Newly	Adverb
+214	Between	Adverb	L1
+215	Inside	Adverb	L1	Position
+780	Outside Adverb	Position	L1
+216	On top	Adverb	L1	Position
+217	Recently	Adverb
+218	Simply	Adverb
+219	Entirely	Adverb	L1
+220	Unfortunately	Adverb	L1
+221	Temporarily	Adverb
+222	Behind	Adverb	L1	Position
+223	To go back	Position	L1	Verb
+224	Behind ...	Adverb	Position	L1
+225	Barely, only just	Adverb
+226	Approximately	Adverb
+227	Leafy / lush	Adverb	Nature
+228	Suddenly	Adverb	Time
+229	The sweat	Body	Noun
+230	The outfit	Clothing	Noun
+231	The outfit / the set	Clothing	Noun
+232	The (tin) can	Containers	Noun
+233	Around 8 o clock	Expression	Time	L1
+234	Maybe	Expression	L1
+235	Although	Expression
+236	Any	Expression	L1
+237	To be just about to ...	Expression
+238	At the beginning	Expression	L1	Position
+781	In the beginning	Expression	L1	Time
+239	On purpose	Expression	L1
+240	From now on	Expression	Time
+241	Anyway	Expression	L1
+242	Through	Expression	L1	Position
+244	Bon appetit	Expression	L1
+245	To be honest, ...	Expression
+246	For the rest / otherwise	Expression
+247	Even ... (there is even a ..., even if ...)	Expression
+248	To be rude	Expression	L1
+249	The previous ...	Expression	L1
+250	Apart from the above	Expression
+252	... has to do with ...	Expression
+253	To keep at bay	Expression
+254	At ease	Expression
+255	To be comfortable	L1	Verb
+256	He did not even do ...	Expression	L1
+257	Unless ...	Expression	L1
+258	... is necessary	Expression	L1
+259	Short-term	Expression	Time
+260	Medium-term	Expression	Time
+261	Long-term	Expression	Time
+262	At the end	Expression	Time
+263	To be worth it	Expression	Verb
+264	The mushroom (generic)	Food	Nature	Noun	L1
+265	The fig	Food	Nature	Noun	L1
+266	The basil	Food	Nature	Noun	L1
+267	The straw (material, as in straw bale)	Material	Nature	Noun	L1
+268	The leather	Material	Noun	L1
+269	The clay	Material	Noun	Nature	L1
+270	In january	Month	Time	L1
+271	In february	Month	Time	L1
+272	In march	Month	Time	L1
+273	In april	Month	Time	L1
+274	In may	Month	Time	L1
+275	In june	Month	Time	L1
+276	In july	Month	Time	L1
+277	In august	Month	Time	L1
+278	In september	Month	Time	L1
+279	In october	Month	Time	L1
+280	In november	Month	Time	L1
+281	In december	Month	Time	L1
+282	20 december	Month	Time	L1
+283	January 1st	Month	Time	L1
+284	February 2nd	Month	Time	L1
+285	February 3rd	Month	Time	L1
+286	February 4th	Month	Time	L1
+287	February 5th	Month	Time	L1
+288	The flood	Nature	Noun	L1
+289	The shame / embarrassment	Noun
+290	The rosemary	Nature	Noun	Food	L1
+291	The branch (of a tree)	Nature	Noun	L1
+292	The trunk (of a tree)	Nature	Noun	L1
+293	The footprint	Nature	Noun	L2
+294	The clover	Nature	Noun	L2
+295	The orchard	Nature	Noun	L1
+296	The flooding	Nature	Noun	L1
+297	The paradise	Nature	Noun	L2
+298	The shadow / the shade	Nature	Noun	L1
+299	The mud	Nature	Noun	L1
+300	To graze	Nature	Verb
+301	To ripen	Nature	Verb
+302	The floor	Noun	L1
+303	The example	Noun	L1
+304	The heart	Noun	L1	Body
+305	The luck	Noun	L1
+306	The inhabitant	Noun
+307	Cell phone coverage	Noun	L1	Technology
+308	The internet	Noun	L1	Technology
+309	The computer	Noun	L1	Technology
+310	The television / TV	Noun	L1	Technology
+311	The radio station	Noun	L1	Technology
+312	The radio	Noun	L1	Technology
+313	The youtube channel	Noun	L1	Technology
+314	The salary	Noun
+315	The cost	Noun
+316	The investor	Noun
+317	The start-up company	Noun
+318	The software	Noun
+319	Artificial intelligence	Noun	L1
+320	The (forest) path	Noun	L1
+321	The highway / the motorway	Noun	L1
+322	The insurance	Noun
+323	The hiking pole	Noun
+324	The hole (large, e.g. in the ground)	Noun	L1
+325	The hole (small, e.g. in a tire)	Noun	L1
+326	The injury	Noun	Body	L1
+327	The back (part of an object)	Noun	L1
+328	The skull	Noun	Body
+329	The tent	Noun	L2
+330	The sleeping bag	Noun	L2
+331	The shop	Noun	L1
+332	The table	Noun	L1
+333	The board game	Noun
+334	The stove (for cooking)	Noun	L1
+335	The wood stove	Noun	L1
+336	The heater	Noun	L1
+337	The window	Noun	L1
+338	The door	Noun	L1
+339	The century	Noun
+340	A deck of cards	Noun
+341	The square (shape)	Noun	L1
+342	The hard disk	Noun	Technology
+343	The armpit	Noun	Body	L2
+344	The lie / bullshit	Noun	L1
+345	The lighter	Noun	L1
+346	The cigarette	Noun	L2
+347	The wall	Noun	L1
+348	The achievement	Noun
+349	The umbrella	Noun	L1
+350	The sand	Noun	L1	Nature	Material
+351	The knife	Noun	L1
+352	The marriage	Noun
+353	The drawer (of a closet)	Noun
+354	The mirror	Noun	L1
+355	The body	Noun	Body	L1
+356	The pen	Noun	L1
+357	The pencil	Noun	L1
+358	The bookshelf	Noun	L1
+359	The glasses I'm wearing	Noun	L1
+360	The wire	Noun	L1
+361	The molar tooth	Noun	Body
+362	The cash desk	Noun	L1
+363	The box	Noun	L1
+364	The brick	Noun	L1
+365	The glass (material)	Noun	L1
+782	The drinking glass	Noun	L1
+366	The fool	Noun	L1
+367	The ship	Noun	L1
+368	The crew	Noun
+369	The member	Noun
+370	The gravity	Noun
+371	The skill	Noun	L1
+373	The numbers 0-9	Noun	L1
+374	The number 22	Noun	L1
+375	The top/peak/summit	Noun
+376	The advert	Noun
+377	The advertising	Noun
+378	The smell	Noun	L1
+379	The sale	Noun
+380	The wind	Noun	L1
+381	The broom	Noun	L1
+382	The bat (animal)	Noun	L1
+383	The soap	Noun	L1
+384	The rope	Noun	L1
+385	The roof	Noun	L1
+386	The event	Noun
+387	The home	Noun	L1
+388	The bone	Noun	L1
+389	The skeleton	Noun	L1
+390	The state (as in government)	Noun
+391	The owner	Noun	L1
+392	The bucket	Noun	L1
+393	The cube (geometric)	Noun	L1
+394	The paint	Noun	L1
+395	The majority	Noun
+396	The actor	Noun
+397	The actress	Noun
+398	The pilot	Noun
+399	The skyscraper	Noun
+400	On the edge	Noun	Position
+401	The beauty	Noun
+402	Unknown	Noun
+403	The fact	Noun	L1
+404	The road	Noun	L1
+405	The lane (of a road)	Noun
+406	The sidewalk	Noun	L1
+407	The warehouse	Noun
+408	The bench	Noun	L1
+409	The cable	Noun	L1
+410	The entrepreneur	Noun
+412	The seat	Noun	L1
+413	The chair	Noun	L1
+414	The cushion	Noun	L2	Household
+415	The pillow	Noun	L1	Household
+416	The grass	Noun	L1
+417	The lawn	Noun
+418	The gloves	Noun	L1
+419	The duvet		Noun	L1	Household
+420	The activity	Noun
+421	Physics	Noun
+422	The sweet potato	Noun	Food	L1
+423	The harvest	Noun	Nature
+424	The double bed	Noun	Household
+425	The location	Noun	L1
+426	The workshop	Noun	L1
+427	The place	Noun	L1
+428	The rock	Noun	L1
+429	The hiker	Noun
+430	The size	Noun	L1
+431	The earthquake	Noun	L1
+432	The waves	Noun	L1
+433	The rise / increase	Noun
+434	The drought	Noun	Nature	L1
+435	The budget	Noun
+436	The heritage	Noun
+437	The strike (where people don't work)	Noun
+438	The season	Noun	Nature	L1
+439	The ladder (or the stairs)	Noun	L1
+440	The cucumber	Noun	Nature	Food	L1
+441	The palm tree	Noun	Nature
+442	The speech	Noun
+443	The cemetery	Noun
+444	The graveyard	Noun
+445	The hallway	Noun
+446	The lobby	Noun
+447	The spiderweb	Noun	Nature	L1
+448	The cloth	Noun	L1
+449	The costume / disguise	Noun
+450	The winner	Noun
+451	The make-up	Noun
+452	The prison	Noun
+453	The jungle	Noun
+454	The route	Noun
+455	The survey	Noun
+456	The heating	Noun	L1
+457	The backpack	Noun	L1
+458	Thyme	Noun	Food	Nature	L1
+459	The gesture	Noun
+460	The human race	Noun
+462	The flavour	Noun	L1	Food
+463	The spectacle	Noun
+464	The mass (as in weight / entity)	Noun	L1
+465	The oven	Noun	Household	L1
+466	The advantage / benefit	Noun
+467	The elevator	Noun	L1
+468	The toilet	Noun	L1	Household
+469	The heartbreaker	Noun
+470	The satellite	Noun	Technology
+471	The rocket	Noun	Technology
+472	The crew member	Noun
+473	The objective	Noun
+474	The base (e.g. moon base)	Noun
+475	The surface	Noun	L1
+476	The attitude	Noun
+477	The incentive	Noun
+478	Fairy tales	Noun
+479	Fairy	Noun
+480	The waste	Noun	L1	Household
+481	The penalty	Noun
+482	The profile	Noun
+483	The envelope	Noun
+484	The employee	Noun
+485	The embassy	Noun
+486	The ambassador	Noun
+487	The challenge	Noun
+488	The dilemma	Noun
+489	The degree (e.g. 14 degrees)	Noun
+490	His physical appearance is beautiful	Noun
+491	The lantern	Noun
+783	The lamp	Noun	Household	L1
+492	The return	Noun	L1
+493	The flight	Noun
+494	The steering wheel	Noun	L1
+495	The coup d'etat	Noun
+497	The discovery	Noun
+499	The sample	Noun
+500	The thief	Noun	L1
+501	The bet / the gamble	Noun
+502	The diaper	Noun	Household
+503	The piece	Noun	L1
+504	The yeast	Noun	Nature	Food
+505	Wind energy	Noun
+506	The roadmap	Noun
+507	The planet	Noun	L1	Nature
+508	The carpet	Noun	Household
+509	The splinter	Noun
+510	The church bell	Noun
+511	The doorbell	Noun	Household
+513	The wheel	Noun	L1
+514	The crutches	Noun
+515	The power plug / wall socket	Noun	L1
+516	The ankle	Noun	Body	L1
+517	The foot	Noun	Body	L1
+518	The knee	Noun	Body	L1
+519	The hip	Noun	Body	L1
+520	The back (body part)	Noun	Body	L1
+521	The arm	Noun	Body	L1
+522	The leg	Noun	Body	L1
+523	The shoulder	Noun	Body	L1
+524	The hand	Noun	Body	L1
+525	The finger	Noun	Body	L1
+526	The neck	Noun	Body	L1
+527	The eyes	Noun	Body	L1
+528	The ears	Noun	Body	L1
+529	The nose	Noun	Body	L1
+530	The fingernail	Noun	Body	L1
+531	The shoes	Noun	Clothing	L1
+532	The jacket	Noun	Clothing	L1
+533	The socks	Noun	Clothing	L1
+534	The stress	Noun	Emotion
+535	The corn	Noun	Food	Nature	L1
+536	The champignons	Noun	Food
+537	The sauce	Noun	Food
+538	The beans	Noun	Food	L1
+539	The carrots	Noun	Food	L1
+540	The peas	Noun	Food
+541	The vegetables	Noun	Food	L1
+542	The chickpeas	Noun	Food
+543	The beets	Noun	Food
+544	The biscuit	Noun	Food	L1
+545	The dirty dishes	Noun	Food	L1
+546	The apple	Noun	Food	L1
+547	The pineapple	Noun	Food	L1
+548	The lemon	Noun	Food	L1
+549	The butterfly	Noun	Nature	L1
+550	The birch tree	Noun	Nature
+551	The pine tree	Noun	Nature
+552	The leaf	Noun	Nature	L1
+553	The grasshopper	Noun	Nature	L1
+554	The shrub	Noun	Nature
+555	The soil	Noun	Nature	L1
+556	The wings	Noun	Nature	L1
+557	The caterpillar	Noun	Nature	L1
+558	The bumblebee	Noun	Nature
+559	The bird	Noun	Nature	L!
+560	The mammal	Noun	Nature
+561	The lizard	Noun	Nature	L1
+562	The insect	Noun	Nature	L1
+563	The tree	Noun	Nature	L1
+564	The forest	Noun	Nature	L1
+565	The lake	Noun	Nature	L1
+566	The mountain	Noun	Nature	L1
+567	The eagle	Noun	Nature
+568	The hawk	Noun	Nature
+569	The bird of prey	Noun	Nature
+570	The view	Noun	Nature	L1
+571	The landscape	Noun	Nature	L1
+572	The village	Noun	L1
+573	The oak tree	Noun	Nature
+574	The rain	Noun	Nature	L1
+575	The rainbow	Noun	Nature
+576	The sky	Noun	Nature	L1
+578	The river	Noun	Nature	L1
+579	The creek	Noun	Nature	L1
+580	The bee	Noun	Nature	L1
+581	The sheep	Noun	Nature	L1
+582	The cow	Noun	Nature	L1
+583	The donkey	Noun	Nature	L1
+584	The pig	Noun	Nature	L1
+585	The dog	Noun	Nature	L1
+586	The cat	Noun	Nature	L1
+587	The fish	Noun	Nature	L1
+588	The lobster	Noun	Nature
+589	The crab	Noun	Nature
+590	The chicken	Noun	Nature	L1
+591	The snail	Noun	Nature	L1
+592	The slug	Noun	Nature	L1
+593	The shell	Noun	Nature	L1
+594	The scientist	Noun	Occupation
+595	The inventor	Noun	Occupation
+596	The programmer	Noun	Occupation
+597	The delay	Noun	Time
+598	The countdown	Noun	Time
+599	The sunrise	Noun	Time	L1
+600	The sunset	Noun	Time	L1
+784	The morning	Noun	Time	L1
+785	The afternoon	Noun	Time	L1
+786	The evening	Noun	Time	L1
+787	The night	Noun	Time	L1
+788	In the morning	Time	L1
+789	In the afternoon	Time	L1
+790	In the evening	Time	L1
+791	At night	Time	L1
+601	The tarp	Noun	Tools
+602	The drill (tool)	Noun	Tools	L1
+603	The hammer	Noun	Tools	L1
+604	The nails (i.e. metal spikes)	Noun	Tools	L1
+605	The screws	Noun	Tools	L1
+606	The tweezers	Noun	Tools
+607	The pliers	Noun	Tools
+608	The clothes peg	Noun	Tools
+792	clothes	Noun	Clothing	L1
+609	The spoon	Noun	Tools	Household	L1
+610	The fork	Noun	Tools	Household	L1
+611	The tool	Noun	Tools	L1
+612	The magnifying glass	Noun	Tools
+613	The knot	Noun	Tools	L1
+614	The screw	Noun	Tools	L1
+615	The tape	Noun	Tools
+620	Monday	Noun	Weekday	Time	L1
+621	Tuesday	Noun	Weekday	Time	L1
+622	Wednesday	Noun	Weekday	Time	L1
+623	Thursday	Noun	Weekday	Time	L1
+624	Friday	Noun	Weekday	Time	L1
+625	Saturday	Noun	Weekday	Time	L1
+626	Sunday	Noun	Weekday	Time	L1
+793	On monday, I'm going to ...	Time	L1
+627	One	Number	L1
+628	Two	Number	L1
+629	Three	Number	L1
+630	Four	Number	L1
+631	Five	Number	L1
+632	Six	Number	L1
+633	Seven	Number	L1
+634	Eight	Number	L1
+635	Nine	Number	L1
+636	Ten	Number	L1
+637	Eleven	Number	L1
+638	Twelve	Number	L1
+639	Thirteen	Number	L1
+640	Fourteen	Number	L1
+641	Fifteen	Number	L1
+642	Sixteen	Number	L1
+643	Seventeen	Number	L1
+644	Eighteen	Number	L1
+645	Nineteen	Number	L1
+646	Twenty	Number	L1
+647	Twentyone	Number	L1
+648	Twentytwo	Number	L1
+649	Thirty	Number	L1
+650	Fourty	Number	L1
+651	Fifty	Number	L1
+652	Sixty	Number	L1
+653	Seventy	Number	L1
+654	Eighty	Number	L1
+655	Ninety	Number	L1
+656	Hundred	Number	L1
+657	Hundredtwo	Number	L1
+658	Hundredthirty	Number
+659	Twohundred	Number	L1
+660	To inhabit	Verb
+661	To earn	Verb
+662	To cost	Verb
+663	To invest	Verb
+664	To invent	Verb
+665	To design	Verb
+666	To program	Verb
+667	To hurt	Verb
+668	To hear	Verb	L1
+669	To walk	Verb	L1
+670	To run	Verb	L1
+671	To climb	Verb	L1
+672	To swim	Verb	L1
+673	To ascend	Verb
+674	To rise	Verb	L1
+675	To emerge	Verb
+676	To descend	Verb	L1
+677	To laugh	Verb	L1
+678	To camp	Verb
+679	To heat up	Verb	L1
+680	To complain about something	Verb	L1
+681	To fit	Verb	L1
+682	To guess	Verb	L1
+794	The guess	Noun	L1
+683	To shuffle (cards)	Verb
+684	To weigh	Verb	L1
+685	To serve (a purpose)	Verb
+686	To save / to store	Verb	L1
+687	To sustain	Verb
+688	To find out	Verb
+689	To (tell a) lie	Verb	L1
+690	To hang (e.g. from the ceiling)	Verb
+691	To stick	Verb
+692	To hit / to beat	Verb	L1
+693	To break	Verb	L1
+694	To be cool	Verb
+695	To grow (up)	Verb
+696	To propose	Verb
+697	To suggest	Verb	L1
+698	To launch	Verb
+700	To smell (something)	Verb	L1
+701	To burn	Verb	L1
+702	To extend	Verb	L1
+703	To dress up (e.g. for halloween)	Verb
+704	To chat	Verb	L1
+705	To become / turn into ...	Verb
+706	To hate	Verb	L1
+795	The hate	Noun	L1
+707	To mount / assemble	Verb
+708	To organise	Verb
+709	To sell	Verb	L1
+710	To damage	Verb	L1
+711	To repair	Verb	L1
+712	To risk	Verb
+713	To realize	Verb
+714	To sit	Verb	L1
+715	To care for	Verb
+716	To harvest	Verb	Nature	L1
+717	To offer / provide	Verb
+718	To be located at	Verb	L1
+719	To enter	Verb	L1
+720	To arise / emerge	Verb
+721	To survive	Verb	L1
+722	To relieve / alleviate	Verb
+723	To fight	Verb	L1
+724	To possess / to own	Verb	L1
+725	To return something / to give back	Verb	L1
+726	To approach	Verb
+727	To win	Verb	L1
+728	To support	Verb
+729	To sow (seeds)	Verb	Nature
+730	To advise	Verb
+731	To prevent / to impede	Verb
+732	To crush	Verb
+733	To put in	Verb
+734	To develop	Verb
+735	To convice	Verb
+736	To get up early	Verb	L1
+737	To step / to tread	Verb
+738	To take off (as in a rocket)	Verb
+739	To man (e.g. a ship)	Verb
+740	To establish	Verb
+741	To create	Verb	L1
+742	To betray	Verb
+743	To stare	Verb	L1
+796	To watch	Verb	L1
+797	To see	Verb	L1
+744	To construct	Verb	L1
+745	To deserve	Verb	L2
+746	To flirt	Verb
+747	To slice	Verb
+748	To cut	Verb	L1
+749	To challenge	Verb
+750	To force	Verb
+751	To delete	Verb
+752	To remove	Verb	L1
+753	To face ... / to confront	Verb
+754	To carry out / to perform	Verb
+755	To highlight / to stand out	Verb
+756	To rhyme	Verb
+757	To push	Verb	L1
+758	To pull	Verb	L1
+759	To bake	Verb
+760	To measure	Verb	L1
+761	To reach (out to something)	Verb
+762	To discover	Verb
+763	To cover	Verb
+764	To exceed / overcome	Verb
+765	To belong to ...	Verb
+766	To predict	Verb
+767	To steal	Verb	L1
+768	To provide	Verb
+769	To produce	Verb
+770	To reinforce	Verb
+772	To increase	Verb
+773	To poop	Verb	L1
+774	To hike	Verb	Nature
+775	The spider	Animal	Noun	L1
+776	The worm	Animal	Noun	L1
+777	The cricket	Animal	Noun	L1
+778	The cage	Animal	Noun	L1
