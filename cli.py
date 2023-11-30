@@ -7,6 +7,7 @@ from concurrent.futures import ThreadPoolExecutor
 from functools import lru_cache
 from pathlib import Path
 from typing import Optional
+from zipfile import ZipFile
 
 import deepl
 import genanki
@@ -114,8 +115,14 @@ def load_vocab(filepath: Path) -> tuple[dict[int, str], dict[int, list[str]]]:
                 f"ID {index} of '{line}' is used twice! "
                 f"First occurrence:\n'{index}\t{vocab_dict[index]}'"
             )
-
         vocab_dict[index] = phrase
+
+        for tag in tags:
+            if " " in tag:
+                raise ValueError(
+                    f"Tag '{tag}' of phrase with ID {index} contains a space!"
+                    " Anki does not support this."
+                )
         tag_dict[index] = tags
 
     return vocab_dict, tag_dict
@@ -226,6 +233,37 @@ def process_translations(deepl: str, google: str, verification: str) -> tuple[st
     )
 
 
+def obtain_translations(
+    vocab: dict, source_language: str, target_language: str, verification_language: str
+):
+    # Do the translation work
+    google_output = translate_google(
+        vocab, target_language=target_language, source_language=source_language
+    )
+    deepl_output = translate_deepl(
+        vocab,
+        target_language=target_language,
+        source_language=source_language,
+        verification_language=verification_language,
+    )
+
+    # Postprocess results
+    results = {}
+    assert len(deepl_output) == len(google_output)
+    for id, (deepl_translation, deepl_verification) in deepl_output.items():
+        translation, verification = process_translations(
+            deepl_translation, google_output[id], deepl_verification
+        )
+
+        results[id] = {
+            source_language: vocab[id],
+            target_language: translation,
+            verification_language: verification,
+        }
+
+    return results
+
+
 def get_pronunciations(
     vocab: dict[int, str], language: str, output_dir: Path
 ) -> dict[int, dict]:
@@ -255,7 +293,7 @@ def create_anki_deck(
     output_file: Path,
     add_reverse_cards: bool = True,
     deck_name: Optional[str] = None,
-):
+) -> dict:
     language_name = get_language_names()[target_language]
     source_language_name = get_language_names()[source_language]
     verification_language_name = get_language_names()[verification_language]
@@ -304,9 +342,10 @@ def create_anki_deck(
             }
         )
 
+    deck_name = deck_name or f"Translated {language_name} vocabulary"
     deck = genanki.Deck(
         deck_id=deck_id,
-        name=deck_name or f"Translated {language_name} vocabulary",
+        name=deck_name,
         description=(
             f"Automatically translated English <-> {language_name} vocabulary "
             "using Deepl and Google Translate."
@@ -331,11 +370,36 @@ def create_anki_deck(
     package.media_files = [v["pronunciation_file"] for v in translated_vocab.values()]
     package.write_to_file(output_file)
 
-    return deck_id
+    return {
+        "deck_id": deck_id,
+        "deck_name": deck_name,
+        "source_language": source_language,
+        "target_language": target_language,
+        "verification_language": verification_language,
+    }
+
+
+def create_zip_and_clean(
+    *,
+    vocab_path: Path,
+    deck_info: dict,
+    output_path: Path,
+    temp_dir: Path,
+):
+    """To clean things up, zip the JSON and all the sound files together, and delete the temporary
+    directory"""
+    shutil.copy(vocab_path, temp_dir.joinpath("vocab.csv"))
+    temp_dir.joinpath("info.json").write_text(json.dumps(deck_info))
+    shutil.make_archive(
+        str(output_path),
+        format="zip",
+        root_dir=temp_dir,
+    )
+    shutil.rmtree(temp_dir)
 
 
 @app.command()
-def translate_and_generate(
+def create(
     vocab_path: Path = typer.Option(
         ..., help="Path to a vocabulary CSV file, e.g. Examples/vocab.csv"
     ),
@@ -383,31 +447,15 @@ def translate_and_generate(
 
     input_vocab, tags = load_vocab(vocab_path)
 
-    # Do the translation work
-    google_output = translate_google(
-        input_vocab, target_language=target_language, source_language=source_language
-    )
-    deepl_output = translate_deepl(
+    # Translate the vocabulary
+    results = obtain_translations(
         input_vocab,
-        target_language=target_language,
         source_language=source_language,
+        target_language=target_language,
         verification_language=verification_language,
     )
-
-    # Postprocess results
-    results = {}
-    assert len(deepl_output) == len(google_output)
-    for id, (deepl_translation, deepl_verification) in deepl_output.items():
-        translation, verification = process_translations(
-            deepl_translation, google_output[id], deepl_verification
-        )
-
-        results[id] = {
-            source_language: input_vocab[id],
-            target_language: translation,
-            verification_language: verification,
-            "tags": tags[id],
-        }
+    for id, t in tags.items():
+        results[id]["tags"] = t
 
     # Save JSON output before moving on to pronunciations, since the translations are the bottleneck.
     # If something goes wrong, at least the translations will be saved.
@@ -421,7 +469,7 @@ def translate_and_generate(
     temp_dir.joinpath("data.json").write_text(json.dumps(results, indent="\t"))
 
     # Finally, create the actual Anki deck and save it to the output folder.
-    deck_id = create_anki_deck(
+    deck_info = create_anki_deck(
         results,
         target_language=target_language,
         source_language=source_language,
@@ -432,25 +480,130 @@ def translate_and_generate(
         deck_name=deck_name,
     )
 
-    # To clean things up, zip the JSON and all the sound files together, and delete the temporary
-    # directory.
-    shutil.copy(vocab_path, temp_dir.joinpath("vocab.csv"))
-    temp_dir.joinpath("info.json").write_text(
-        json.dumps(
-            {
-                "deck_id": deck_id,
-                "source_language": source_language,
-                "target_language": target_language,
-                "verification_language": verification_language,
-            }
+    create_zip_and_clean(
+        vocab_path=vocab_path,
+        deck_info=deck_info,
+        output_path=output_dir.joinpath(output_name),
+        temp_dir=temp_dir,
+    )
+    print(f"Done! Anki deck saved to {str(output_dir)}.")
+
+
+@app.command()
+def update(
+    vocab_path: Path = typer.Option(
+        ..., help="Path to a vocabulary CSV file, e.g. Examples/vocab.csv"
+    ),
+    deck_zip_path: Path = typer.Option(
+        ..., help="Path to the zip file corresponding to earlier version of this deck"
+    ),
+    add_reverse_cards: bool = typer.Option(
+        True,
+        help="Whether to add a duplicate of each card, but in the other direction. For example, if"
+        "my source language is English and my target is Greek, this option will not only add "
+        "English->Greek cards, but also Greek->English. Enabled by default.",
+    ),
+    output_dir: Path = typer.Option(Path("Output")),
+):
+    """Compares the provided vocabulary file to the existing deck, and generates a new verson of the
+    deck using the existing translations and sound files where possible."""
+
+    extract_dir = output_dir.joinpath("extracted")
+    with ZipFile(deck_zip_path, "r") as zip_file:
+        zip_file.extractall(extract_dir)
+
+    deck_info = json.loads(Path(extract_dir.joinpath("info.json")).read_text())
+    source_language = deck_info["source_language"]
+    target_language = deck_info["target_language"]
+    verification_language = deck_info["verification_language"]
+
+    output_name = (
+        f"{source_language}_{target_language}"
+        + f"_{datetime.datetime.now().strftime('%y_%m_%d_%H_%M_%S')}"
+    )
+    temp_dir = output_dir.joinpath(output_name)
+    temp_dir.mkdir(exist_ok=True, parents=True)
+
+    # Load both the new vocab and the previous vocab
+    input_vocab, new_tags = load_vocab(vocab_path)
+    old_vocab = json.loads(extract_dir.joinpath("data.json").read_text())
+
+    # Create dictionary of only the new and changed items
+    new_vocab = {}
+    old_vocab_to_copy = {}
+    new_id_counter = 0
+    new_phrase_counter = 0
+    for id, new_entry in input_vocab.items():
+        str_id = str(id)
+        if str_id not in old_vocab:
+            new_vocab[id] = new_entry
+            new_id_counter += 1
+            continue
+
+        old_entry = old_vocab[str_id]
+        # If the phrase hasn't changed, we can simply copy all existing output, since the
+        # translation and pronunciation won't have changed either
+        if old_entry[source_language] == new_entry:
+            old_vocab_to_copy[id] = old_entry
+        else:
+            new_vocab[id] = new_entry
+            new_phrase_counter += 1
+
+    print(
+        f"Found {len(new_vocab)} changes in vocabulary that will require new translations: "
+        f"{new_id_counter} new entries and {new_phrase_counter} modified entries."
+    )
+
+    # Correct sound paths because this time we're loading them from the ZIP
+    for id, entry in old_vocab_to_copy.items():
+        entry["pronunciation_file"] = str(
+            extract_dir.joinpath(Path(entry["pronunciation_file"]).name)
         )
+
+    # Obtain new translations & pronunciation sound files
+    new_translations = obtain_translations(
+        new_vocab,
+        source_language=source_language,
+        target_language=target_language,
+        verification_language=verification_language,
     )
-    shutil.make_archive(
-        str(output_dir.joinpath(output_name)),
-        format="zip",
-        root_dir=temp_dir,
+    new_translations = get_pronunciations(
+        new_translations, language=target_language, output_dir=temp_dir
     )
-    shutil.rmtree(temp_dir)
+
+    # Combine with existing outputs and add tags
+    # TODO: copy sound files to temp dir so they will be zipped into the end result!
+    results = old_vocab_to_copy
+    results.update(new_translations)
+    for id, t in new_tags.items():
+        results[id]["tags"] = t
+
+    # Save JSON before moving on to Anki deck creation.
+    # The JSON is easier to inspect and could be useful for non-Anki users as well.
+    temp_dir.joinpath("data.json").write_text(json.dumps(results, indent="\t"))
+
+    # Finally, create the actual Anki deck and save it to the output folder.
+    new_deck_info = create_anki_deck(
+        results,
+        target_language=target_language,
+        source_language=source_language,
+        verification_language=verification_language,
+        add_reverse_cards=add_reverse_cards,
+        output_file=output_dir.joinpath(f"{output_name}.apkg"),
+        deck_id=deck_info["deck_id"],
+        deck_name=deck_info["deck_name"],
+    )
+
+    # If everything went right, the deck info should stay the same. We've only updated.
+    assert new_deck_info == deck_info
+
+    create_zip_and_clean(
+        vocab_path=vocab_path,
+        deck_info=deck_info,
+        output_path=output_dir.joinpath(output_name),
+        temp_dir=temp_dir,
+    )
+    shutil.rmtree(extract_dir)
     print(f"Done! Anki deck saved to {str(output_dir)}.")
 
 

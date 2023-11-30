@@ -34,7 +34,7 @@ As indicated by the top line, each line in this file contains a unique phrase ID
 
 To test the program, run the following command from the folder you downloaded the code to:
 ```python
-python cli.py --vocab-path=Examples/vocab.csv --target-language="el" --verification-language="en-gb" --deck-id=12345
+python cli.py create --vocab-path=Examples/vocab.csv --target-language="el" --verification-language="en-gb" --deck-id=12345
 ```
 
 This will:
@@ -72,13 +72,16 @@ Don't forget to start each line with a unique number, otherwise Anki won't under
 
 By default, the generated Anki deck will have both the original card (e.g. English->Greek) and a reverse card (e.g. Greek->English), but if you're only interested in learning one-way, simply add `--no-add-reverse-cards` to the command above.
 
-I suggest running `python cli.py --help` to learn more about the available command options. If you run into any issues, feel free to open an issue on this GitHub project.
+I suggest running `python cli.py create --help` to learn more about the available command options. If you run into any issues, feel free to open an issue on this GitHub project.
 
 Happy learning!
 
 
+## Updating an existing deck
+- TODO: describe update functionality
+
+
 ## Future improvements
-- At some point I'll need to update my deck as I add more words to my vocabulary. This would currently require re-translating the entire existing vocabulary, which is a waste of time and compute. I want to add an update function that only obtains translations for newly added vocabulary entries.
 - Google Translate supports many more languages than Deepl does, so depending on the language you're trying to learn the current code may not work for you. It'd be nice to make Deepl translation optional, so that more people can benefit from just the Google Translate functionality. If this is something you urgently need, let me know by opening an issue on this GitHub project!
 - It would be amazing to add support for verb conjugations, but manually adding those is an absolute pain.
 Depending on the language of interest, it may be possible to use some conjugation website to automatically get all conjugations for a given verb.
